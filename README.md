@@ -72,6 +72,6 @@ match matrix → runners-up → "show me 3 more" with rejection signal → refin
 copy-out for Slack/Notion → print view → feedback affordance → honest weak-fit
 and drop-off states → clarifying questions when input is thin.
 
-**Fast-follow (UI accommodates, not yet built):** ask-a-model chat drawer,
-compare-two side-by-side, browse-all directory. The screen router, embedded
+**Fast-follow (UI accommodates, not yet built):**
+compare-two side-by-side, browse-all directory. (The ask-a-model chat drawer shipped in v1.1 — every recommended model has an "Ask AI" button opening a chat grounded only in that model's record.) The screen router, embedded
 catalog, and card components are shared, so these slot in without a redesign.
