@@ -343,6 +343,7 @@ let S = {
       This is what makes the downloaded/self-hosted copy AI-powered. */
 const KEY_LS = 'modelmatch_claude_key';
 const API_MODEL = 'claude-opus-4-8';
+const OPENAI_MODEL = 'gpt-4o';
 // Optionally baked in by build.py from the MODEL_MATCH_API_KEY environment
 // variable. Anyone who has the file can read it — use a spend-limited key
 // and share the keyed build only inside Transcend.
@@ -358,30 +359,50 @@ async function aiComplete(prompt, maxTokens){
   }
   const key = getKey();
   if(!key) throw new Error('no-ai');
+  // Claude keys start with sk-ant-; anything else is treated as an OpenAI key.
+  const isClaude = key.startsWith('sk-ant-');
   let res;
   try{
-    res = await fetch('https://api.anthropic.com/v1/messages', {
-      method: 'POST',
-      headers: {
-        'content-type': 'application/json',
-        'x-api-key': key,
-        'anthropic-version': '2023-06-01',
-        'anthropic-dangerous-direct-browser-access': 'true',
-      },
-      body: JSON.stringify({
-        model: API_MODEL,
-        max_tokens: maxTokens || 2000,
-        messages: [{role: 'user', content: prompt}],
-      }),
-    });
+    res = isClaude
+      ? await fetch('https://api.anthropic.com/v1/messages', {
+          method: 'POST',
+          headers: {
+            'content-type': 'application/json',
+            'x-api-key': key,
+            'anthropic-version': '2023-06-01',
+            'anthropic-dangerous-direct-browser-access': 'true',
+          },
+          body: JSON.stringify({
+            model: API_MODEL,
+            max_tokens: maxTokens || 2000,
+            messages: [{role: 'user', content: prompt}],
+          }),
+        })
+      : await fetch('https://api.openai.com/v1/chat/completions', {
+          method: 'POST',
+          headers: {
+            'content-type': 'application/json',
+            'authorization': 'Bearer ' + key,
+          },
+          body: JSON.stringify({
+            model: OPENAI_MODEL,
+            max_completion_tokens: maxTokens || 2000,
+            messages: [{role: 'user', content: prompt}],
+          }),
+        });
   }catch(e){
     throw new Error('network-blocked'); // CSP or offline — the claude.ai artifact host blocks outbound calls
   }
   if(res.status === 401 || res.status === 403) throw new Error('bad-key');
   if(!res.ok) throw new Error('api-' + res.status);
   const data = await res.json();
-  if(data.stop_reason === 'refusal') throw new Error('refused');
-  const txt = (data.content || []).filter(b => b.type === 'text').map(b => b.text).join('');
+  let txt;
+  if(isClaude){
+    if(data.stop_reason === 'refusal') throw new Error('refused');
+    txt = (data.content || []).filter(b => b.type === 'text').map(b => b.text).join('');
+  }else{
+    txt = (data.choices && data.choices[0] && data.choices[0].message && data.choices[0].message.content) || '';
+  }
   if(!txt.trim()) throw new Error('empty');
   return txt;
 }
@@ -588,7 +609,7 @@ function fallbackRecommend(cands){
   return {top3, runnersUp, differ:null, fitNote:null,
     aiNote: AI_OK()
       ? 'The AI reasoning step hit an error, so these notes are built from the database tags alone. The ranking and evidence are still real — try re-running for richer reasons.'
-      : 'AI reasoning is off in this view, so these notes are built from the database tags alone — the ranking and match evidence are still real. To turn AI on, open “✦ AI settings” (top right) and connect a Claude API key.'};
+      : 'AI reasoning is off in this view, so these notes are built from the database tags alone — the ranking and match evidence are still real. To turn AI on, open “✦ AI settings” (top right) and connect a Claude or OpenAI API key.'};
 }
 async function aiClarify(){
   const prompt = `A Transcend teammate wants learning-model recommendations but gave very thin input:
@@ -1039,7 +1060,7 @@ function openChat(id){
       ${AI_OK()
         ? `<div class="bubble ai">Ask me anything about ${esc(m.name)} — I'll answer from the record above, and I'll tell you straight when it doesn't hold the answer.</div>
            <div class="starters">${STARTERS.map(s=>`<button type="button" class="starter">${esc(s)}</button>`).join('')}</div>`
-        : `<div class="bubble ai">AI chat is off in this view — open “✦ AI settings” (top right) to connect a Claude API key and turn it on. Everything our database holds is above; for anything else, the model's website is the best next stop.</div>`}
+        : `<div class="bubble ai">AI chat is off in this view — open “✦ AI settings” (top right) to connect a Claude or OpenAI API key and turn it on. Everything our database holds is above; for anything else, the model's website is the best next stop.</div>`}
     </div>
     <div class="dfoot">
       <form id="chatform">
@@ -1096,7 +1117,7 @@ async function sendChat(id, question){
     if(!answer) throw new Error('empty');
   }catch(e){
     answer = e.message === 'bad-key'
-      ? 'Your Claude API key wasn’t accepted — open AI settings (top right) and check it.'
+      ? 'Your API key wasn’t accepted — open AI settings (top right) and check it.'
       : e.message === 'network-blocked'
       ? 'This page’s host blocks outside connections, so the API key can’t be used here. Download the file and open it directly, then try again.'
       : 'Something went wrong on the AI side just now — try that question again. The record above is still complete.';
@@ -1111,7 +1132,7 @@ async function sendChat(id, question){
 function aiStatusLine(){
   if(HAS_BRIDGE()) return 'AI is <b>on</b> — provided by the Claude artifact hosting this page.';
   let personal = ''; try{ personal = localStorage.getItem(KEY_LS) || ''; }catch(e){}
-  if(personal) return 'AI is <b>on</b> — connected with a Claude API key stored in this browser.';
+  if(personal) return 'AI is <b>on</b> — connected with an API key stored in this browser.';
   if(TEAM_KEY) return 'AI is <b>on</b> — using the team key built into this copy of Model Match. Nothing to set up.';
   return 'AI is <b>off</b> in this view. Match rankings and the evidence matrix still work; the AI-written reasons and ask-a-model chat don’t.';
 }
@@ -1123,19 +1144,19 @@ function openAISettings(){
       <p style="font-size:14px" id="ai-status">${aiStatusLine()}</p>
       ${HAS_BRIDGE() ? '' : `
       <div class="samplein">
-        <b>How to turn AI on:</b> this copy of Model Match can call Claude directly with a Claude API key. Paste one below — it's stored only in this browser, never in the file, and is only sent to Anthropic.<br><br>
+        <b>How to turn AI on:</b> this copy of Model Match can call an AI service directly with an API key — either a Claude key (starts with sk-ant-) or an OpenAI key. Paste one below; it's stored only in this browser, never in the file, and is only ever sent to that AI provider.<br><br>
         <b>Heads up:</b> the copy hosted on claude.ai blocks outside connections, so a key won't work there. Download <i>model-match.html</i> and open it directly (or host it internally) — then the key works.
       </div>
-      <div class="optgroup">${TEAM_KEY ? 'Use a different Claude API key (optional)' : 'Claude API key'}</div>
+      <div class="optgroup">${TEAM_KEY ? 'Use a different API key (optional)' : 'Claude or OpenAI API key'}</div>
       <form id="keyform" style="display:flex; gap:8px; flex-wrap:wrap">
-        <input type="password" id="keyinput" placeholder="sk-ant-…" autocomplete="off"
+        <input type="password" id="keyinput" placeholder="sk-ant-… (Claude) or sk-… (OpenAI)" autocomplete="off"
           style="flex:1 1 260px; background:var(--panel); color:var(--ink); border:2px solid var(--line); padding:9px 12px; font-family:inherit; font-size:14px"
           value="${esc((()=>{try{return localStorage.getItem(KEY_LS)||''}catch(e){return ''}})())}">
         <button type="submit" class="smallbtn">Save &amp; test</button>
         ${(()=>{try{return localStorage.getItem(KEY_LS)}catch(e){return ''}})() ? '<button type="button" class="smallbtn" id="clearkey">Remove my key</button>' : ''}
       </form>
       <p id="keymsg" style="font-size:13px; min-height:1.2em"></p>
-      <p style="font-size:12.5px; color:var(--ink-soft)">Ask the Model Match team for Transcend's shared key if you don't have one. Keys can be created and spend-limited at console.anthropic.com.</p>`}
+      <p style="font-size:12.5px; color:var(--ink-soft)">Ask the Model Match team for Transcend's shared key if you don't have one. Keys can be created and spend-limited at console.anthropic.com (Claude) or platform.openai.com (OpenAI).</p>`}
     </div>
   </div>`);
   document.body.appendChild(back);
@@ -1157,10 +1178,10 @@ function openAISettings(){
     }catch(err){
       setKey('');
       msg.textContent = err.message === 'bad-key'
-        ? '✗ That key wasn’t accepted by the Claude API — check it and try again.'
+        ? '✗ That key wasn’t accepted — check it and try again.'
         : err.message === 'network-blocked'
-        ? '✗ This page’s host blocks outside connections. Download model-match.html and open it directly, then connect the key there.'
-        : '✗ Couldn’t reach the Claude API (' + err.message + '). Try again.';
+        ? '✗ This page’s host blocks outside connections. Download the Model Match file and open it directly, then connect the key there.'
+        : '✗ Couldn’t reach the AI service (' + err.message + '). Try again.';
     }
   });
   const clear = back.querySelector('#clearkey');

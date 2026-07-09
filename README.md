@@ -23,9 +23,10 @@ a Claude artifact for org-wide sharing.
   1. The claude.ai artifact bridge (`window.claude.complete`), when the page
      runs in an AI-enabled artifact context. Note: artifacts published from
      Claude Code do **not** currently expose this bridge.
-  2. **Bring-your-own-key**: a teammate opens "✦ AI settings" and pastes a
-     Claude API key once (stored only in that browser's localStorage). The
-     page then calls the Claude API directly (`claude-opus-4-8`). This is the
+  2. **Bring-your-own-key**: a teammate opens "✦ AI settings" and pastes an
+     API key once (stored only in that browser's localStorage) — either a
+     Claude key (`sk-ant-…` → Claude API, `claude-opus-4-8`) or an OpenAI key
+     (→ OpenAI API, `gpt-4o`); the page detects which. This is the
      working path for the downloaded file or any internally hosted copy — but
      not for the claude.ai-hosted copy, whose security policy blocks outbound
      calls.
@@ -49,12 +50,13 @@ a Claude artifact for org-wide sharing.
 To hand teammates a copy where AI just works — no key to paste:
 
 ```sh
-MODEL_MATCH_API_KEY=sk-ant-... python3 build.py
+MODEL_MATCH_API_KEY=<Claude or OpenAI key> python3 build.py
 ```
 
-This writes `dist/model-match-with-key.html` with the key baked in. Share that
-file only inside Transcend (Drive, Slack): anyone who has the file can read
-the key, so create a dedicated, spend-limited key at console.anthropic.com.
+This writes `dist/model-match-with-key.html` with the key baked in (rename it
+to anything before sharing). Share it only inside Transcend (Drive, Slack):
+anyone who has the file can read the key, so use a dedicated, spend-limited
+key — console.anthropic.com for Claude, platform.openai.com for OpenAI.
 The file is git-ignored so the key never lands in the repo. The public
 `dist/model-match.html` build stays keyless. Note this doesn't change the
 claude.ai-hosted artifact — that host blocks outbound calls regardless.
