@@ -248,7 +248,8 @@ footer p{margin:4px 0}
   <div class="wrap">
     <div class="brand bebas">MODEL <span class="mm">MATCH</span></div>
     <div class="tag">Find learning models that fit what your community is designing</div>
-    <button class="linky" id="nav-home" type="button">Start over</button>
+    <button class="linky" id="nav-ai" type="button" style="margin-left:auto">✦ AI settings</button>
+    <button class="linky" id="nav-home" type="button" style="margin-left:0">Start over</button>
   </div>
 </header>
 
@@ -333,7 +334,53 @@ let S = {
   rejection:[],
   offOpen:false,
 };
-const AI_OK = () => (typeof window.claude === 'object' && window.claude && typeof window.claude.complete === 'function');
+/* ---------- AI providers ----------
+   Two ways this page can reach Claude:
+   1. The claude.ai artifact bridge (window.claude.complete), when hosted
+      in an AI-enabled artifact context.
+   2. A Claude API key the teammate connects once (stored only in this
+      browser's localStorage), used for direct calls to the Claude API.
+      This is what makes the downloaded/self-hosted copy AI-powered. */
+const KEY_LS = 'modelmatch_claude_key';
+const API_MODEL = 'claude-opus-4-8';
+function getKey(){ try{ return localStorage.getItem(KEY_LS) || ''; }catch(e){ return ''; } }
+function setKey(k){ try{ k ? localStorage.setItem(KEY_LS, k) : localStorage.removeItem(KEY_LS); }catch(e){} }
+const HAS_BRIDGE = () => (typeof window.claude === 'object' && window.claude && typeof window.claude.complete === 'function');
+const AI_OK = () => HAS_BRIDGE() || !!getKey();
+async function aiComplete(prompt, maxTokens){
+  if(HAS_BRIDGE()){
+    const raw = await window.claude.complete(prompt);
+    return typeof raw === 'string' ? raw : (raw && (raw.completion || raw.text)) || JSON.stringify(raw);
+  }
+  const key = getKey();
+  if(!key) throw new Error('no-ai');
+  let res;
+  try{
+    res = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {
+        'content-type': 'application/json',
+        'x-api-key': key,
+        'anthropic-version': '2023-06-01',
+        'anthropic-dangerous-direct-browser-access': 'true',
+      },
+      body: JSON.stringify({
+        model: API_MODEL,
+        max_tokens: maxTokens || 2000,
+        messages: [{role: 'user', content: prompt}],
+      }),
+    });
+  }catch(e){
+    throw new Error('network-blocked'); // CSP or offline — the claude.ai artifact host blocks outbound calls
+  }
+  if(res.status === 401 || res.status === 403) throw new Error('bad-key');
+  if(!res.ok) throw new Error('api-' + res.status);
+  const data = await res.json();
+  if(data.stop_reason === 'refusal') throw new Error('refused');
+  const txt = (data.content || []).filter(b => b.type === 'text').map(b => b.text).join('');
+  if(!txt.trim()) throw new Error('empty');
+  return txt;
+}
 
 /* ---------- helpers ---------- */
 function fmtDate(iso){
@@ -456,9 +503,7 @@ function stripJson(s){
   return JSON.parse(s);
 }
 async function aiJSON(prompt){
-  const raw = await window.claude.complete(prompt);
-  const txt = typeof raw === 'string' ? raw : (raw && (raw.completion || raw.text)) || JSON.stringify(raw);
-  return stripJson(txt);
+  return stripJson(await aiComplete(prompt, 2500));
 }
 function intakeSummary(){
   const p = [];
@@ -539,7 +584,7 @@ function fallbackRecommend(cands){
   return {top3, runnersUp, differ:null, fitNote:null,
     aiNote: AI_OK()
       ? 'The AI reasoning step hit an error, so these notes are built from the database tags alone. The ranking and evidence are still real — try re-running for richer reasons.'
-      : 'AI reasoning isn’t available in this view — it works when this page runs as a Claude artifact on claude.ai. These notes are built from the database tags alone; the ranking and match evidence are still real.'};
+      : 'AI reasoning is off in this view, so these notes are built from the database tags alone — the ranking and match evidence are still real. To turn AI on, open “✦ AI settings” (top right) and connect a Claude API key.'};
 }
 async function aiClarify(){
   const prompt = `A Transcend teammate wants learning-model recommendations but gave very thin input:
@@ -990,7 +1035,7 @@ function openChat(id){
       ${AI_OK()
         ? `<div class="bubble ai">Ask me anything about ${esc(m.name)} — I'll answer from the record above, and I'll tell you straight when it doesn't hold the answer.</div>
            <div class="starters">${STARTERS.map(s=>`<button type="button" class="starter">${esc(s)}</button>`).join('')}</div>`
-        : `<div class="bubble ai">AI chat isn't available in this view — it works when this page runs as a Claude artifact on claude.ai. Everything our database holds is above; for anything else, the model's website is the best next stop.</div>`}
+        : `<div class="bubble ai">AI chat is off in this view — open “✦ AI settings” (top right) to connect a Claude API key and turn it on. Everything our database holds is above; for anything else, the model's website is the best next stop.</div>`}
     </div>
     <div class="dfoot">
       <form id="chatform">
@@ -1043,17 +1088,83 @@ async function sendChat(id, question){
   const thinking = addBubble(body, 'ai', 'Reading the record…', 'thinking');
   let answer;
   try{
-    const raw = await window.claude.complete(chatPrompt(BY_ID[id], history, question));
-    answer = (typeof raw === 'string' ? raw : (raw && (raw.completion || raw.text)) || '').trim();
+    answer = (await aiComplete(chatPrompt(BY_ID[id], history, question), 1200)).trim();
     if(!answer) throw new Error('empty');
   }catch(e){
-    answer = 'Something went wrong on the AI side just now — try that question again. The record above is still complete.';
+    answer = e.message === 'bad-key'
+      ? 'Your Claude API key wasn’t accepted — open AI settings (top right) and check it.'
+      : e.message === 'network-blocked'
+      ? 'This page’s host blocks outside connections, so the API key can’t be used here. Download the file and open it directly, then try again.'
+      : 'Something went wrong on the AI side just now — try that question again. The record above is still complete.';
   }
   thinking.remove();
   addBubble(body, 'ai', answer);
   CHATS[id].push({role:'ai', text:answer});
   inp.disabled = false; btn.disabled = false; inp.focus();
 }
+
+/* ---------- AI settings ---------- */
+function aiStatusLine(){
+  if(HAS_BRIDGE()) return 'AI is <b>on</b> — provided by the Claude artifact hosting this page.';
+  if(getKey()) return 'AI is <b>on</b> — connected with a Claude API key stored in this browser.';
+  return 'AI is <b>off</b> in this view. Match rankings and the evidence matrix still work; the AI-written reasons and ask-a-model chat don’t.';
+}
+function openAISettings(){
+  const back = el(`<div class="modalback" role="dialog" aria-modal="true" aria-label="AI settings">
+    <div class="modal">
+      <button class="close" aria-label="Close">✕ Close</button>
+      <h2 class="bebas">AI SETTINGS</h2>
+      <p style="font-size:14px" id="ai-status">${aiStatusLine()}</p>
+      ${HAS_BRIDGE() ? '' : `
+      <div class="samplein">
+        <b>How to turn AI on:</b> this copy of Model Match can call Claude directly with a Claude API key. Paste one below — it's stored only in this browser, never in the file, and is only sent to Anthropic.<br><br>
+        <b>Heads up:</b> the copy hosted on claude.ai blocks outside connections, so a key won't work there. Download <i>model-match.html</i> and open it directly (or host it internally) — then the key works.
+      </div>
+      <div class="optgroup">Claude API key</div>
+      <form id="keyform" style="display:flex; gap:8px; flex-wrap:wrap">
+        <input type="password" id="keyinput" placeholder="sk-ant-…" autocomplete="off"
+          style="flex:1 1 260px; background:var(--panel); color:var(--ink); border:2px solid var(--line); padding:9px 12px; font-family:inherit; font-size:14px"
+          value="${esc(getKey())}">
+        <button type="submit" class="smallbtn">Save &amp; test</button>
+        ${getKey() ? '<button type="button" class="smallbtn" id="clearkey">Disconnect</button>' : ''}
+      </form>
+      <p id="keymsg" style="font-size:13px; min-height:1.2em"></p>
+      <p style="font-size:12.5px; color:var(--ink-soft)">Ask the Model Match team for Transcend's shared key if you don't have one. Keys can be created and spend-limited at console.anthropic.com.</p>`}
+    </div>
+  </div>`);
+  document.body.appendChild(back);
+  const close = ()=>{ back.remove(); render(); };
+  back.addEventListener('click', e=>{ if(e.target===back) close(); });
+  back.querySelector('.close').addEventListener('click', close);
+  const form = back.querySelector('#keyform');
+  if(form) form.addEventListener('submit', async e=>{
+    e.preventDefault();
+    const msg = back.querySelector('#keymsg');
+    const k = back.querySelector('#keyinput').value.trim();
+    if(!k){ msg.textContent = 'Paste a key first.'; return; }
+    setKey(k);
+    msg.textContent = 'Testing the key…';
+    try{
+      await aiComplete('Reply with the single word: OK', 10);
+      msg.textContent = '✓ Connected — AI reasons and ask-a-model chat are on.';
+      back.querySelector('#ai-status').innerHTML = aiStatusLine();
+    }catch(err){
+      setKey('');
+      msg.textContent = err.message === 'bad-key'
+        ? '✗ That key wasn’t accepted by the Claude API — check it and try again.'
+        : err.message === 'network-blocked'
+        ? '✗ This page’s host blocks outside connections. Download model-match.html and open it directly, then connect the key there.'
+        : '✗ Couldn’t reach the Claude API (' + err.message + '). Try again.';
+    }
+  });
+  const clear = back.querySelector('#clearkey');
+  if(clear) clear.addEventListener('click', ()=>{
+    setKey('');
+    back.querySelector('#keymsg').textContent = 'Key removed from this browser.';
+    back.querySelector('#ai-status').innerHTML = aiStatusLine();
+  });
+}
+document.getElementById('nav-ai').addEventListener('click', openAISettings);
 
 /* ---------- worked example ---------- */
 const SAMPLE_SEL = {bands:['hs'], gradAims:['Professional Skills','Identity & Purpose'], leaps:['Relevance','Agency'], activities:['Work-Based Learning','Mentoring & Networking'], cost:'flexible'};

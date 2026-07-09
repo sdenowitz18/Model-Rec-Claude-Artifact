@@ -15,13 +15,23 @@ a Claude artifact for org-wide sharing.
   teammate's intake selections (grades, grad aims, Leaps, experiences, cost)
   each model hits or misses. This is verifiable evidence straight from the
   database tags, never AI-generated.
-- **AI reasoning** (`window.claude.complete`, available when the file is
-  opened as a Claude artifact) reads the teammate's freeform description,
-  re-ranks the pre-screened shortlist, and writes the three design-specific
-  reasons, honest considerations, and the "how these three differ" line. It can
-  only choose from and cite the pre-screened database records.
-- **Graceful fallback**: outside an AI-enabled context, ranking and the match
-  matrix still work; reasons are built from tags alone and the tool says so.
+- **AI reasoning** reads the teammate's freeform description, re-ranks the
+  pre-screened shortlist, writes the three design-specific reasons, honest
+  considerations, and the "how these three differ" line, and powers the
+  ask-a-model chat. It can only choose from and cite the pre-screened database
+  records. Two providers, tried in order:
+  1. The claude.ai artifact bridge (`window.claude.complete`), when the page
+     runs in an AI-enabled artifact context. Note: artifacts published from
+     Claude Code do **not** currently expose this bridge.
+  2. **Bring-your-own-key**: a teammate opens "✦ AI settings" and pastes a
+     Claude API key once (stored only in that browser's localStorage). The
+     page then calls the Claude API directly (`claude-opus-4-8`). This is the
+     working path for the downloaded file or any internally hosted copy — but
+     not for the claude.ai-hosted copy, whose security policy blocks outbound
+     calls.
+- **Graceful fallback**: without either provider, ranking and the match
+  matrix still work; reasons are built from tags alone and the tool says so
+  and points to AI settings.
 
 ## Repo layout
 
