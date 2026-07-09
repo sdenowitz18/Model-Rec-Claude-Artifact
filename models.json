@@ -1,0 +1,4124 @@
+{
+ "snapshotDate": "2026-07-09",
+ "source": "Transcend research database (Airtable · All Solutions, fully coded records)",
+ "modelCount": 111,
+ "models": [
+  {
+   "id": "recGrvXFSjjjdTuGF",
+   "name": "95 Core Phonics Solution",
+   "org": "95 Percent Group",
+   "website": "https://www.95percentgroup.com/95-tier-1-phonics-solution/",
+   "description": "The 95 Phonics Core Program (PCP) is a whole-class, supplemental phonics curriculum. This Tier I program is designed for students in grades K-5 to address and prevent reading gaps using explicit, structured phonics instruction for 20-30 minutes per day. Instruction is based on a scope and sequence with 25 lessons for Kindergarten and 30 lessons for each of Grades 1-5. For example, the First Grade Scope and Sequence includes 30 lessons disaggregated into seven topics (Introduction, Short Vowel CVC, Consonant Blends, Consonant Digraphs, Long Vowel Silent-e, Phonograms, and Introduction to Second-Grade Skills). Each lesson focuses on specific phonics skills, provides examples of high-frequency words, and contains information about other skills addressed within the topic. The 95 Phonics Core Program offers a kit for each grade, including a teacher’s edition, student workbooks,…",
+   "grades": [
+    "K",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Direct Instruction"
+   ],
+   "gradAims": [
+    "English Language Arts"
+   ],
+   "leaps": [
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [
+    "Literacy"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "",
+   "impact": "https://www.95percentgroup.com/efficacy-studies/"
+  },
+  {
+   "id": "recXntxlTBENLFRvJ",
+   "name": "95 Tier 2 Phonics Solution",
+   "org": "95 Percent Group",
+   "website": "https://www.95percentgroup.com/95-tier-2-phonics-solution/",
+   "description": "Targeted intervention instruction is delivered through our updated 95 Phonics Lesson Library. This beloved, trusted solution has guided millions of students through intervention to grade-level proficiency. Just like the original, 95 Phonics Lesson Library 2.0 breaks phonics proficiency into 75 discrete skills across three levels — Basic, Advanced, and Multisyllable. Each skill is a week-long, evidence-based, turnkey lesson — ensuring that each student’s unique needs are met with explicit instruction.",
+   "grades": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Direct Instruction"
+   ],
+   "gradAims": [
+    "English Language Arts"
+   ],
+   "leaps": [
+    "High Expectations with Rigorous Learning",
+    "Customization"
+   ],
+   "topics": [
+    "Literacy"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "",
+   "impact": "https://www.95percentgroup.com/efficacy-studies/"
+  },
+  {
+   "id": "recp8bBUi6uN4giFm",
+   "name": "95 Tier 3 Literacy Solution",
+   "org": "95 Percent Group",
+   "website": "https://www.95percentgroup.com/95-tier-3-literacy-solution/",
+   "description": "Assessment, instruction, and management happen through 95 Reading Achievement Program (95 RAP™). Through technology, 95 RAP empowers teachers to deliver individualized instruction to K-12 students in a small group setting.\n\nThrough fast-paced and motivating small group activities, as well as robust data and activity management, 95 RAP helps teachers track individual student progress in phonological awareness, phonics, fluency, spelling, vocabulary, and comprehension—so they can provide the direct, explicit mastery-based instruction for readers who need extra support.",
+   "grades": [
+    "K",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Direct Instruction"
+   ],
+   "gradAims": [
+    "English Language Arts"
+   ],
+   "leaps": [
+    "High Expectations with Rigorous Learning",
+    "Customization"
+   ],
+   "topics": [
+    "Literacy"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "",
+   "impact": "<https://www.95percentgroup.com/wp-content/uploads/2024/06/HillRAP-Empirical-Research-Brief.pdf>"
+  },
+  {
+   "id": "recDERb0x7BVD51jb",
+   "name": "A2i Professional Support System",
+   "org": "Scholastic",
+   "website": "https://www.scholastic.com/teachers/teaching-tools/learn/a2i.html",
+   "description": "The A2i Professional Support System is a systems-level approach intended to improve students’ reading success in Pre-K through Grade 3 classrooms. Learning Ovations serves as the partner, providing the support teachers need to ensure students are reading at, or above, grade-level by the end of 3rd grade. The focus of this support is on individualized instruction, ensuring learning experiences are tailored to account for each students’ unique needs. A2i prepares teachers to vary the content and form of instruction, according to students’ prior performance and needs. The approaches include quick online assessments, proven instructional recommendations, lesson planning support, and customized professional development.",
+   "grades": [
+    "PK",
+    "K",
+    "1",
+    "3",
+    "2"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Direct Instruction"
+   ],
+   "gradAims": [
+    "English Language Arts"
+   ],
+   "leaps": [
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [
+    "Literacy"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "",
+   "impact": "Three studies conducted on A2i qualified for inclusion. The overall average effect size was +0.23. This qualified A2i for the “Strong” category and demonstrates that the impact of differentiated literacy instruction via the A2i Professional Support System has been examined through rigorous, randomized-controlled studies in multiple contexts. Importantly, a key finding from a longitudinal study in NW Florida over 3 years found strong evidence for a cumulative effect of A2i-informed literacy…"
+  },
+  {
+   "id": "recFX3C4ytbTfiuCS",
+   "name": "AI Lesson Planner",
+   "org": "Khanmigo",
+   "website": "https://www.khanmigo.ai/teachers?utm_account=Paid_GoogleAds&utm_campaignname=WHAM-in-general&gad_source=1&gad_campaignid=22204947026&gbraid=0AAAAADmu8nMm4lED3A7swMLonReAp5K4d&gclid=Cj0KCQjwyIPDBhDBARIsAHJyyVim1Eo0AvHgcI3xdKGsAyQHUjYvGTAb-70SH8coUt2kHITWOlvFt08aAtrKEALw_wcB",
+   "description": "Khanmigo AI Lesson Planner is Khan Academy’s free, AI-powered teaching assistant that helps you plan faster by generating standards-aligned, differentiated lesson plans tied to Khan Academy’s content library—plus ready-to-use hooks, objectives, rubrics, exit tickets, and question sets with answer keys. It can propose student groupings, draft multilingual family emails/class newsletters, and provide an on-demand summary of recent student work so you can spot who needs support. Built by a trusted nonprofit (and free for teachers thanks to a Microsoft partnership), Khanmigo for Teachers doesn’t give students direct access; student use is available through school/district implementations.",
+   "grades": [
+    "K",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "cost": [
+    "Free"
+   ],
+   "activities": [
+    "Direct Instruction",
+    "Tutoring"
+   ],
+   "gradAims": [],
+   "leaps": [
+    "Customization",
+    "Relevance"
+   ],
+   "topics": [
+    "CCL"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "Part of Khan Academy ecosystem (~150M+ registered users globally); Khanmigo AI in ~130 school districts",
+   "impact": "Unavailable"
+  },
+  {
+   "id": "recSWVDaqFgOaSq71",
+   "name": "AirReading",
+   "org": "AirReading",
+   "website": "https://airreading.com/",
+   "description": "Air Reading is an assessment-driven, live virtual tutoring program designed to improve students’ foundational reading skills from Kindergarten through 6th grade. Students receive live virtual instruction from the same consistent Air Reading tutors throughout the semester, addressing individual reading gaps. Small groups of up to four students are paired with the same tutor for 30-minute sessions four times each week.\n\nAir Reading is grounded in the Science of Reading. Comprehensive, one-on-one diagnostics identify students’ learning needs and inform both group placement and bi-weekly assessments to track student progress. Highly qualified, paid Air Reading tutors deliver explicit, skill-based instruction using Air Reading’s systematic reading curriculum. Ongoing training and support are provided to ensure high-quality teaching. All sessions are tracked and monitored on Air Reading’s…",
+   "grades": [
+    "K",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Direct Instruction",
+    "Tutoring"
+   ],
+   "gradAims": [
+    "English Language Arts"
+   ],
+   "leaps": [],
+   "topics": [
+    "Literacy"
+   ],
+   "status": [],
+   "reach": "",
+   "impact": "The impact of Air Reading was examined in a randomized study involving nearly 400 grade 1-6 students from six elementary schools in a rural Texas district during the spring of the 2023-2024 school year. At each school, students identified as needing additional reading intervention were stratified based on scheduling slots and randomly assigned to Air Reading or their business-as-usual classroom instruction. Results indicated that Air Reading positively impacted student reading achievement, and…"
+  },
+  {
+   "id": "recYcnXYj1X7UuJkc",
+   "name": "AJAC Youth Apprenticeships",
+   "org": "Aerospace Joint Apprenticeship Committee",
+   "website": "https://www.ajactraining.org/programs/youth/",
+   "description": "AJAC (Aerospace Joint Apprenticeship Committee) offers registered, two-year apprenticeship programs—specifically as Production Technician (Youth) and Automation Technician (Youth)—designed for high school juniors and seniors in Washington State.",
+   "grades": [
+    "11",
+    "12"
+   ],
+   "cost": [
+    "Free"
+   ],
+   "activities": [
+    "Work-Based Learning",
+    "Mentoring & Networking"
+   ],
+   "gradAims": [],
+   "leaps": [
+    "Relevance",
+    "Agency",
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [
+    "CCL"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "Small-scale; primarily WA state aerospace sector; hundreds of apprentices annually",
+   "impact": "Unavailable"
+  },
+  {
+   "id": "recSQzDehI0E1dE06",
+   "name": "Amplify Core Knowledge Language Arts (CKLA)",
+   "org": "Amplify",
+   "website": "https://amplify.com/programs/amplify-core-knowledge-language-arts/",
+   "description": "Amplify Core Knowledge Language Arts (CKLA) is the leading early literacy curriculum grounded in the Science of Reading. By combining knowledge-building and research-based foundational skills, our instruction guides educators in developing strong readers, writers, and thinkers.\n\nWith a powerful online platform and a parallel Spanish language arts curriculum, Amplify CKLA provides a comprehensive solution for PreK–5 educators and students.",
+   "grades": [
+    "K",
+    "PK",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Direct Instruction"
+   ],
+   "gradAims": [
+    "English Language Arts"
+   ],
+   "leaps": [
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [
+    "Literacy"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "38,000+ classrooms, 2,700,000+ students, 50 states and DC",
+   "impact": "https://amplify.com/science-of-reading/success-stories/"
+  },
+  {
+   "id": "rec1ehJQRqtWHW1kl",
+   "name": "Amplify Desmos Math (K-A2)",
+   "org": "Amplify (formerly Desmos)",
+   "website": "https://amplify.com/programs/amplify-desmos-math/",
+   "description": "\"Amplify Desmos Math helps teachers cultivate a classroom of eager, collaborative learners by starting with student ideas and building to robust grade-level learning for every student every day.\"\n\nAmplify Desmos Math provides resources that integrate seamlessly with core instruction, including a suite of assessments, tailored practice resources that adjust to student learning, and other intervention solutions. Cohesive differentiation and intervention resources support and challenge students on their path toward a deeper understanding of the learning goals, ensuring all students can keep up with or stretch beyond grade-level math.",
+   "grades": [
+    "K",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "HS - AGA"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Direct Instruction"
+   ],
+   "gradAims": [
+    "Mathematics"
+   ],
+   "leaps": [
+    "Connection & Community",
+    "Relevance",
+    "Customization",
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [
+    "Math"
+   ],
+   "status": [
+    "Reviewed"
+   ],
+   "reach": "",
+   "impact": "- WestEd study: Desmos Math 6–8 significantly improves student learning\n - \"New efficacy study finds Desmos Math 6-8 significantly improves student learning outcomes in middle grades\"\n - \"Since the schools in the study used Desmos Math 6–8 with varying levels of fidelity, WestEd researchers believe that the full impact of using the Desmos Math 6–8 curriculum may be higher than reported in the study.\""
+  },
+  {
+   "id": "recVA2GiaZasNsIuc",
+   "name": "Build Up",
+   "org": "Build Up",
+   "website": "https://www.buildup.work/",
+   "description": "Build UP is a nonprofit school that combines academics, paid work-based learning, and post-graduation support leading to college and homeownership opportunities.",
+   "grades": [
+    "9",
+    "10",
+    "11",
+    "12",
+    "PS"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Work-Based Learning",
+    "Blended Learning",
+    "Project-Based Learning",
+    "Job Shadowing",
+    "Mentoring & Networking",
+    "Academic & Career Planning",
+    "Social Emotional Learning"
+   ],
+   "gradAims": [
+    "Professional Skills",
+    "Practical Life Skills",
+    "Productive Mindsets & Self-Regulation"
+   ],
+   "leaps": [
+    "Connection & Community",
+    "Whole-Child Focus"
+   ],
+   "topics": [
+    "CCL"
+   ],
+   "status": [
+    "Documented"
+   ],
+   "reach": "Not publicly reported; emerging platform",
+   "impact": "Unavailable"
+  },
+  {
+   "id": "recVjGdsQguY9QE0b",
+   "name": "CAPS Network",
+   "org": "CAPS Network",
+   "website": "https://yourcapsnetwork.org/",
+   "description": "The CAPS Network connects high school students with real‑world, profession-based learning—blending project-driven experiences, industry mentorship, and academic credit through partnerships between schools and businesses.",
+   "grades": [
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Project-Based Learning",
+    "Work-Based Learning"
+   ],
+   "gradAims": [
+    "Professional Skills"
+   ],
+   "leaps": [
+    "Relevance",
+    "High Expectations with Rigorous Learning",
+    "Connection & Community",
+    "Customization"
+   ],
+   "topics": [
+    "CCL"
+   ],
+   "status": [
+    "Documented"
+   ],
+   "reach": "80+ CAPS programs across 30+ states; thousands of students",
+   "impact": "Unavailable"
+  },
+  {
+   "id": "reco0SygurPxjU3ic",
+   "name": "CARA College Inquiry",
+   "org": "CARA",
+   "website": "https://caranyc.org/",
+   "description": "CARA’s College Inquiry is a multi-year, schoolwide program that equips educators and strengthens systems to ensure first-generation and low-income students have equitable access to exploring, applying to, and enrolling in college.",
+   "grades": [
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "College Visits",
+    "College & Career Fairs",
+    "Academic & Career Planning"
+   ],
+   "gradAims": [
+    "Practical Life Skills"
+   ],
+   "leaps": [
+    "Relevance",
+    "Agency"
+   ],
+   "topics": [
+    "CCL"
+   ],
+   "status": [
+    "Documented"
+   ],
+   "reach": "Not publicly reported; emerging internship model",
+   "impact": "Unavailable"
+  },
+  {
+   "id": "rec7faeELwl11ssvp",
+   "name": "Career Exploration Courses",
+   "org": "NFTE",
+   "website": "https://nfte.com/resources-directory/?jsf=jet-data-table&tax=programs:157",
+   "description": "NFTE offers a range of entrepreneurship and career exploration pathway programs for middle and high school students, including Exploring Careers (grades 5-9), Entrepreneurship Essentials, Startup Tech, and full Entrepreneurship courses. Programs range from 20-180 hours and include standards-aligned lesson plans, assessments, and teacher training.",
+   "grades": [
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Academic & Career Planning"
+   ],
+   "gradAims": [
+    "Professional Skills",
+    "Identity & Purpose"
+   ],
+   "leaps": [
+    "Relevance",
+    "Agency",
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [
+    "CCL"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "~1.5M students cumulative since 1987; ~100K students/year; 25 U.S. states and 14 countries",
+   "impact": "75% of alumni report career satisfaction; 25% start/run businesses; 96% of alumni value volunteer engagement; 90% of employers say workforce needs the entrepreneurship skills NFTE teaches"
+  },
+  {
+   "id": "reclbsbzz83phl7lE",
+   "name": "Carnegie: MATHia",
+   "org": "Carnegie Learning",
+   "website": "https://www.carnegielearning.com/solutions/math/mathia",
+   "description": "Give each student their own personal math coach: MATHia adjusts to every action they take in the software to meet them where they are and help them progress.\n\nEngage: Make learning meaningful for your students. Our materials help you to engage them with real-world examples, encourage them to collaborate, and leverage personal experiences to make learning real for them.\n\nDevelop: Prepare them for the future. Independent learning opportunities help students get the specific 1-to-1 support they need, while group activities help them refine important social skills.\n\nDemonstrate: You know that math is more than memorization, and so do we. Our ongoing formative assessments demonstrate what students are (or aren’t) learning, so you can make adjustments to accommodate their needs.",
+   "grades": [
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "cost": [],
+   "activities": [
+    "Direct Instruction"
+   ],
+   "gradAims": [
+    "Mathematics"
+   ],
+   "leaps": [],
+   "topics": [
+    "Math"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "",
+   "impact": ""
+  },
+  {
+   "id": "recKbQwv4snywMHVi",
+   "name": "Carnegie: MATHstream",
+   "org": "Carnegie Learning",
+   "website": "https://discover.carnegielearning.com/mathstream",
+   "description": "Help your students take a deeper dive into math concepts anytime, anywhere. MATHstream uses adaptive learning paths to help them improve where they need it and accelerate when they're ready. Students will love MATHstream's game-based learning, available through adaptive and interactive instructional videos. They'll be delighted with our experienced instructors, who have already captivated millions of followers worldwide.",
+   "grades": [
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Direct Instruction"
+   ],
+   "gradAims": [
+    "Mathematics"
+   ],
+   "leaps": [],
+   "topics": [
+    "Math"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "",
+   "impact": ""
+  },
+  {
+   "id": "recWF3c6kNtytpnry",
+   "name": "Chapter One High Impact Tutoring",
+   "org": "Chapter One",
+   "website": "https://www.chapterone.org",
+   "description": "At Chapter One, we want to create a world where all children have the literacy skills needed to thrive.\n\nSo do classroom teachers!\n\nMany classroom teachers are unable, on their own, to teach all students to read. They simply don’t have the time during the school day to provide the kind of individual instruction that struggling readers need to succeed.\n\nIf students don’t develop a strong phonics foundation and reading fluency by the end of second grade, it is very unlikely that they will be proficient readers in later grades.\n\nWe provide 1:1 reading support at the time students need it most: grades K-5.",
+   "grades": [
+    "K",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Tutoring"
+   ],
+   "gradAims": [
+    "English Language Arts",
+    "Relationship Skills"
+   ],
+   "leaps": [
+    "High Expectations with Rigorous Learning",
+    "Customization"
+   ],
+   "topics": [
+    "Literacy"
+   ],
+   "status": [
+    "Documented"
+   ],
+   "reach": "-50,000. The number of students receiving high impact tutoring globally this school year.\n-56,433. The number of online reading volunteer sessions globally.\n-",
+   "impact": "The impact of Chapter One has been examined in two randomized studies, the first took place in one Title I school in Ohio, the second in a large southeastern school district with over 800 students from 49 classrooms in 13 schools. The first study was intended to last two years and include kindergarten and first grade students but a move to remote learning and issues surrounding attrition necessitated focusing on the one-year results from the kindergarten students. The impact on reading…"
+  },
+  {
+   "id": "recJnyaA4WHPhY88p",
+   "name": "CommonLit 360",
+   "org": "CommonLit",
+   "website": "https://www.commonlit.org/ela-curriculum",
+   "description": "CommonLit 360 is a full-year curriculum for teachers of grades 6-12. This curriculum offers reading, writing, vocabulary grammar, discussion, and related media lessons for students.",
+   "grades": [
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "cost": [
+    "Free with Paid Options"
+   ],
+   "activities": [
+    "Direct Instruction",
+    "Blended Learning"
+   ],
+   "gradAims": [
+    "English Language Arts"
+   ],
+   "leaps": [
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [
+    "Literacy"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "250M+ completed lessons",
+   "impact": "<https://www.commonlit.org/impact>\n\nUp to 2x increased student engagement among CommonLit classrooms.\n\n1 in 4 students Moved from below grade level to proficient with regular CommonLit use.\n\n10.5 percentage points Increase in students who met or exceeded expectations after a year of CommonLit.\n\nhttps://cdn.commonlit.org/website\\_assets/441/1739915523/CommonLit\\_Efficacy\\_Studies\\_A\\_Summary\\_%28Report%29.pdf?1739915523"
+  },
+  {
+   "id": "recLb1xOpLMMJChi2",
+   "name": "Community Workers Book Set",
+   "org": "Lakeshore Learning",
+   "website": "https://www.google.com/url?q=https://www.lakeshorelearning.com/products/social-studies/cultures-the-community/community-workers-book-set/p/PP169/?utm_source%3Dgoogle%26utm_medium%3Dppc%26utm_campaign%3DOG_SEM_NB_GOOG_SHOP_performancemax_LOWER_MAIN_BAU%26utm_content%3DOG_SEM_NB_GOOG_SHOP_performancemax_LOWER_MAIN_BAU%257CGeneral%257C%26gad_source%3D1%26gad_campaignid%3D21081397636%26gbraid%3D0AAAAAD39dls21BQCGQCMKDEUeTFeL8A-N%26gclid%3DCj0KCQjwgvnCBhCqARIsADBLZoIyOo5nDGBjVvWGoM_4OAJJnFI9T0jSihUqIczD_Me4Iu7k1HU7nn4aAlNlEALw_wcB&sa=D&source=editors&ust=1754932390447159&usg=AOvVaw2ROw0t4Vd5aApLAkyp6Egf",
+   "description": "An eight-title paperback set that introduces young children to community helpers through simple text and photo-rich pages (24 pages per book), supporting early social-studies and career-awareness conversations in primary classrooms.",
+   "grades": [
+    "K",
+    "1",
+    "2"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Direct Instruction"
+   ],
+   "gradAims": [],
+   "leaps": [
+    "Relevance"
+   ],
+   "topics": [
+    "CCL"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "Lakeshore serves 500K+ educators; specific product reach not reported",
+   "impact": "Unavailable"
+  },
+  {
+   "id": "recEN73iafCH0Omti",
+   "name": "Compass",
+   "org": "Golden Path Solutions",
+   "website": "https://goldenpath.net/compass-makes-it-easier-for-schools-to-manage-work-based-learning/",
+   "description": "Online platform helping high school students discover career paths and connect with real-world career and work-based learning opportunities—while simultaneously enabling schools and employers to manage those connections through tools like career profiles, WBL workflows, etc",
+   "grades": [
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Academic & Career Planning"
+   ],
+   "gradAims": [],
+   "leaps": [
+    "Relevance",
+    "Agency",
+    "Customization"
+   ],
+   "topics": [
+    "CCL"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "Not publicly reported; small/emerging provider",
+   "impact": "Unavailable"
+  },
+  {
+   "id": "reckIAHMP3kMlcerw",
+   "name": "Connections: Literature",
+   "org": "Perfection Learning",
+   "website": "https://perfectionlearning.com/literacy-and-language-arts/connections-literature-high-school?plcstate=va&plcsite=nat",
+   "description": "Immerse students in outstanding literature while developing critical reading and writing skills. Connections: Literature hooks students in a rich set of texts, both classic and contemporary, as they explore relevant issues, engage in lively discussion, and develop critical reading and writing skills.",
+   "grades": [
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Direct Instruction",
+    "Blended Learning"
+   ],
+   "gradAims": [
+    "English Language Arts"
+   ],
+   "leaps": [
+    "Customization"
+   ],
+   "topics": [
+    "Literacy"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "",
+   "impact": "ESSA: https://explore.perfectionlearning.com/assets/67d18c9ca72eeb1141e9f73d?utm\\_name=web&plcstate=va&plcsite=nat&\\_gl=1\\*lyth00\\*\\_gcl\\_au\\*MTIxMDg4MDAwNC4xNzgxODI3Mjg5\\*\\_ga\\*MjA5NjEzNDM1My4xNzgxODI3Mjkz\\*\\_ga\\_V31MNNY1HC\\*czE3ODE4MjczMDAkbzEkZzEkdDE3ODE4Mjc0NTMkajYwJGwwJGg5NTc1MzUwOTM.\n\nESSA:…"
+  },
+  {
+   "id": "recvFJfL79MIrvRHb",
+   "name": "Content-Focused Coaching",
+   "org": "University of Pittsburgh's Institute for Learning",
+   "website": "https://researchsites.pitt.edu/ifl/our-services#CFC",
+   "description": "Elevate your coaching with IFL’s Content-Focused Coaching (CFC) model. CFC empowers coaches to become true instructional leaders who drive student success. Through collaborative partnerships and hands-on learning, coaches gain the skills and knowledge to:\n\nBuild strong relationships with teachers.\nCo-plan and co-teach engaging lessons\nAnalyze student work and refine instructional strategies.\nCFC has a proven track record of improving both student achievement and teacher practice. Learn more about our research and impact in our report, “Content-Focused Coaching for Continuous Improvement in Literacy and Mathematics.”\nEnhance your coaching skills with our online CFC workshops.\nDesigned for math and ELA coaches, these workshops provide practical strategies and tools to:\n\nDeepen your understanding of the CFC cycle.\nFacilitate effective coach-teacher discussions.\nProvide targeted feedback…",
+   "grades": [
+    "Adults"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Mentoring & Networking"
+   ],
+   "gradAims": [
+    "English Language Arts",
+    "Mathematics"
+   ],
+   "leaps": [],
+   "topics": [
+    "Literacy"
+   ],
+   "status": [
+    "Documented"
+   ],
+   "reach": "",
+   "impact": "One large two-year study evaluated Content-Focused Coaching in an urban district in the Southwest. Compared to control groups, fourth and fifth grade English learners who received CFC scored significantly higher, with an effect size of +0.46. These outcomes qualified CFC for English learners for the “Strong” category."
+  },
+  {
+   "id": "recSskMYrW5bZHTov",
+   "name": "Couragion Pathway Skill Building",
+   "org": "Couragion",
+   "website": "https://www.couragion.com/programs",
+   "description": "Couragion provides Pathway Skill Building through microbadging challenges for middle and high school students, helping them develop applied computer science, data analytics, and engineering skills while building occupational and employability competencies—also in flexible 5–30 hour formats.",
+   "grades": [
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Blended Learning"
+   ],
+   "gradAims": [
+    "Professional Skills",
+    "Computer Science"
+   ],
+   "leaps": [
+    "Relevance",
+    "Agency",
+    "Customization"
+   ],
+   "topics": [
+    "CCL"
+   ],
+   "status": [
+    "Reviewed"
+   ],
+   "reach": "Not publicly reported; emerging edtech",
+   "impact": "Unavailable"
+  },
+  {
+   "id": "recgxeLd1IxLnZJJv",
+   "name": "Couragion Virtual Exploration",
+   "org": "Couragion",
+   "website": "https://www.couragion.com/programs",
+   "description": "Couragion offers Virtual Exploration for grades 4–8—an engaging, interactive journey where students explore diverse STEM career paths via relatable role models, connect curriculum relevance to real-world careers, and build personal portfolios over 5 to 30 classroom hours.",
+   "grades": [
+    "4",
+    "5",
+    "6",
+    "7",
+    "8"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Blended Learning"
+   ],
+   "gradAims": [
+    "Professional Skills",
+    "Computer Science"
+   ],
+   "leaps": [
+    "Relevance",
+    "Agency"
+   ],
+   "topics": [
+    "CCL"
+   ],
+   "status": [
+    "Reviewed"
+   ],
+   "reach": "Not publicly reported; emerging edtech",
+   "impact": "Unavailable"
+  },
+  {
+   "id": "recJAP9sfnDGYQXf2",
+   "name": "Creative Careers Decodable Text Set",
+   "org": "Storyshares",
+   "website": "https://shop.storyshares.org/products/knowledge-building-decodable-text-intervention-set-for-grades-2-8",
+   "description": "A Science of Reading–aligned, knowledge-building decodable nonfiction set that uses career themes to motivate older striving readers; each book contains nine discrete decodable texts that systematically build phonics skills while exposing students to a variety of jobs and pathways.",
+   "grades": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Direct Instruction"
+   ],
+   "gradAims": [],
+   "leaps": [
+    "Relevance"
+   ],
+   "topics": [
+    "CCL"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "Not publicly reported; niche literacy publisher",
+   "impact": "Unavailable"
+  },
+  {
+   "id": "recEUYnDif71Z15bM",
+   "name": "Decision Education Teaching Resources",
+   "org": "Alliance for Decision Education",
+   "website": "https://alliancefordecisioneducation.org/teach/teacher-resources/?_sft_resource-type=lesson-plan",
+   "description": "Curated lesson plans, units, and tools designed to build students’ decision-making skills",
+   "grades": [
+    "K",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "cost": [
+    "Free"
+   ],
+   "activities": [
+    "Social Emotional Learning"
+   ],
+   "gradAims": [],
+   "leaps": [
+    "Agency",
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [
+    "CCL"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "Not publicly reported; nonprofit providing free educator resources",
+   "impact": "Unavailable"
+  },
+  {
+   "id": "reckLVyoa6btQJQMj",
+   "name": "Derivita",
+   "org": "Derivita",
+   "website": "https://www.derivita.com/",
+   "description": "Derivita was built to support teacher-led, student-centered instruction, not complicate or replace it. One connected solution that spans every level of instruction, from individual practice and classwork to school, PLC, and district-level strategies, grade 6 through Calculus III.\n\n-Ask questions that promote reasoning and enable authentic assessment\n-Enable practice toward mastery and unique questions on every assessment with randomizations that preserve mathematical intent and consistent difficulty\n-Interpret student work flexibly, recognizing equivalent forms, notation, and multiple valid approaches\n-Provide targeted feedback and accurate grading informed by mathematical reasoning, not just answer matching",
+   "grades": [
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "PS"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Direct Instruction",
+    "Blended Learning"
+   ],
+   "gradAims": [
+    "Mathematics"
+   ],
+   "leaps": [
+    "High Expectations with Rigorous Learning",
+    "Customization"
+   ],
+   "topics": [
+    "Math"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "",
+   "impact": "<https://www.derivita.com/results>\n\nDerivita commissioned Instructure's research team to develop an ESSA Level IV logic model, an independent framework documenting how the platform connects LMS-embedded access, dynamic practice, and teacher data to improved math outcomes.\n\nIn a study conducted by Instructure's research team for Derivita, researchers found that each additional Derivita question answered per day was associated with a 13 percentile point gain — moving an average grade 8 student…"
+  },
+  {
+   "id": "recyiUJ9Zej7LNCXJ",
+   "name": "DreamBox Math",
+   "org": "Discovery Education",
+   "website": "https://www.discoveryeducation.com/solutions/math/dreambox-math/",
+   "description": "\"DreamBox Math is an easy-to-implement, adaptive math solution that provides K-8 students with engaging, personalized instruction proven to build deeper mathematical understanding.\"\n\nWhether students need intervention, remediation, or enrichment, DreamBox Math meets them where they are and keeps them growing. Our engaging, student-driven experience combines best-in-class adaptivity with scaffolded lessons for grades K-8 and continuous formative assessment to personalize learning, develop conceptual understanding, strengthen critical thinking and procedural fluency. The result? More confidence, stronger skills, and real learning that lasts.\n\nDreamBox Math combines an engaging curriculum with Intelligent Adaptive Learning™ to provide a dynamic, motivating experience tailored to each student’s unique needs. The adaptive math software evaluates students’ interactions, and then adjusts and…",
+   "grades": [
+    "K",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Direct Instruction"
+   ],
+   "gradAims": [
+    "Mathematics"
+   ],
+   "leaps": [
+    "Customization",
+    "Relevance",
+    "Whole-Child Focus",
+    "Agency",
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [
+    "Math"
+   ],
+   "status": [
+    "Reviewed"
+   ],
+   "reach": "",
+   "impact": "- Range of evidence of impact (scroll to bottom here): \"Have demonstrated efficacy across every achievement level – students using our programs with fidelity have shown significant growth in both math and reading.\" \n - \"As an established leader in the education industry, DreamBox meets the learning needs of over 6 million students and is the only dual-discipline solution rated** ESSA STRONG** by Johns Hopkins University.\" (see study)\n - \"Large urban district accelerates growth in math across…"
+  },
+  {
+   "id": "recJy4DdXOi48ubjI",
+   "name": "DreamBox Reading",
+   "org": "Discovery Education",
+   "website": "https://www.discoveryeducation.com/solutions/literacy/dreambox-reading/",
+   "description": "DreamBox Reading is an adaptive, personalized program that helps PreK–3 students build foundational reading skills and fosters confidence for a lifelong love of reading. \n\nPowered by DreamBox Learning’s patented Intelligent Adaptive Learning engine, DreamBox Reading personalizes instruction in real time-adapting to each student’s answers, strategies, and behaviors to deliver just-right lessons, scaffolding and engaging activities for PK-3 students mastering reading foundations, and for G3-5 students in need of extra practice in those skills.",
+   "grades": [
+    "PK",
+    "K",
+    "1",
+    "2",
+    "3"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Direct Instruction",
+    "Blended Learning"
+   ],
+   "gradAims": [
+    "English Language Arts"
+   ],
+   "leaps": [],
+   "topics": [
+    "Literacy"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "",
+   "impact": ""
+  },
+  {
+   "id": "recpRw6itFGr91aWc",
+   "name": "EL Education K-8 Language Arts",
+   "org": "EL Education",
+   "website": "https://www.eleducation.org/curriculum/language-arts",
+   "description": "The EL Education curriculum is based on the Science of Reading, including structured phonics, which empowers all students to read complex grade-level texts and master literacy standards, providing all students with an equitable outcome.\n\nOur curriculum builds deep knowledge by using content-rich, authentic texts on real-world topics in social studies, STEM, and literature. Students leverage their learning for social justice and environmental stewardship while building habits of character that help them contribute to a better world.",
+   "grades": [
+    "K",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Direct Instruction"
+   ],
+   "gradAims": [
+    "English Language Arts"
+   ],
+   "leaps": [
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [
+    "Literacy"
+   ],
+   "status": [],
+   "reach": "",
+   "impact": "<https://www.eleducation.org/our-results/research-studies/k-2-language-arts-curriculum-study/>\n\nThis study indicates that the combination of EL Education’s comprehensive curriculum with coaching results in significant improvements in student achievement in the first academic year of implementation. The impacts are relatively large, especially for students in kindergarten and first grade.\nThe researchers also conducted a study comparing the treatment students with students in eight district…"
+  },
+  {
+   "id": "recRoZtJ4LdhU3WsV",
+   "name": "Empower Schools Rural Collaborative",
+   "org": "Empower Schools",
+   "website": "https://www.empowerschools.org/rural-innovation/",
+   "description": "Empower Schools – Rural Collaborative helps neighboring rural districts band together with higher-ed and industry to offer college- and career-pathways no single district could sustain alone—formally codified through shared agreements and governance, aligned to regional labor-market demand, and designed to yield dual credit and industry credentials before graduation while boosting local economic development. Empower supports partners with design/launch coaching and a publicly available Rural Innovation Toolkit that walks teams through planning, implementation, and sustainment. Early results from the Rural Schools Innovation Zone show promise (e.g., 10× more industry certifications and 4× more students completing a dual-credit course), and Empower is partnering with Harvard CEPR to rigorously study impacts and enabling policies at scale.",
+   "grades": [
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Project-Based Learning",
+    "Work-Based Learning",
+    "Job Shadowing"
+   ],
+   "gradAims": [
+    "Professional Skills"
+   ],
+   "leaps": [
+    "Relevance",
+    "Agency",
+    "Connection & Community",
+    "Customization"
+   ],
+   "topics": [
+    "CCL"
+   ],
+   "status": [
+    "Documented"
+   ],
+   "reach": "Not publicly reported; works with rural districts in select states",
+   "impact": "Unavailable"
+  },
+  {
+   "id": "recOb5NMaUlVLnLKd",
+   "name": "EPIC",
+   "org": "U.S. Chamber of Commerce Foundation",
+   "website": "https://www.uschamberfoundation.org/solutions/workforce-development-and-training/epic",
+   "description": "Employer Provided Innovation Challenges is a national network that links schools and learners to authentic, employer-sponsored project-based learning via accredited challenge “clearinghouses,” expanding access to real-world work experiences and industry partners.",
+   "grades": [
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Work-Based Learning",
+    "Mentoring & Networking"
+   ],
+   "gradAims": [],
+   "leaps": [
+    "Relevance",
+    "Agency",
+    "Connection & Community"
+   ],
+   "topics": [
+    "CCL"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "Not publicly reported as student count; operates as a framework/network model",
+   "impact": "Unavailable"
+  },
+  {
+   "id": "rec5Clbhg6jVH4wkv",
+   "name": "Eureka Math²",
+   "org": "Great Minds",
+   "website": "https://greatminds.org/eurekamathsquared",
+   "description": "\"Eureka Math² is a revolutionary Prekindergarten–Algebra I* math program designed to advance equity in the math classroom by helping students build enduring math knowledge.\"\n\nEureka Math2 balances evidence-based techniques—guided inquiry, conceptual development, systematic fluency practice, and real-world application.\n\nEffective mathematics learning requires a balance of evidence-based strategies to meet every student’s needs. Each lesson aligns the appropriate technique to the learning objective, so every learner can deepen their understanding, master skills, and gain the confidence to explain their thinking.\n\nEureka Math² gives educators the tools, structure, and support to deliver on rigorous, equitable, and engaging math learning opportunities, so all students build a positive math identity.",
+   "grades": [
+    "ECE/PK/TK",
+    "K",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "HS - Algebra I"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Direct Instruction"
+   ],
+   "gradAims": [
+    "Mathematics"
+   ],
+   "leaps": [
+    "Customization",
+    "Relevance",
+    "Connection & Community",
+    "Agency",
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [
+    "Math"
+   ],
+   "status": [
+    "Reviewed"
+   ],
+   "reach": "",
+   "impact": "- Research (mostly white papers on how to use the curriculum to support learning and the research underpinning the solution) \n- Case Studies on Eureka Math 2\n - Ex: Public Schools of Robeson County (NC) Case Study\n - _“Eureka Math2_ has really helped teachers have an idea of what instruction should look like. They were able to build more knowledge through it, and some of them learned strategies they had never known just by doing the math themselves...It really did help teachers make better…"
+  },
+  {
+   "id": "recUsEgWQJgp0BVSq",
+   "name": "Express STEPS",
+   "org": "Express Readers",
+   "website": "https://expressreaders.org/shop/curriculum/express-steps-tk-pk/",
+   "description": "Express STEPS – TK Reading Program and Foundational Skills encompasses the entire PK/TK/Early Kindergarten curriculum, including all necessary materials for a comprehensive foundational skills and reading program.\n\nThe curriculum encompasses phonemic awareness, phonics of all basic single-letter sound-spellings, handwriting, early sight words, CVC words, early reading, and additional topics. The resources contain decodable books, hands-on games and manipulatives, student consumables, displays, and teacher resources.",
+   "grades": [
+    "PK",
+    "K"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Direct Instruction"
+   ],
+   "gradAims": [
+    "English Language Arts"
+   ],
+   "leaps": [],
+   "topics": [
+    "Literacy"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "",
+   "impact": ""
+  },
+  {
+   "id": "reccp6ziNDV9DNLew",
+   "name": "Fishtank Learning",
+   "org": "Fishtank Learning Math",
+   "website": "https://www.fishtanklearning.org/",
+   "description": "The goal of our mathematics program is to help all students see themselves as confident and competent mathematicians who are able to apply their math knowledge both in and out of the classroom as global citizens. \n\nOur math curriculum is rooted in the following core beliefs about quality math instruction:\n\nAnchoring standards-aligned, content-rich tasks.\nCommunicating mathematical understanding.\nValuing the process of learning\nMonitoring student progress\nHonoring and building teacher expertise",
+   "grades": [
+    "2",
+    "3",
+    "5",
+    "4",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "cost": [
+    "Free with Paid Options"
+   ],
+   "activities": [
+    "Direct Instruction"
+   ],
+   "gradAims": [
+    "Mathematics"
+   ],
+   "leaps": [],
+   "topics": [
+    "Math"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "",
+   "impact": ""
+  },
+  {
+   "id": "rec4qYOcWtGNGnjvA",
+   "name": "Fishtank Learning ELA",
+   "org": "Fishtank Learning",
+   "website": "https://www.fishtanklearning.org/curriculum/ela/",
+   "description": "Fishtank ELA is a high-quality, knowledge-building English Language Arts curriculum designed to help your students develop into critical readers, writers, and thinkers as they engage with authentic texts that affirm their experiences and expand their perspectives.",
+   "grades": [
+    "K",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "cost": [
+    "Free with Paid Options"
+   ],
+   "activities": [
+    "Direct Instruction"
+   ],
+   "gradAims": [
+    "English Language Arts"
+   ],
+   "leaps": [],
+   "topics": [
+    "Literacy"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "",
+   "impact": ""
+  },
+  {
+   "id": "recNhx2hEJcx1blTo",
+   "name": "Foundations A-Z",
+   "org": "Foundations A-Z",
+   "website": "https://www.foundationsa-z.com/",
+   "description": "Foundations A–Z simplifies teachers’ instructional planning and delivery of foundational skills instruction and complements any core literacy curriculum.\n\n Explicit, easy-to-use lesson plans that teach all critical foundational skills.\n Systematic scope and sequence that guides instruction from simple to complex concepts.\n Videos, games, books, and other multimodal student activities to enhance independent practice.",
+   "grades": [
+    "K",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Direct Instruction"
+   ],
+   "gradAims": [
+    "English Language Arts"
+   ],
+   "leaps": [
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [
+    "Literacy"
+   ],
+   "status": [],
+   "reach": "",
+   "impact": ""
+  },
+  {
+   "id": "recoP8Yli9nRLgg1L",
+   "name": "freshINCedu",
+   "org": "Uncharted Learning",
+   "website": "https://www.unchartedlearning.org/student-programs/freshincedu",
+   "description": "freshINCedu is Uncharted Learning’s project-based entrepreneurship unit for 4th–5th graders, where teams design a product (starting from a “reduce, reuse, recycle” prompt), pitch, and launch it in a real marketplace, with classroom teachers supported by volunteer business mentors. It aligns with ELA, Math, and Social Studies frameworks. Schools receive a comprehensive package (digital curriculum, project-based assessments and rubrics, tools for an online or pop-up marketplace, communication assets, and mentor-recruitment resources) plus onboarding, professional development, and ongoing support.",
+   "grades": [
+    "4",
+    "5"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Project-Based Learning",
+    "Mentoring & Networking"
+   ],
+   "gradAims": [
+    "Professional Skills"
+   ],
+   "leaps": [
+    "Relevance"
+   ],
+   "topics": [
+    "CCL"
+   ],
+   "status": [
+    "Reviewed"
+   ],
+   "reach": "Part of Uncharted Learning network; 500+ schools across 45+ states",
+   "impact": "Unavailable"
+  },
+  {
+   "id": "recIcDptf0w95KPdJ",
+   "name": "From Sounds to Spelling",
+   "org": "From Sounds to Spelling",
+   "website": "https://www.fromsoundstospelling.com/",
+   "description": "From Sounds to Spelling ® empowers Kindergarten, 1st grade, and 2nd grade teachers to deliver and differentiate outstanding phonics instruction. Implemented through straightforward lesson plans, printable posters, and engaging student practice activities/",
+   "grades": [
+    "K",
+    "1",
+    "2"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Direct Instruction"
+   ],
+   "gradAims": [
+    "English Language Arts"
+   ],
+   "leaps": [],
+   "topics": [
+    "Literacy"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "",
+   "impact": "https://edreports.org/reports/overview/from-sounds-to-spelling-2022"
+  },
+  {
+   "id": "rec8ohDkBhhlhCoTQ",
+   "name": "Future Forward Literacy",
+   "org": "Future Forward",
+   "website": "",
+   "description": "https://futureforwardliteracy.org/",
+   "grades": [
+    "K",
+    "1",
+    "2",
+    "3"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Tutoring"
+   ],
+   "gradAims": [
+    "English Language Arts"
+   ],
+   "leaps": [
+    "High Expectations with Rigorous Learning",
+    "Connection & Community"
+   ],
+   "topics": [
+    "Literacy"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "",
+   "impact": "Future Forward has been rigorously evaluated through multiple independent studies using both randomized control trials and regression discontinuity designs. A two-year randomized control trial across seven low-income Milwaukee schools (N=576) found statistically significant gains in foundational literacy skills (ES = +0.23), with 90% of struggling readers meeting literacy benchmarks, compared to 33% in the control group. A 2018–19 regression discontinuity study across 12 schools in Wisconsin…"
+  },
+  {
+   "id": "rec6nbo3i3Il8uWjB",
+   "name": "Galaxy",
+   "org": "Kuder",
+   "website": "https://kuder.com/education-solutions/galaxy/",
+   "description": "An online, game-based career awareness platform for elementary students that uses mascots, videos, and interactive activities to spark curiosity about the world of work and show how school subjects connect to jobs; includes grade-specific experiences and educator resources/lesson supports.",
+   "grades": [
+    "K",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Academic & Career Planning"
+   ],
+   "gradAims": [
+    "Identity & Purpose",
+    "Professional Skills"
+   ],
+   "leaps": [
+    "Relevance",
+    "Agency",
+    "Whole-Child Focus"
+   ],
+   "topics": [
+    "CCL"
+   ],
+   "status": [
+    "Evaluated"
+   ],
+   "reach": "Part of Kuder's platform serving millions of students globally; Galaxy is the elementary tool",
+   "impact": "Unavailable"
+  },
+  {
+   "id": "recgdKzqHogpP4xRN",
+   "name": "Goldi",
+   "org": "Climb Together",
+   "website": "https://www.climbtogether.co/goldi",
+   "description": "Goldi: Social Capital AI Voice Chat Bot that helps students build the real-world relationships that lead to jobs.\n\nUnlike most AI tools that hand students the answers, Goldi knows that what opens doors is conversation. Goldi initiates dialogue using a unique voice-to-voice AI technology because that's where students actually need practice. Young people today are fluent in texting; what they're less practiced in is talking — holding a conversation, asking good questions, and making someone feel genuinely heard. Using Socratic dialogue, Goldi helps students workshop their own story — clarifying their strengths, finding their voice, and building the confidence to engage others in real dialogue.\n\nStudents discover how the hidden job market really works and how \"weak ties\" — acquaintances, alumni, local professionals — can unlock opportunities they never knew existed. These aren't just…",
+   "grades": [
+    "PS",
+    "Adults"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Mentoring & Networking"
+   ],
+   "gradAims": [
+    "Professional Skills"
+   ],
+   "leaps": [
+    "Relevance",
+    "Agency",
+    "Customization"
+   ],
+   "topics": [
+    "CCL"
+   ],
+   "status": [
+    "Evaluated",
+    "Deprioritized"
+   ],
+   "reach": "Not publicly reported; emerging platform",
+   "impact": "Unavailable"
+  },
+  {
+   "id": "recoSY37xYtcDCq0i",
+   "name": "Greenfield Expeditions",
+   "org": "AF Greenfield",
+   "website": "https://sites.google.com/transcendeducation.org/greenfield-resource-toolkit/greenfield-expeditions?authuser=0",
+   "description": "Greenfield Expeditions is a school-based program (originated in Achievement First’s Greenfield model) that immerses grades 5–8 students in two-week, hands-on mini-courses offered multiple times per year to give real-world exposure to careers and spark passion and purpose. During each expedition, students choose topics, learn from professionals and community partners, go on field lessons, work in small teams to tackle authentic problems, and present their learning in a culminating showcase; schools typically run three rounds annually. The design aims to build self-awareness, community engagement, and a clear “personal why” while making career paths tangible (examples span journalism, orchestra, medicine, “Mini Med School,” and even Mars rover driving).",
+   "grades": [
+    "K",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8"
+   ],
+   "cost": [
+    "Free"
+   ],
+   "activities": [
+    "Project-Based Learning",
+    "Job Shadowing"
+   ],
+   "gradAims": [],
+   "leaps": [
+    "Relevance",
+    "Agency",
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [
+    "CCL"
+   ],
+   "status": [
+    "Documented"
+   ],
+   "reach": "Not publicly reported",
+   "impact": "Unavailable"
+  },
+  {
+   "id": "rec1UiBBT29iQQOVH",
+   "name": "HMH Read 180",
+   "org": "HMH",
+   "website": "https://www.hmhco.com/programs/read-180",
+   "description": "Supporting an MTSS approach, Read 180 integrates research around personalized best practices, adaptive technology, instructional strategies based on the science of reading, and scaffolded support for reading independently. Students receive systematic, explicit instruction and practice of foundational literacy skills to develop their fluency, expand vocabulary and strengthen comprehension skills to become proficient, skillful readers.\n\nESSA: READ 180 is a blended learning program designed for struggling readers who are reading 2 or more years below grade level. It combines online and direct instruction, student assessment, and teacher professional development. READ 180 is delivered in 45- to 90-minute sessions that include whole-group instruction, three small-group rotations, and whole-class wrap-up. Small-group rotations include individualized instruction using an adaptive computer…",
+   "grades": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Direct Instruction"
+   ],
+   "gradAims": [
+    "English Language Arts"
+   ],
+   "leaps": [
+    "Customization",
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [
+    "Literacy"
+   ],
+   "status": [
+    "Documented"
+   ],
+   "reach": "",
+   "impact": "Five studies of READ 180 met inclusion standards. Two of these had statistically significant positive effects in comparison to control groups, qualifying READ 180 for the “Strong” category. These were studies in Western Massachusetts (effect size =+0.18) and Milwaukee (effect size =+0.14). A Florida study found positive outcomes for students at moderate risk, but negative effects for students at high risk, with an average effect size of +0.12. Studies in Newark (NJ) and Memphis found no…"
+  },
+  {
+   "id": "recQsgvricNcWhwVK",
+   "name": "IB Career-Related Programme",
+   "org": "International Baccalaureate (IB)",
+   "website": "https://www.ibo.org/",
+   "description": "IB Career-related Programme (IBCP) is a grades 11–12 (ages 16–19) pathway that blends at least two IB Diploma Programme (DP) courses with an approved, locally chosen career-related study (CRS), all tied together by the CP core: Personal & Professional Skills, Service Learning, Language Development, and the Reflective Project. Students study the DP courses and CRS concurrently, using the core to connect academic rigor with real-world preparation; the Reflective Project—an in-depth investigation of an ethical issue arising from the CRS—is assessed in school and moderated/graded by the IB (A–E). The model is designed for flexibility (schools pick CRS aligned to regional demand) while maintaining a common IB spine that builds transferable skills, professional dispositions, and career readiness.",
+   "grades": [
+    "10",
+    "11",
+    "12"
+   ],
+   "cost": [
+    "Cost associated",
+    "Funding available"
+   ],
+   "activities": [
+    "Project-Based Learning",
+    "Work-Based Learning"
+   ],
+   "gradAims": [
+    "Higher Order Thinking Skills",
+    "World Languages",
+    "Professional Skills"
+   ],
+   "leaps": [
+    "Relevance",
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [
+    "CCL"
+   ],
+   "status": [
+    "Documented"
+   ],
+   "reach": "Part of IB's 5,700+ school network in 160 countries; CP offered in 300+ schools",
+   "impact": "Unavailable (CP-specific outcome data not publicly broken out from broader IB data)"
+  },
+  {
+   "id": "rec0CT9dAnpMcYupm",
+   "name": "Imagine IM [6-8]",
+   "org": "Imagine Learning (formerly LearnZillion)",
+   "website": "https://www.imaginelearning.com/products/math/imagine-im/",
+   "description": "\"Imagine IM’s print and digital solution is driven by student discourse, built around focus, coherence, and rigor, and equips students to thrive.\"",
+   "grades": [
+    "6",
+    "7",
+    "8"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Direct Instruction"
+   ],
+   "gradAims": [
+    "Mathematics"
+   ],
+   "leaps": [
+    "Relevance",
+    "Connection & Community",
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [
+    "Math"
+   ],
+   "status": [
+    "Reviewed"
+   ],
+   "reach": "",
+   "impact": "- On website (testimonials):\n - \"The gains that I am seeing are pretty remarkable! Improvement is happening, growth is happening, and students are just becoming more comfortable\" (Jeanette W., 6th grade teacher, Holmes Junior High School \n- ESSA Effectiveness \n - Impact Evaluation of Imagine Learning Illustrative Mathematics in Fort Zumwalt School District (Moderate)\n - \"A significant positive impact of IL Illustrative Math on student mathematics achievement was observed for middle school…"
+  },
+  {
+   "id": "rec41LX31xhenIl6Y",
+   "name": "Imagine IM [9-12]",
+   "org": "Imagine Learning (formerly LearnZillion)",
+   "website": "https://www.imaginelearning.com/products/math/imagine-im/",
+   "description": "\"Imagine IM’s print and digital solution is driven by student discourse, built around focus, coherence, and rigor, and equips students to thrive.\"",
+   "grades": [
+    "HS - AGA"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Direct Instruction"
+   ],
+   "gradAims": [
+    "Mathematics"
+   ],
+   "leaps": [
+    "Relevance",
+    "Connection & Community",
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [
+    "Math"
+   ],
+   "status": [
+    "Reviewed"
+   ],
+   "reach": "",
+   "impact": "- ESSA Effectiveness \n - Imagine IM Logic Model (demonstrates a rationale)"
+  },
+  {
+   "id": "recZi7U1GPnVEj3PP",
+   "name": "Imagine IM [K-5]",
+   "org": "Imagine Learning (formerly LearnZillion)",
+   "website": "https://www.imaginelearning.com/products/math/imagine-im/",
+   "description": "\"Imagine IM’s print and digital solution is driven by student discourse, built around focus, coherence, and rigor, and equips students to thrive.\"",
+   "grades": [
+    "K",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Direct Instruction"
+   ],
+   "gradAims": [
+    "Mathematics"
+   ],
+   "leaps": [
+    "Relevance",
+    "Connection & Community",
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [
+    "Math"
+   ],
+   "status": [
+    "Reviewed"
+   ],
+   "reach": "",
+   "impact": "- On website (testimonials):\n - Ex: \"Our math performance has skyrocketed! We had an increase of 30% of our students on or above grade level from fall to spring and that is absolutely due to having a high-quality curricula resource in front of our students and giving out teachers the support that they need to implement that well.\" (Dr. Nicole R., Executive Director of Curriculum and Instruction, CCSD59) \n- ESSA Effectiveness \n - Impact Evaluation of Imagine Learning Illustrative Mathematics in…"
+  },
+  {
+   "id": "recgD0ttHpAdR4XW3",
+   "name": "Imagine Language & Literacy",
+   "org": "Imagine Learning",
+   "website": "https://www.imaginelearning.com/products/ela/language-and-literacy/",
+   "description": "Imagine Language & Literacy accelerates reading and language proficiency in grades PreK to 6. Designed to supplement core literacy instruction, it addresses all four domains of literacy—reading, writing, listening, and speaking. Through a standards-aligned scope and sequence, students develop critical skills in phonological awareness, phonics, fluency, vocabulary, and comprehension. With adaptive instruction, extensive scaffolding, and first-language support, the program is uniquely qualified to address diverse instructional needs of today’s learners.\n\nImagine Language & Literacy fits flexibly into the literacy instructional block, as well as into station or computer lab rotations. It can also be used for pull-in or push-out instructional time; teacher-led whole-class instruction; one-to-one intervention; small-group instruction; before- or after-school programs; and summer school.…",
+   "grades": [
+    "PK",
+    "K",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Direct Instruction",
+    "Blended Learning"
+   ],
+   "gradAims": [
+    "English Language Arts"
+   ],
+   "leaps": [
+    "High Expectations with Rigorous Learning",
+    "Customization"
+   ],
+   "topics": [
+    "Literacy"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "",
+   "impact": "https://www.imaginelearning.com/wp-content/uploads/2022/11/LNL-Moline-Coal-Valley-Research-Brief.pdf?v=0824"
+  },
+  {
+   "id": "recOlKGG3JbTezof3",
+   "name": "ImBlaze",
+   "org": "Big Picture Learning",
+   "website": "https://www.imblaze.org/",
+   "description": "Developed by Big Picture Learning, platform that helps schools coordinate, scale, and track interest-driven real-world learning experiences (internships, apprenticeships, etc)with attendance tracking, compliance, student reflections, and mentor feedback",
+   "grades": [
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Work-Based Learning",
+    "Academic & Career Planning"
+   ],
+   "gradAims": [],
+   "leaps": [
+    "Relevance",
+    "Agency",
+    "Customization",
+    "Connection & Community"
+   ],
+   "topics": [
+    "CCL"
+   ],
+   "status": [
+    "Reviewed"
+   ],
+   "reach": "Used across Big Picture Learning's 150+ school network in U.S. and internationally",
+   "impact": "Big Picture Learning schools report 90%+ graduation rates vs. national averages; specific ImBlaze platform impact not separately reported"
+  },
+  {
+   "id": "rec5sqcMyxHFqpbTH",
+   "name": "INCubatoredu (+ ACCELeratoredu)",
+   "org": "Uncharted Learning",
+   "website": "https://www.unchartedlearning.org/student-programs/incubatoredu-high-school-entrepreneurship",
+   "description": "A full-year high-school entrepreneurship sequence: Year 1 (INCubatoredu) has teams validate ideas with volunteer mentors and pitch for real funding; Year 2 (ACCELeratoredu) focuses on company formation, traction, and scaling in an accelerator-style environment. Programs include PD, evergreen curriculum, and implementation support; some districts also partner with higher-ed for dual/college credit.",
+   "grades": [
+    "10",
+    "11",
+    "12"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Project-Based Learning",
+    "Mentoring & Networking",
+    "Work-Based Learning"
+   ],
+   "gradAims": [
+    "Professional Skills"
+   ],
+   "leaps": [
+    "Relevance",
+    "Agency",
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [
+    "CCL"
+   ],
+   "status": [
+    "Reviewed"
+   ],
+   "reach": "Part of Uncharted Learning network; 500+ schools across 45+ states",
+   "impact": "Unavailable"
+  },
+  {
+   "id": "rec8D9lvFhDZTekkU",
+   "name": "Intelligent Tutoring for the Structure Strategy",
+   "org": "literacy.IO",
+   "website": "https://www.literacy.io/research-legacy/itss/",
+   "description": "The text structure strategy is a unique approach to combining content and strategy together making reading comprehension instruction transparent and well-scaffolded for all learners. Children who are reading below, at, and above grade level ALL make strong improvements in reading comprehension when they learn how to use and apply the text structure strategy. Teachers agree that the text structure strategy is quite different than what their textbooks have been recommending for reading comprehension. The text structure strategy was developed around 1975 by Dr. Bonnie J.F. Meyer and has been refined over 40+ years of research. The latest version of the model and implementation calls for framing reading comprehension practices such as summarizing, inferencing, elaboration, and comprehension monitoring using the five text structures and nested structures (e.g., comparison, problem and…",
+   "grades": [
+    "4",
+    "5",
+    "6",
+    "7",
+    "8"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Tutoring"
+   ],
+   "gradAims": [
+    "English Language Arts"
+   ],
+   "leaps": [
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "",
+   "impact": "ITSS was evaluated in 108 7th grade classrooms in 25 rural and suburban schools. These were randomly assigned to receive the program or serve as controls. On the Gray Silent Reading Test, the effect size after 6-7 months was +0.18, qualifying ITSS for the “Strong” category. Positive effects were also found in grades 4 and 5.\n\nPublished papers: https://www.literacy.io/results/"
+  },
+  {
+   "id": "recZmuD0sfh200Sxn",
+   "name": "Khan Academy",
+   "org": "Khan Academy",
+   "website": "https://www.khanacademy.org/",
+   "description": "\"Khan Academy offers practice exercises, instructional videos, and a personalized learning dashboard that empower learners to study at their own pace in and outside of the classroom.\"\n\nA personalized learning resource for all ages: with practice exercises, instructional videos, and a personalized learning dashboard, Khan Academy empowers learners to study at their own pace, both in and out of the classroom. Covering subjects from kindergarten through early college, including math, science, reading, computing, history, art history, economics, financial literacy, SAT, MCAT, and more, Khan Academy focuses on skill mastery to help learners build the strong foundations they need to succeed in higher education and in their careers.",
+   "grades": [
+    "PK",
+    "K",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "PS",
+    "All",
+    "Adults"
+   ],
+   "cost": [
+    "Free"
+   ],
+   "activities": [
+    "Direct Instruction"
+   ],
+   "gradAims": [
+    "Mathematics",
+    "Natural Sciences",
+    "Computer Science",
+    "English Language Arts",
+    "Social Studies & Civics",
+    "World Languages",
+    "Physical Education & Health",
+    "Higher Order Thinking Skills",
+    "Learning Strategies & Habits",
+    "Practical Life Skills",
+    "Professional Skills"
+   ],
+   "leaps": [],
+   "topics": [
+    "Math"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "",
+   "impact": ""
+  },
+  {
+   "id": "recOZ9V77nXYpSyJI",
+   "name": "Khanmigo",
+   "org": "Khan Academy",
+   "website": "https://districts.khanacademy.org/khanmigo",
+   "description": "Khanmigo is an AI-powered teaching assistant and tutor developed by Khan Academy, designed to guide students through problems rather than simply giving answers. It serves as a 24/7 tutor for learners and a planning tool for educators, featuring over 25 tools for lesson planning, differentiation, and personalized, Socratic-style tutoring.",
+   "grades": [
+    "K",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "HS",
+    "Adult"
+   ],
+   "cost": [
+    "Free"
+   ],
+   "activities": [
+    "Tutoring"
+   ],
+   "gradAims": [
+    "Mathematics"
+   ],
+   "leaps": [
+    "Customization"
+   ],
+   "topics": [
+    "Math"
+   ],
+   "status": [
+    "Reviewed"
+   ],
+   "reach": "",
+   "impact": "- Testimonial: \"By facilitating misconceptions where students are struggling with certain answers, Khanmigo will push and ask them guiding questions to get them to come to the conclusion on their own.” (VP at Newark Public Schools)"
+  },
+  {
+   "id": "rec8JMbqUALansdka",
+   "name": "Kiddom",
+   "org": "Kiddom",
+   "website": "https://www.kiddom.co/",
+   "description": "\"Kiddom bundles great curriculum with impactful technology to help your entire learning community rapidly and efficiently implement with fidelity.\"",
+   "grades": [
+    "K",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "HS",
+    "Adult"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Direct Instruction"
+   ],
+   "gradAims": [
+    "Mathematics"
+   ],
+   "leaps": [
+    "Customization",
+    "Agency",
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [
+    "Math"
+   ],
+   "status": [
+    "Reviewed"
+   ],
+   "reach": "",
+   "impact": "- Testimonials + Case Studies (testimonials): \n - Ex: “If I could describe Kiddom in three words, it would be One Stop Shop.” (Blake Schmidt, Ross Elementary)\n - Ex: \"Kiddom is great for assessing data and then assigning appropriate work based on individual student performance. I love that it's very easy to attach standards and rubric to every assignment.\" (Jackie Curts, Elementary School Teacher) \n - How Eagle Peak Montessori Uses Kiddom to Differentiate Instruction (math)"
+  },
+  {
+   "id": "recUQ6FrefGE7aI5c",
+   "name": "Letterland",
+   "org": "Keys to Literacy",
+   "website": "https://us.letterland.com/",
+   "description": "Letterland is a complete phonemic awareness, phonics, spelling, and handwriting program for Pre-K through Grade 3. Young children learn letter sounds and phonics patterns through story-based characters that are visually embedded in letters. Letterland uses a structured, systematic phonics sequence aligned with the science of reading. It is the most engaging program we have seen for teaching foundational reading skills, using a multi-sensory approach to activate learning through visuals, music, movement, art, and role-play.",
+   "grades": [
+    "PK",
+    "K",
+    "1",
+    "2",
+    "3"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Direct Instruction"
+   ],
+   "gradAims": [
+    "English Language Arts"
+   ],
+   "leaps": [
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [
+    "Literacy"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "55+ years, 110+ countries teaching with Letterland, 1,000,000+ ABC books sold",
+   "impact": "In Kindergarten, Gateway 1 materials establish a strong foundation in alphabet knowledge, phonemic awareness, early phonics, word recognition, introductory word analysis, and emergent fluency. Instruction is grounded in frequent teacher modeling, multisensory routines, guided and independent practice, and cumulative review to support accuracy and automaticity. Assessments are embedded throughout the year to monitor progress and guide small-group instruction and reteaching. While early decoding…"
+  },
+  {
+   "id": "recPHeDyT4aPvg675",
+   "name": "Lexia PowerUp Literacy",
+   "org": "Lexia",
+   "website": "https://www.lexialearning.com/powerup",
+   "description": "Lexia ® PowerUp Literacy ® accelerates literacy gains for students in grades 6–12 who are at risk of not meeting College- and Career-Ready Standards. Proven to be up to 5x as effective as the average middle school intervention, PowerUp enables students to make multiple years of growth in a single academic year.\n\nWith more than 40 years' experience delivering science of reading-based solutions, Lexia’s literacy experts designed PowerUp to maximize student learning through a truly personalized experience that addresses individual skill gaps and impacts reading proficiency and academic success. This targeted approach allows each student to make literacy gains quickly and develop the reading and critical thinking skills necessary to meet the demands of secondary curriculum and beyond.",
+   "grades": [
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Direct Instruction"
+   ],
+   "gradAims": [
+    "English Language Arts"
+   ],
+   "leaps": [
+    "Customization",
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [
+    "Literacy"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "",
+   "impact": "- Students who used PowerUp scored significantly higher than control students on a standardized test of reading achievement.\n- PowerUp students scored 40+ scaled points higher than control students on the reading achievement test.\n- PowerUp students gained the equivalent of 10 percentile points more than control students on the reading achievement test.\n- Benefits of using PowerUp were found equally across subgroups—Black/African American, White/Caucasian, general education, and special…"
+  },
+  {
+   "id": "recTkq3doFn9jVhXU",
+   "name": "Literacy Tutoring and Workforce Model",
+   "org": "Read USA",
+   "website": "https://www.readusainc.com/literacy-tutoring-program",
+   "description": "The READ USA Literacy Tutoring and Workforce Development model pairs trained teenage (and early college) tutors with elementary students who are currently reading below grade level. Tutors, working as paid staff, deliver one-on-one literacy support and are supervised by certified reading teachers who coach them during sessions. The model addresses two interconnected challenges: improving reading proficiency among struggling elementary students and developing workforce-readiness skills among teenagers, most of whom are from under-resourced communities.",
+   "grades": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Tutoring",
+    "Work-Based Learning"
+   ],
+   "gradAims": [
+    "English Language Arts",
+    "Professional Skills"
+   ],
+   "leaps": [
+    "Relevance",
+    "Connection & Community",
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [
+    "CCL",
+    "Literacy"
+   ],
+   "status": [
+    "Documented"
+   ],
+   "reach": "Not publicly reported",
+   "impact": "Unavailable"
+  },
+  {
+   "id": "recQ9a7cS3csFQEWT",
+   "name": "LiteracyPlanet",
+   "org": "LiteracyPlanet",
+   "website": "www.literacyplanet.com",
+   "description": "Founded on the science of reading, LiteracyPlanet is a research-based online, English language arts platform that guides students on a personalized journey to proficiency in phonics, sight words, spelling, reading comprehension, and grammar. Suitable for Kindergarten to Grade 10, the curriculum-aligned content is at the core of a high engagement, gamified environment that compels student learning while teachers benefit from time-saving processes and reliable, actionable insights.",
+   "grades": [
+    "K",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Direct Instruction",
+    "Blended Learning"
+   ],
+   "gradAims": [
+    "English Language Arts"
+   ],
+   "leaps": [
+    "Customization"
+   ],
+   "topics": [
+    "Literacy"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "500+ schools, 125,000+ students, 40+ countries",
+   "impact": "https://www.literacyplanet.com/case-studies/"
+  },
+  {
+   "id": "recJ3ngHH6nYyXkow",
+   "name": "LitLab",
+   "org": "LitLab",
+   "website": "https://www.litlab.ai/gallery/v2?author=staff&sequence=ufli",
+   "description": "A decodables platform that lets teachers access 1,000+ curriculum-aligned decodable stories or generate their own, with assignments designed to build oral reading fluency; libraries are organized to match phonics sequences (e.g., UFLI), and each story displays its decodability and target patterns.",
+   "grades": [
+    "K",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "PK",
+    "10",
+    "12"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Direct Instruction"
+   ],
+   "gradAims": [],
+   "leaps": [
+    "Relevance",
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [
+    "CCL"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "Not publicly reported; emerging edtech",
+   "impact": "Unavailable"
+  },
+  {
+   "id": "recR4AFtyieDrdtE4",
+   "name": "Magpie Literacy K-12 Foundations",
+   "org": "Magpie Literacy",
+   "website": "https://www.magpie.org/tools/",
+   "description": "Magpie’s K–2 digital literacy tool delivers a responsive, instructionally precise experience with just 45–60 minutes of weekly student use and minimal teacher training (only one hour). It integrates seamlessly into literacy, intervention, or tutoring blocks and includes Stanford University’s Rapid Online Assessment of Reading—all at an affordable $17 per student, less than half the cost of similar tools.",
+   "grades": [
+    "K",
+    "1",
+    "2"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Tutoring",
+    "Direct Instruction"
+   ],
+   "gradAims": [
+    "English Language Arts"
+   ],
+   "leaps": [
+    "Customization"
+   ],
+   "topics": [
+    "Literacy"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "",
+   "impact": "A **quasi-experimental study** with Mathematica in a large anchor district in Texas found that kindergarten students using Magpie for 8+ weeks made **statistically significant gains** on DIBELS and Stanford’s ROAR assessments, especially those in the lowest proficiency quartile. These results meet **ESSA Tier 2 evidence standards**, and a **randomized controlled trial (Tier 1)** is launching in SY25–26 to further validate efficacy.\n\nIn Little Rock Public Schools, Magpie users showed **large…"
+  },
+  {
+   "id": "reckgnJS3BzoiDg74",
+   "name": "Microsociety",
+   "org": "Microsociety",
+   "website": "https://www.microsociety.org/",
+   "description": "MicroSociety is a whole-school, career-connected learning model (most common in K–8) where students build and run a real “mini city” inside the school—launching student-led businesses, electing a government, operating a bank and marketplace, publishing media, and even managing a peer court. “Micro time” (often a daily 30–60-minute block or weekly extended block) becomes the applied context for core academics: students earn a school currency, hold jobs, write policies, pay taxes/rent, keep books, and solve authentic problems, while teachers intentionally tie the work to standards in ELA, math, social studies, and STEM. Schools typically partner with local mentors to add industry authenticity. The model aims to build entrepreneurship, financial literacy, civic agency, collaboration, and problem-solving—and to make the world of work tangible long before high school.",
+   "grades": [
+    "K",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Project-Based Learning"
+   ],
+   "gradAims": [
+    "Practical Life Skills",
+    "Professional Skills"
+   ],
+   "leaps": [
+    "Relevance",
+    "Agency",
+    "Connection & Community"
+   ],
+   "topics": [
+    "CCL"
+   ],
+   "status": [
+    "Documented"
+   ],
+   "reach": "200+ schools across 40 states; tens of thousands of students over 50+ year history",
+   "impact": "Unavailable"
+  },
+  {
+   "id": "rec57I4rQNiFhXYEX",
+   "name": "MobileMakersEdu (+ MobileMakersStudio)",
+   "org": "Uncharted Learning",
+   "website": "https://www.unchartedlearning.org/student-programs/mobilemakersedu",
+   "description": "Year 1 teaches students to build working iOS apps using Swift and Xcode in a semester or full-year course, with a digital library of lessons, rubrics, and optional AP CSP alignment; Year 2 (Studio) adds client management and “dev-shop” practice, culminating in client projects and an “internship-ready” portfolio. Programs include multi-day PD led by iOS developers and implementation consulting (including connecting to industry partners/internship opportunities).",
+   "grades": [
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Project-Based Learning"
+   ],
+   "gradAims": [
+    "Professional Skills",
+    "Computer Science"
+   ],
+   "leaps": [
+    "Relevance",
+    "Agency",
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [
+    "CCL"
+   ],
+   "status": [
+    "Reviewed"
+   ],
+   "reach": "Part of Uncharted Learning network; 500+ schools across 45+ states",
+   "impact": "Unavailable"
+  },
+  {
+   "id": "rec5IKuAYK5fgV0Yw",
+   "name": "mxINCedu",
+   "org": "Uncharted Learning",
+   "website": "https://www.unchartedlearning.org/student-programs/mxincedu-middle-school-entrepreneurship",
+   "description": "A semester-length, project-based entrepreneurship course where teams identify a problem, design and pitch a solution, get feedback from local business mentors, and sell via a class e-commerce “marketplace.” The curriculum is standards-aligned and designed for 30–40 instructional periods, with membership including comprehensive lesson plans, assessments, teacher training, and ongoing support.",
+   "grades": [
+    "6",
+    "7",
+    "8"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Project-Based Learning",
+    "Mentoring & Networking"
+   ],
+   "gradAims": [
+    "Professional Skills"
+   ],
+   "leaps": [
+    "Relevance"
+   ],
+   "topics": [
+    "CCL"
+   ],
+   "status": [
+    "Reviewed"
+   ],
+   "reach": "Part of Uncharted Learning network; 500+ schools across 45+ states",
+   "impact": "Unavailable"
+  },
+  {
+   "id": "rec13W77DwckppuPI",
+   "name": "myView Literacy",
+   "org": "Savvas Learning Company",
+   "website": "https://www.savvas.com/solutions/literacy/core-programs/myview-literacy",
+   "description": "myView Literacy is a structured and interactive core-literacy program for Grades K-5, aligned to the Science of Reading. Through research based practices, authentic literature, including mentor texts, teachers can inspire growing readers and writers.",
+   "grades": [
+    "K",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Direct Instruction"
+   ],
+   "gradAims": [
+    "English Language Arts"
+   ],
+   "leaps": [],
+   "topics": [
+    "Literacy"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "",
+   "impact": ""
+  },
+  {
+   "id": "recV7ys1Y3XHOhkVX",
+   "name": "NAF Career Academies",
+   "org": "NAF",
+   "website": "https://naf.org/",
+   "description": "National nonprofit that partners with schools and businesses to create small, career-themed academies within high schools—offering industry-aligned curricula and work-based learning",
+   "grades": [
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "cost": [
+    "Cost associated",
+    "Free"
+   ],
+   "activities": [
+    "Project-Based Learning",
+    "Work-Based Learning",
+    "Job Shadowing",
+    "Mentoring & Networking",
+    "College & Career Fairs"
+   ],
+   "gradAims": [
+    "Professional Skills"
+   ],
+   "leaps": [
+    "Relevance",
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [
+    "CCL"
+   ],
+   "status": [
+    "Documented"
+   ],
+   "reach": "112,000+ students; 634 academies across 34 states (2024-25); 99% senior graduation rate; 650K+ alumni",
+   "impact": "99% senior graduation rate (2024-25); 90% of graduates plan to go to college; 201 academies achieved Distinguished quality level in 2022-23"
+  },
+  {
+   "id": "rec6LDunVP46OV6t2",
+   "name": "Navigator",
+   "org": "Kuder",
+   "website": "https://kuder.com/education-solutions/navigator/",
+   "description": "A college- and career-readiness platform with validated assessments (career interests, skills confidence, and work values), exploration tools, education/grad planning, job-prep resources, and college access tools like transcript/recommendation requests (via Parchment), scholarship search, FAFSA guidance, and entrance-exam courses—plus reporting for educators.",
+   "grades": [
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Work-Based Learning",
+    "Academic & Career Planning",
+    "College Visits"
+   ],
+   "gradAims": [
+    "Learning Strategies & Habits",
+    "Practical Life Skills",
+    "Identity & Purpose",
+    "Productive Mindsets & Self-Regulation"
+   ],
+   "leaps": [
+    "Relevance",
+    "Agency",
+    "Customization"
+   ],
+   "topics": [
+    "CCL"
+   ],
+   "status": [
+    "Evaluated"
+   ],
+   "reach": "Part of Kuder's platform serving millions of students globally; Navigator is the secondary/adult tool",
+   "impact": "Unavailable"
+  },
+  {
+   "id": "recBQlGYsSP163Mlm",
+   "name": "NC Education Corps (NCEC)",
+   "org": "NC Education Corps (NCEC)",
+   "website": "https://nceducationcorps.org/",
+   "description": "Education Corps partners with school districts to provide in-person high-dosage literacy tutoring to low-performing K-5 students. Its program is designed primarily for students in grades K-3 who score below grade-level benchmarks on early literacy skills. Education Corps assists schools in implementing in-person high-dosage literacy tutoring, including: recruiting and screening tutors (who are then selected and hired by schools); aligning and scheduling tutoring to complement core instruction within schools; providing pre-service tutor training and coaching to tutors throughout the school year; providing progress monitoring and impact evaluation support to schools throughout the school year and after; and advising schools on how to find funding to pay for tutoring. Prior to the start and throughout the course of each school year, Education Corps’ team members work with school-based MTSS…",
+   "grades": [
+    "K",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Tutoring"
+   ],
+   "gradAims": [
+    "English Language Arts"
+   ],
+   "leaps": [
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [
+    "Literacy"
+   ],
+   "status": [
+    "Documented"
+   ],
+   "reach": "Since 2020:\n\n-1,265 total corps members  hired and trained\n-41 total districts served\n-22,000+ total students served",
+   "impact": "https://nceducationcorps.org/impact/"
+  },
+  {
+   "id": "recHOrV25oWo2nhEt",
+   "name": "Nebraska Department of Education Career Exploration Lesson Plans",
+   "org": "Nebraska Department of Education",
+   "website": "https://www.education.ne.gov/nce/careerdevelopment/lesson-plans/career-exploration-lesson-plans/#:~:text=Students%20will%20categorize%20occupations%20or,technology%20Manages%20personal%20career%20development",
+   "description": "The Nebraska Department of Education’s Career Exploration Lesson Plans are ready-to-use, standards-based activities that introduce elementary and early middle-grade students to careers and the Nebraska Career Education model. The collection includes lessons like Career Bingo (grade 3), Career Interests/Jeopardy (grade 4), and multiple grade 5 investigations (e.g., “A Day in the Life,” online exploration, product-to-career mapping), plus grade 6 research on high-skill/high-wage/high-demand jobs in Nebraska. Each plan lists Nebraska Career Readiness Standards addressed, provides step-by-step facilitation and handouts, and often includes simple pre/post perception checks (e.g., a “Data Catcher”).",
+   "grades": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "cost": [
+    "Free"
+   ],
+   "activities": [
+    "Academic & Career Planning",
+    "Social Emotional Learning"
+   ],
+   "gradAims": [],
+   "leaps": [
+    "Relevance"
+   ],
+   "topics": [
+    "CCL"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "State-level resource; available to NE public schools (~330K K-12 students statewide)",
+   "impact": "Unavailable"
+  },
+  {
+   "id": "recWalUuLVwgWOwXN",
+   "name": "NuVu Studio Learning",
+   "org": "NuVu",
+   "website": "https://nuvux.nuvustudio.com/",
+   "description": "Provides K–12 schools with project-based “studio” curricula, a platform (NuFolio), and coaching to help teachers integrate real-world design experiences that foster creativity, problem-solving, and innovation.",
+   "grades": [
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Project-Based Learning",
+    "Work-Based Learning",
+    "Academic & Career Planning"
+   ],
+   "gradAims": [
+    "Professional Skills",
+    "Higher Order Thinking Skills"
+   ],
+   "leaps": [
+    "Relevance",
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [
+    "CCL"
+   ],
+   "status": [
+    "Documented"
+   ],
+   "reach": "Small-scale innovation studio; hundreds of students in Cambridge, MA and partner schools",
+   "impact": "Unavailable"
+  },
+  {
+   "id": "recKhU9bMMIOrWIWJ",
+   "name": "Open Court Reading",
+   "org": "McGraw Hill",
+   "website": "https://www.mheducation.com/prek-12/program/microsites/MKTSP-THA19M01?srsltid=AfmBOoprHjVue7Tyz2Yp-kMuGqPehxmd8JR1dn4WQ-Wq-9snmMa8-pjO",
+   "description": "Open Court Reading Evidence for Science of Reading brochure\nBuilt on the Science of Reading, Validated by Research\nFor more than 60 years, research has been the mainstay of Open Court Reading. Built upon findings from original learning theory and cognitive science, and balanced with teacher input and modern research on literacy development, Open Court Reading delivers undeniable results for learners at every level.\n\nInstruction that Turns Research into Action\nThe Science of Reading is only a body of research unless it's made actionable. Through systematic, explicit instruction and a scope and sequence that follows a purposeful progression of skills—first build a strong foundation, then build upon that foundation— Open Court Reading empowers teachers to turn research into action every day.\n\nFoundations for Lifelong Literacy\nLiteracy research consistently shows that complex learning…",
+   "grades": [
+    "K",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Direct Instruction"
+   ],
+   "gradAims": [
+    "English Language Arts"
+   ],
+   "leaps": [
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [
+    "Literacy"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "",
+   "impact": "In a three-year study involving over 375,000 students in more than 700 schools, Open Court Reading schools achieved 50 to 75 percent higher reading gains\\* than nonOpen Court Reading schools. The program made the biggest difference in schools with\nconcentrations of Low Socioeconomic Status (low-SES) students. \n\nThe What Works Clearinghouse™ (WWC) report examined two studies that meet Every Student Succeeds Act (ESSA) criteria: one meeting Tier 1 (Strong Evidence) criteria and the other meeting…"
+  },
+  {
+   "id": "recdjUTodVbpcXBOJ",
+   "name": "Orton-Gillingham Plus",
+   "org": "Institute for Multi-Sensory Education",
+   "website": "https://imse.com/programs/og/",
+   "description": "The IMSE Orton-Gillingham Plus (OG+) Curriculum equips educators with the essential strategies, tools, and resources to effectively teach foundational literacy skills. Designed for seamless implementation across all Response to Intervention (RTI) tiers, OG+ provides explicit guidance on adjusting instructional scaffolds to support intervention, core instruction, and acceleration based on student needs. The curriculum also includes specialized resources to support English Learners, ensuring equitable access to effective literacy instruction.\n\nOG+ covers all critical components of structured literacy, including phonological awareness, phonics, word analysis, spelling, fluency, vocabulary, comprehension, and writing. Embedded ongoing assessments allow educators to monitor student progress and make data-driven instructional decisions to meet the needs of all learners.\n\nThe OG+ Curriculum…",
+   "grades": [
+    "K",
+    "1",
+    "2"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Direct Instruction"
+   ],
+   "gradAims": [
+    "English Language Arts"
+   ],
+   "leaps": [
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [
+    "Literacy"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "",
+   "impact": ""
+  },
+  {
+   "id": "recZZZaLnuNKkT2ik",
+   "name": "Ownership is the Future",
+   "org": "Ownership is the Future",
+   "website": "https://www.ownershipisthefuture.org/",
+   "description": "Supports Black high school juniors and seniors to develop an ownership mindset by guiding them to launch enterprises—from an initial “Idea Fest” and summer intensive through a credit-bearing senior-year course to postsecondary support and investment from mentor-investors.",
+   "grades": [
+    "11",
+    "12"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Mentoring & Networking",
+    "Academic & Career Planning",
+    "Work-Based Learning",
+    "Student Leadership",
+    "Social Emotional Learning"
+   ],
+   "gradAims": [
+    "Professional Skills",
+    "Practical Life Skills",
+    "Productive Mindsets & Self-Regulation"
+   ],
+   "leaps": [
+    "Relevance",
+    "Agency"
+   ],
+   "topics": [
+    "CCL"
+   ],
+   "status": [
+    "Documented"
+   ],
+   "reach": "Not publicly reported; emerging internship model",
+   "impact": "Unavailable"
+  },
+  {
+   "id": "recbRHoH8NOKGrgzz",
+   "name": "P-TECH",
+   "org": "P-TECH",
+   "website": "https://skillsbuild.org/students",
+   "description": "P-TECH (Pathways in Technology Early College High School) is a grade 9–14 model that integrates high school, college, and industry so students earn a high school diploma plus an associate degree (typically in 4–6 years) in fields aligned to local labor demand (e.g., IT, advanced manufacturing, healthcare). Each program is a three-way partnership—district + community college + employer(s)—that co-designs curriculum, sequences dual/early-college coursework, and provides work-based learning (mentoring, workplace visits, job shadows, and often paid internships). Students receive individualized advising and academic supports, and many sites cover college tuition/fees. Graduates exit with industry-relevant skills, a college credential, and priority hiring consideration from partner employers.",
+   "grades": [
+    "9",
+    "10",
+    "11",
+    "12",
+    "PS"
+   ],
+   "cost": [
+    "Free"
+   ],
+   "activities": [
+    "Work-Based Learning",
+    "Project-Based Learning",
+    "Job Shadowing",
+    "Mentoring & Networking"
+   ],
+   "gradAims": [
+    "Professional Skills"
+   ],
+   "leaps": [
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [
+    "CCL"
+   ],
+   "status": [
+    "Documented"
+   ],
+   "reach": "300+ schools in 30+ countries; tens of thousands of students globally",
+   "impact": "P-TECH students earn associate degrees at significantly higher rates than comparison peers; graduates report strong employment outcomes in technology and professional fields"
+  },
+  {
+   "id": "recW64Z57430GRScO",
+   "name": "Pathful Connect",
+   "org": "Pathful",
+   "website": "https://www.pathful.com/connect",
+   "description": "Pathful Connect (formerly Nepris) is a K–12, live virtual work-based learning platform that brings industry professionals into classrooms for career chats, virtual job shadows/field trips, mock interviews, résumé reviews, and project mentoring—closing geography and access gaps while Pathful’s team helps source, vet, and prep volunteers. Educators request sessions from a network of 58k+ professionals representing 5,000+ companies, and manage everything—scheduling, logistics, and student engagement—on a scalable platform with reporting to track activity and outcomes. Pathful Connect is part of the broader Pathful career-readiness system created by merging Nepris with Virtual Job Shadow, and is used by districts and partners (e.g., SkillsUSA) to expand authentic career exposure at scale.",
+   "grades": [
+    "K",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Mentoring & Networking",
+    "Academic & Career Planning",
+    "College & Career Fairs"
+   ],
+   "gradAims": [
+    "Professional Skills"
+   ],
+   "leaps": [
+    "Relevance",
+    "Connection & Community"
+   ],
+   "topics": [
+    "CCL"
+   ],
+   "status": [
+    "Reviewed"
+   ],
+   "reach": "Serves thousands of schools; connects students with professionals virtually",
+   "impact": "Unavailable"
+  },
+  {
+   "id": "recde8u7Y7ZNAhnrz",
+   "name": "Pathways to Potential",
+   "org": "Willow",
+   "website": "https://www.willowed.org/",
+   "description": "A platform and curriculum to support career exploration, that can be leveraged in an advisory setting,",
+   "grades": [
+    "9",
+    "10",
+    "11",
+    "12",
+    "8",
+    "PS"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Direct Instruction",
+    "Blended Learning",
+    "Academic & Career Planning"
+   ],
+   "gradAims": [
+    "Professional Skills",
+    "Identity & Purpose"
+   ],
+   "leaps": [
+    "Relevance",
+    "Agency",
+    "Whole-Child Focus"
+   ],
+   "topics": [
+    "CCL"
+   ],
+   "status": [
+    "Evaluated",
+    "Development"
+   ],
+   "reach": "Not publicly reported; emerging platform",
+   "impact": "Unavailable"
+  },
+  {
+   "id": "recWk2UpSX5JGVKgZ",
+   "name": "Prelude Learn and Earn Internship",
+   "org": "Prelude",
+   "website": "https://www.joinprelude.org/",
+   "description": "Prelude partners with schools and employers to offer year-long, paid internships and professional development seminars for high school students from lower-income communities, helping them gain skills, connections, and economic mobility.",
+   "grades": [
+    "11",
+    "12"
+   ],
+   "cost": [
+    "Cost associated",
+    "Funding available"
+   ],
+   "activities": [
+    "Work-Based Learning",
+    "Mentoring & Networking",
+    "Blended Learning"
+   ],
+   "gradAims": [
+    "Professional Skills"
+   ],
+   "leaps": [
+    "Agency",
+    "Connection & Community"
+   ],
+   "topics": [
+    "CCL"
+   ],
+   "status": [
+    "Documented"
+   ],
+   "reach": "Not publicly reported; emerging internship model",
+   "impact": "Unavailable"
+  },
+  {
+   "id": "recxupKoaE2VsFopi",
+   "name": "Project Lead the Way (PLTW) APB Model",
+   "org": "Project Lead the Way (PLTW)",
+   "website": "http://pltw.org/",
+   "description": "Project-based PreK–12 curricula in STEM and career pathways—empowering students to develop critical thinking, problem-solving, and technical skills that prepare them for college, careers, and beyond",
+   "grades": [
+    "K",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "cost": [
+    "Cost associated",
+    "Funding available"
+   ],
+   "activities": [
+    "Project-Based Learning"
+   ],
+   "gradAims": [
+    "Mathematics",
+    "Natural Sciences",
+    "Computer Science"
+   ],
+   "leaps": [
+    "Relevance",
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [
+    "CCL"
+   ],
+   "status": [
+    "Documented"
+   ],
+   "reach": "3M+ students; 12,500+ schools in all 50 states",
+   "impact": "PLTW students are 5-10x more likely to pursue STEM degrees; independent research shows gains in problem-solving, critical thinking, and collaboration"
+  },
+  {
+   "id": "recTBsTVf8bqT6Vak",
+   "name": "Purpose, Durable Skills, and Wellbeing Solution",
+   "org": "nXu",
+   "website": "https://www.nxueducation.org/",
+   "description": "nXu Education is a nonprofit offering a research-based, CASEL-approved and NACE-aligned K–12 curriculum that develops students’ purpose, durable skills, and wellbeing while integrating career exploration. Schools get a flexible, six-part solution with 700+ lessons (25- or 50–60-minute formats) plus educator training and implementation support. nXu also provides a validated assessment system, and partner evaluations report growth in students’ sense of purpose and SEL after implementation.",
+   "grades": [
+    "K",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "cost": [
+    "Cost associated",
+    "Funding available"
+   ],
+   "activities": [
+    "Social Emotional Learning"
+   ],
+   "gradAims": [
+    "Identity & Purpose",
+    "Productive Mindsets & Self-Regulation",
+    "Relationship Skills"
+   ],
+   "leaps": [
+    "Whole-Child Focus",
+    "Agency",
+    "Connection & Community"
+   ],
+   "topics": [
+    "CCL"
+   ],
+   "status": [
+    "Documented"
+   ],
+   "reach": "100+ schools; thousands of students",
+   "impact": "Unavailable"
+  },
+  {
+   "id": "recGKTnIVJhhbxsCw",
+   "name": "Read 180 Flex",
+   "org": "HMH",
+   "website": "https://www.hmhco.com/programs/read-180",
+   "description": "Read 180 Flex: Tier 2 and 3 intervention for core classrooms\nOur new offering, Read 180 Flex, is streamlined to fit into the core classroom. It includes:\n\nStudent Application from Phonics to Fluency to Comprehension\nIndependent Reading\nNWEA MAP Growth & Reporting Suite\nTeacher Success Pathway",
+   "grades": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Direct Instruction"
+   ],
+   "gradAims": [
+    "English Language Arts"
+   ],
+   "leaps": [
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [
+    "Literacy"
+   ],
+   "status": [
+    "Documented"
+   ],
+   "reach": "",
+   "impact": ""
+  },
+  {
+   "id": "recyXjl6NK0t1AOk5",
+   "name": "Read STOP Write",
+   "org": "Strong Literacy",
+   "website": "https://www.readstopwrite.com/",
+   "description": "Read STOP Write is a research-based program that uses a novel approach to integrating foundational skills, vocabulary, reading comprehension, and writing instruction within the context of authentic informational text reading in order to improve students’ reading achievement, writing quality, and motivation to read informational text.\n\nCurriculum resources for Read STOP Write include Teacher Lesson Plans, Student Guidebook Materials, and Slide Decks for each lesson. To use these materials in your school or classroom, you will also need to access the freely available texts at ReadWorks.org that are linked in the Program Overview for each grade. For Grades 4–5, the program includes 24 weeks of lessons in each grade for teachers to explicitly teach students how to use an instructional routine when reading and writing about a grade-level informational text over four days of 30-minute…",
+   "grades": [
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+   ],
+   "cost": [
+    "Free"
+   ],
+   "activities": [
+    "Direct Instruction"
+   ],
+   "gradAims": [
+    "English Language Arts"
+   ],
+   "leaps": [
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [
+    "Literacy"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "",
+   "impact": "https://www.readstopwrite.com/research/"
+  },
+  {
+   "id": "rec2bDQF5dZGtSrXd",
+   "name": "Read USA",
+   "org": "Read USA",
+   "website": "https://www.readusainc.com/",
+   "description": "The READ USA Literacy Tutoring and Workforce Development model pairs trained teenage (and early college) tutors with elementary students who are currently reading below grade level. Tutors, working as paid staff, deliver one-on-one literacy support and are supervised by certified reading teachers who coach them during sessions. The model addresses two interconnected challenges: improving reading proficiency among struggling elementary students and developing workforce-readiness skills among teenagers, most of whom are from under-resourced communities.",
+   "grades": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Work-Based Learning",
+    "Tutoring"
+   ],
+   "gradAims": [
+    "English Language Arts",
+    "Professional Skills"
+   ],
+   "leaps": [
+    "Connection & Community",
+    "Agency"
+   ],
+   "topics": [
+    "Literacy"
+   ],
+   "status": [
+    "Documented"
+   ],
+   "reach": "5,300+ Students; 1,995+ Teen Tutors; 395+ Teachers",
+   "impact": "In a Randomized Controlled Trial conducted by Ohio State University, READ USA students demonstrated accelerated reading growth, with equal effectiveness across all demographics. 📑READ USA Impact Report 2024 <https://drive.google.com/file/d/1AF2brp0HD4QssGWYAv8Jb8uL-rk_fxqg/view?usp=drive_link> 📑Literacy Growth Proven <https://drive.google.com/file/d/1JoYqyC0SxcRcisdd0oYzZbdjElkZ8zm_/view> \nStudents were 68% more likely to increase a performance level on the Florida Assessment of Student…"
+  },
+  {
+   "id": "rec7CJrWhQrTkPs3M",
+   "name": "Reading Corps",
+   "org": "AmeriCorps",
+   "website": "https://readingandmath.org/about/high-impact-tutoring/",
+   "description": "At Reading Corps, Math Corps, and Early Learning Corps, we deliver high-impact, evidence-based tutoring in reading and math. We support students from preschool through eighth grade with personalized, one-on-one and small-group instruction tailored to each learner's needs.\n\nTo maximize the impact, we equip our AmeriCorps tutors with comprehensive training and continuous coaching, so they can deliver research-backed strategies that accelerate learning and build student confidence.",
+   "grades": [
+    "K",
+    "1",
+    "2",
+    "3"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Tutoring"
+   ],
+   "gradAims": [
+    "English Language Arts"
+   ],
+   "leaps": [
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [
+    "Literacy"
+   ],
+   "status": [],
+   "reach": "Reading Corps has served 416,931 students.\n\nWe have trained and mobilized over 29,000 AmeriCorps members to serve as tutors. \n\nWe have partnered with more than 2,750 schools across the country to provide high-impact tutoring services.",
+   "impact": "Students who received Reading Corps tutoring demonstrated growth in phonics, reading fluency, and oral reading fluency scores that were equivalent to an extra 50%-90% of a year of schooling.\n\nTwo randomized studies have evaluated the literacy outcomes of Reading Corps. Both were student randomized studies, one taking place in 24 schools across Minnesota and the other in 10 schools in Milwaukee, Wisconsin. The evaluation in Minnesota involved 622 K-3 students in a mix of urban and rural schools,…"
+  },
+  {
+   "id": "recwJWVgTuYvz6ebV",
+   "name": "Reading Horizons Discovery",
+   "org": "Reading Horizons",
+   "website": "https://readinghorizons.com/reading-curriculum/elementary-reading-curriculum/",
+   "description": "Reading Horizons® Discovery (RHD) is a product suite for K–3 foundational literacy, designed for educators and students across all tiers of instruction, offering specific areas of emphasis to address various instructional settings. It brings together over 40 years of evidence-based, proven methodology and features versatile\nliteracy instruction that enables mastery of foundational reading skills, including phonemic awareness, decoding, high-frequency words, and spelling.",
+   "grades": [
+    "K",
+    "1",
+    "3",
+    "2"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Direct Instruction"
+   ],
+   "gradAims": [
+    "English Language Arts"
+   ],
+   "leaps": [
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [
+    "Literacy"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "",
+   "impact": ""
+  },
+  {
+   "id": "recqZTlMfj9Xov5ER",
+   "name": "Reading Recovery",
+   "org": "Reading Recovery",
+   "website": "",
+   "description": "Reading Recovery is a highly effective short-term intervention of one-to-one tutoring for low-achieving first graders. Reading Recovery serves the lowest-achieving first graders—the students who struggle to catch on to the complexity of reading and writing in their regular classroom instruction. Students receive a half-hour lesson each school day for 12 to 20 weeks, one-on-one with a specially trained teacher so they can catch up with their peers.",
+   "grades": [
+    "1"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Direct Instruction"
+   ],
+   "gradAims": [
+    "English Language Arts"
+   ],
+   "leaps": [
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [
+    "Literacy"
+   ],
+   "status": [
+    "Documented"
+   ],
+   "reach": "\"At one point, Reading Recovery was in every state. But school districts have been dropping the program – today, it's in nearly 2,000 schools in 41 states, according to the most recent data.\" - NPR",
+   "impact": "Reading Recovery has been evaluated in four qualifying studies (many other studies did not qualify because they only reported outcomes for successful students, or used developer-made measures). In comparison to control groups, the average effect size across the four studies was +0.43 on measures such as ITBS, CAT, Woodcock, and Gates. These outcomes qualify Reading Recovery for the “Strong” category, and for an evidence badge (at least two studies with “Strong” ratings)."
+  },
+  {
+   "id": "recHADNnRWI0eJf9P",
+   "name": "Really Great Reading",
+   "org": "Really Great Reading",
+   "website": "https://www.reallygreatreading.com/",
+   "description": "",
+   "grades": [
+    "K",
+    "1",
+    "3",
+    "2",
+    "4",
+    "5",
+    "6",
+    "7",
+    "9",
+    "8",
+    "10",
+    "11",
+    "12"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Direct Instruction"
+   ],
+   "gradAims": [
+    "English Language Arts"
+   ],
+   "leaps": [
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [
+    "Literacy"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "3.5M students served, 250K teachers impacted (\"Providing 250K educators with effective tools and resources to improve literacy instruction\"),",
+   "impact": "<https://www.reallygreatreading.com/about-rgr/research>\n\nRGR's programs, grounded in research and validated through real-word implementation, consistently show meaningful improvement in student literacy outcomes. A **meta analysis** of RGR’s approach confirms what educators experience in classrooms every day: students show strong, lasting growth in literacy skills.\n1. Consistent gains in literacy outcomes.\n2. Statistically significant impact across student groups.\n3. Sustained growth over…"
+  },
+  {
+   "id": "recCjZ05y9mdXKQuM",
+   "name": "RePublic Schools CS For All",
+   "org": "RePublic Schools",
+   "website": "https://republiccharterschools.org/",
+   "description": "RePublic Schools’ CS for All model is a K–12 commitment that ensures every student takes computer science each year, with a vertically aligned pathway from elementary through high school. Middle school and 9th-grade courses are built to AP Computer Science Principles standards so all students gain a common foundation, then in 11th grade learners choose either a workforce-readiness track or a second college-level AP CS course. Instruction is project-based—students practice the full development cycle (research, design, code, test, present)—and the program emphasizes real skills like coding, app development, and robotics, with school-level data showing broad AP CS participation.",
+   "grades": [
+    "K",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "cost": [
+    "Free",
+    "Cost associated"
+   ],
+   "activities": [
+    "Direct Instruction",
+    "Project-Based Learning"
+   ],
+   "gradAims": [
+    "Computer Science"
+   ],
+   "leaps": [
+    "Relevance",
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [
+    "CCL"
+   ],
+   "status": [
+    "Documented"
+   ],
+   "reach": "Not publicly reported",
+   "impact": "Unavailable"
+  },
+  {
+   "id": "recxoEAx6c9t3inBE",
+   "name": "Scholastic Literacy Pro",
+   "org": "Scholastic, Inc.",
+   "website": "https://education.scholastic.com/education/programs/literacypro.html",
+   "description": "Literacy Pro is a complete, blended solution for independent and instructional reading in grades K-8. It allows teachers to effectively manage personalized reading experiences for all students, in and out of school, online and in print, 24/7. Students are motivated to read with choice and access to high-quality, engaging texts, while educators are provided with actionable data about reading levels, comprehension, and activities to inform instruction.\n\nLiteracy Pro allows educators and administrators to track student reading, which is recommended for at least 20 minutes per day. Students set reading goals, read ebooks, track both digital and print reading, complete comprehension checks, and rate and review books. The program also includes instructional support that allows for flexible implementation.",
+   "grades": [
+    "K",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Direct Instruction",
+    "Blended Learning"
+   ],
+   "gradAims": [
+    "English Language Arts"
+   ],
+   "leaps": [
+    "Customization",
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [
+    "Literacy"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "Students spent 67 million minutes reading on Literacy Pro last year.",
+   "impact": "<https://online.flippingbook.com/view/197727137/?appesp=SES/intraapp/202312//foundation/research/cc1/cardlist1/litpro/read/////>\n\nhttps://online.flippingbook.com/view/634349791/?appesp=SES/intraapp/202312//reliabilitystudy/research/cc3/cardlist1/litpro/learnmore/////"
+  },
+  {
+   "id": "recZhmjZkcmEOjNLt",
+   "name": "Science and Engineering Apprenticeship Program (SEAP)",
+   "org": "Naval STEM",
+   "website": "https://www.navalsteminterns.us/seap/",
+   "description": "SEAP places high-school students in Department of Navy laboratories for eight weeks of summer research, pairing them with top scientists and engineers in a competitive, paid program that fosters STEM careers through meaningful mentorship and hands-on experience",
+   "grades": [
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "cost": [
+    "Free"
+   ],
+   "activities": [
+    "Work-Based Learning",
+    "Mentoring & Networking"
+   ],
+   "gradAims": [],
+   "leaps": [
+    "Relevance",
+    "Agency",
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [
+    "CCL"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "~300–400 students per summer across DoD labs nationwide",
+   "impact": "Unavailable"
+  },
+  {
+   "id": "recFvP3YTLm5t2Jyy",
+   "name": "SEE Learning",
+   "org": "Emory",
+   "website": "https://seelearning.emory.edu/",
+   "description": "\"SEE Learning® (Social, Emotional, and Ethical Learning) is a comprehensive curriculum for students from ages 3-19 developed at Emory University that advances the field of social and emotional learning by incorporating the science of compassion. SEE Learning provides students and educators worldwide with an evidence-based program that cultivates compassionate individuals, schools, and communities.\"",
+   "grades": [
+    "PK",
+    "K",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "cost": [],
+   "activities": [
+    "Social Emotional Learning"
+   ],
+   "gradAims": [
+    "Productive Mindsets & Self-Regulation",
+    "Relationship Skills",
+    "Identity & Purpose"
+   ],
+   "leaps": [
+    "Whole-Child Focus"
+   ],
+   "topics": [
+    "Community & Indv Well-being",
+    "Elementary",
+    "MS",
+    "HS"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "170+ countries accessing SEE Learning\n600+ certified facilitators\n60+ International affiliates",
+   "impact": "\"SEE Learning has been recognized as an evidence-based program that has demonstrated impacts on social and emotional development, motivation, and classroom climate. Specifically:\n- Studies have demonstrated increases in students' perspective-taking and empathic concern.\n- Studies have shown that SEE Learning mitigates the typical decreases in perspective-taking and empathic concern observed during the school year, especially during end-of-year exam periods.\n- Studies have highlighted the value…"
+  },
+  {
+   "id": "recloXLMuFHPjuxtp",
+   "name": "Sound Partners",
+   "org": "Voyager Sopris Learning",
+   "website": "",
+   "description": "Sound Partners is a 1-1 tutoring program that uses paraprofessionals as tutors. Students receive tutoring 30 minutes a day, 4 days a week, for 18-20 weeks. The tutoring is somewhat different in kindergarten and first grade but at both grade levels it focuses on phonics, phonemic awareness, sight words, and oral reading practice using decodable texts.",
+   "grades": [
+    "K",
+    "1"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Tutoring"
+   ],
+   "gradAims": [
+    "English Language Arts"
+   ],
+   "leaps": [
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [
+    "Literacy"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "",
+   "impact": "Two studies, one at the kindergarten level and the other at the first grade level, qualified for the review. The average effect size was +0.58 on measures from the Woodcock Reading Mastery Test and CTOPP. These met the criteria for the ESSA “Strong” category, and for “Solid Outcomes” (two studies with effect sizes of at least +0.20). Follow-up studies of the kindergartners and first graders both found positive effects maintained two years later on word reading and comprehension."
+  },
+  {
+   "id": "recyVPnW7WwXoe1Y1",
+   "name": "Strategic Instruction Model (SIM)",
+   "org": "KU Center for Research and Learning",
+   "website": "https://sim.ku.edu/",
+   "description": "The Strategic Instruction Model (SIM), created by the University of Kansas Center for Research on Learning, is a multi-tiered approach to adolescent literacy. SIM emphasizes teaching routines that allow teachers to organize and present curriculum content in straightforward, easy-to-learn ways and provide students with tools to solve problems independently. In combination with SIM tools, additional interventions to affect schoolwide literacy efforts are organized through the Content Literacy Continuum (CLC). Instructional routines and learning strategies are applied across classes by content and support teachers. Further support and intensive instruction is provided to struggling readers through the Learning Strategies Curriculum (LSC), which is currently disseminated under the names Xtreme Reading and Fusion Reading. These provide an additional daily period of reading instruction…",
+   "grades": [
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Direct Instruction",
+    "Tutoring"
+   ],
+   "gradAims": [
+    "English Language Arts"
+   ],
+   "leaps": [
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [
+    "Literacy"
+   ],
+   "status": [
+    "Documented"
+   ],
+   "reach": "",
+   "impact": "<https://sim.ku.edu/sim-impact>\n\nESSA: A total of six studies met standards. Five involved targeted forms of SIM and one involved CLC. Outcomes were remarkably consistent, with four of the six effect sizes falling in the range from +0.07 to +0.15, with an average of +0.10. Several of the outcomes were statistically significant, qualifying SIM for the “Strong” category."
+  },
+  {
+   "id": "rech1mBrdoIXXOVQF",
+   "name": "Success Bound",
+   "org": "Success Bound",
+   "website": "https://successbound.org/success-bound-curriculum/the-success-bound-curriculum/",
+   "description": "Middle-school curriculum that helps students explore their identity, develop academic and life skills, and plan for high school and beyond through equity-focused lessons",
+   "grades": [
+    "6",
+    "7",
+    "8"
+   ],
+   "cost": [
+    "Free"
+   ],
+   "activities": [
+    "Academic & Career Planning",
+    "Social Emotional Learning",
+    "College Visits",
+    "College & Career Fairs"
+   ],
+   "gradAims": [
+    "Learning Strategies & Habits",
+    "Practical Life Skills"
+   ],
+   "leaps": [
+    "Relevance"
+   ],
+   "topics": [
+    "CCL"
+   ],
+   "status": [
+    "Documented"
+   ],
+   "reach": "Not publicly reported; emerging internship model",
+   "impact": "Unavailable"
+  },
+  {
+   "id": "recic8nMKLS2v4p1o",
+   "name": "Success for All",
+   "org": "Success for All Foundation",
+   "website": "https://www.successforall.org/",
+   "description": "For more than three decades, Success for All has helped children to read, learn and succeed through our cooperative learning strategies and proven, research-based programs. Our approach aligns, supports and inspires students, parents, teachers and administration to work together to create an engaging and effective learning environment. SFA offers both schoolwide and targeted programs",
+   "grades": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "6",
+    "5",
+    "7",
+    "8",
+    "K"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Direct Instruction",
+    "Tutoring"
+   ],
+   "gradAims": [
+    "English Language Arts"
+   ],
+   "leaps": [
+    "High Expectations with Rigorous Learning",
+    "Connection & Community",
+    "Customization"
+   ],
+   "topics": [
+    "Literacy"
+   ],
+   "status": [
+    "Documented"
+   ],
+   "reach": "",
+   "impact": "Success for All is the most extensively evaluated of all comprehensive school-reform programs, and studies have used the most rigorous standards.\nA meta-analysis of research on twenty-nine models categorized Success for All as one of only three programs with the “Strongest Evidence of Effectiveness.” (Borman, Hewes, Overman, and Brown 2003)\nSuccess for All was evaluated in a three-year randomized control trial, the “gold standard” of research, funded by the U.S. Department of Education between…"
+  },
+  {
+   "id": "rec6OaJWy1DFP0hhB",
+   "name": "Take-Everywhere Literacy Packs",
+   "org": "Just Right Reader, Inc.",
+   "website": "https://justrightreader.com/pages/take-everywhere-packs",
+   "description": "Personalized Learning Anytime, Anywhere From Pre-K to 5th Grade Just Right Reader's personalized Take-Everywhere Literacy Packs™ provide a powerful practice of skills ranging from early phonics to advanced word study and language comprehension. Just Right Reader’s decodable texts contain QR codes linked to instructional videos, making the decodable texts and phonics skills lessons more accessible to students, families, and teachers. This digital component reinforces phonics skills with a 2-minute video lesson in either English or Spanish and dubbed in 14 additional languages. Each video introduces the book, previews the targeted skill, models the skill, and shows examples directly from the text, enabling readers to apply the phonics skill authentically to each book. This digital component sets Just Right Reader’s decodable texts apart from others, is central to the successful use of the…",
+   "grades": [
+    "K",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Blended Learning"
+   ],
+   "gradAims": [
+    "English Language Arts"
+   ],
+   "leaps": [
+    "Customization",
+    "Relevance"
+   ],
+   "topics": [
+    "Literacy"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "",
+   "impact": "ESSA Level II: https://21778604.fs1.hubspotusercontent-na1.net/hubfs/21778604/Research/JRR%20Take%20Everywhere%20Packs%20Brief%202025%20-%20ESSA%20Level%202.pdf"
+  },
+  {
+   "id": "recbAIK2EHZk6Roe5",
+   "name": "Targeted Skills Instruction",
+   "org": "Edmentum",
+   "website": "https://www.edmentum.com/resources/brochures/targeted-small-group-instruction/",
+   "description": "Targeted Skills Instruction is a live, small-group virtual tutoring program for K-12 reading and math, delivered in 30–45-minute sessions three or more times per week. Each session follows a gradual release model of direct instruction, collaborative, guided practice and independent work with tutor support. Instruction is supported by Edmentum’s Exact Path Growth, a computer-adaptive supplemental program.",
+   "grades": [
+    "K",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Direct Instruction",
+    "Tutoring"
+   ],
+   "gradAims": [
+    "English Language Arts"
+   ],
+   "leaps": [
+    "High Expectations with Rigorous Learning",
+    "Connection & Community",
+    "Customization"
+   ],
+   "topics": [
+    "Literacy"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "",
+   "impact": "Across one regression discontinuity study including 1,077 students in grades 3, 4 and 6, Edmentum’s virtual small-group tutoring program, Targeted Skills Instruction (TSI), demonstrated a positive impact on ELA outcomes. The study was conducted across 23 schools in a large urban New Jersey district during the 2024-2025 academic year. Students were assigned to TSI based on fall Exact Path Insights diagnostic scores at or below the 25th percentile. Tutoring was delivered virtually in small groups…"
+  },
+  {
+   "id": "rec73wGWemBNhTGPR",
+   "name": "Teach to One Roadmaps",
+   "org": "New Classrooms",
+   "website": "https://teachtoone.org/roadmaps/",
+   "description": "\"Teach to One Roadmaps is a robust toolkit focused on stemming math learning loss and enabling acceleration.\"\n\nAt the core of Teach to One Roadmaps is the recognition that math is cumulative, and students must master foundational skills before progressing to more advanced topics. And the best path to proficiency in math is a personalized one.\n\nEducators nationwide trust Teach to One Roadmaps to make their lives easier by creating rigorous math learning experiences that complement their core instruction to meet each student where they are and help them get to where they need to be.\n\nTeach to One Roadmaps helps students build their conceptual, procedural, and application-based math knowledge on both grade-level and the relevant pre-grade skills. Using skill-focused, differentiated math resources for teachers and students and real-time data and analytics, every student is prepared for what…",
+   "grades": [
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "HS - Algebra I"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Direct Instruction"
+   ],
+   "gradAims": [
+    "Mathematics"
+   ],
+   "leaps": [
+    "Customization",
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [
+    "Math"
+   ],
+   "status": [
+    "Reviewed",
+    "Documented"
+   ],
+   "reach": "",
+   "impact": "- On website: \"Teachers agree: Teach to One gives students a more personalized and precise pathway to proficiency than any other math curriculum.\" \n- Independent Study Confirms Teach to One Roadmaps Provides Students with a Pathway to Proficiency on State Math Assessments (see study)\n - \"Researchers at ACS Ventures found that a student’s progress on_ Teach to One Roadmaps_ was “highly correlated with state assessment scores and were a significant predictor of performance on the state…"
+  },
+  {
+   "id": "recWjP5QQo2rYpsHi",
+   "name": "Teamship",
+   "org": "District C",
+   "website": "https://www.districtc.co/teamship/",
+   "description": "Teamship is a reimagined internship experience where high school students work in diverse teams to address real business problems, guided by an expert educator-coach",
+   "grades": [
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Project-Based Learning",
+    "Work-Based Learning",
+    "Mentoring & Networking"
+   ],
+   "gradAims": [
+    "Professional Skills",
+    "Learning Strategies & Habits",
+    "Higher Order Thinking Skills"
+   ],
+   "leaps": [
+    "Connection & Community",
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [
+    "CCL"
+   ],
+   "status": [
+    "Evaluated",
+    "Documented",
+    "Watchlist",
+    "Development"
+   ],
+   "reach": "Not publicly reported; emerging platform",
+   "impact": "Unavailable"
+  },
+  {
+   "id": "recTPU0baAknfbRoQ",
+   "name": "The Learning Challenge",
+   "org": "GripTape",
+   "website": "https://www.griptape.org/",
+   "description": "Empowers 14–19-year-olds to lead self-directed, passion-driven learning experiences—providing them with funding, a supportive “Champion,” and complete control over what, how, and when they learn.",
+   "grades": [
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "cost": [
+    "Cost associated",
+    "Free"
+   ],
+   "activities": [
+    "Project-Based Learning",
+    "Metacognitive Learning"
+   ],
+   "gradAims": [
+    "Learning Strategies & Habits"
+   ],
+   "leaps": [
+    "Agency",
+    "Whole-Child Focus",
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [
+    "CCL"
+   ],
+   "status": [
+    "Documented"
+   ],
+   "reach": "10,000+ students served with Learning Challenges since 2016",
+   "impact": "Unavailable"
+  },
+  {
+   "id": "recwuQmhJ5VaVjC0O",
+   "name": "ThinkCERCA Core Curriculum for English Language Arts and Reading",
+   "org": "ThinkCERCA",
+   "website": "https://www.thinkcerca.com/",
+   "description": "",
+   "grades": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "cost": [
+    "Free with Paid Options"
+   ],
+   "activities": [
+    "Direct Instruction"
+   ],
+   "gradAims": [
+    "English Language Arts"
+   ],
+   "leaps": [],
+   "topics": [
+    "Literacy"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "",
+   "impact": "20% writing growth in 8 weeks, 2x reading growth in 1 year, 10 teacher hours saved in 1 week"
+  },
+  {
+   "id": "rec7oLtCK2MRGZzcx",
+   "name": "ThinkCERCA Foundational Reading & Linguistics Course",
+   "org": "ThinkCERCA",
+   "website": "https://www.thinkcerca.com/foundationalreading",
+   "description": "Designed for students in grades 6-12 who are struggling with word recognition, phonological awareness, and decoding. The program follows a science of reading approach in providing systematic and explicit instruction to fill in foundational gaps that adolescent struggling readers will not close on their own or in a secondary Language Arts classroom.",
+   "grades": [
+    "7",
+    "6",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Direct Instruction"
+   ],
+   "gradAims": [
+    "English Language Arts"
+   ],
+   "leaps": [
+    "Customization"
+   ],
+   "topics": [
+    "Literacy"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "",
+   "impact": ""
+  },
+  {
+   "id": "recwn1nY984oJsQvA",
+   "name": "Transfr",
+   "org": "Transfr",
+   "website": "https://transfrinc.com/",
+   "description": "Transfr is a virtual reality platform for career exploration and job-ready skills training, used by secondary schools, higher ed, workforce boards, and employers. Its Transfr Trek library offers 50+ VR job simulations that let students “try on” high-demand careers (e.g., advanced manufacturing, construction, health sciences) and plan next steps, while the Virtual Training Facility provides guided, hands-on practice for industry skills—each module led by a built-in digital coach that gives step-by-step instruction and performance feedback. Programs come with classroom resources and outcomes reporting, and districts can deploy them during CTE courses, after-school, or summer pathways to make exploration and training safe, engaging, and scalable.",
+   "grades": [
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "PS"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Job Shadowing",
+    "Academic & Career Planning"
+   ],
+   "gradAims": [
+    "Professional Skills"
+   ],
+   "leaps": [
+    "Relevance",
+    "Customization",
+    "Agency"
+   ],
+   "topics": [
+    "CCL"
+   ],
+   "status": [
+    "Reviewed"
+   ],
+   "reach": "400,000+ learners; 1,110+ locations; 330+ VR simulations",
+   "impact": "75%+ of surveyed middle and high school students reported VR career exploration simulations informed their career decisions; high self-reported engagement and learning outcomes confirmed by independent research"
+  },
+  {
+   "id": "rec3WN62gw6M8mHXp",
+   "name": "UFLI Foundations",
+   "org": "University of Florida Literacy Institute",
+   "website": "https://ufli.education.ufl.edu/foundations/",
+   "description": "After more than two years of development and pilot testing, we are excited to introduce you to UFLI Foundations, an explicit and systematic program that teaches students the foundational skills necessary for proficient reading. It follows a carefully developed scope and sequence designed to ensure that students systematically acquire each skill needed and learn to apply each skill with automaticity and confidence. The program is designed to be used for core instruction in the primary grades or for intervention with struggling students in any grade.\n\nUFLI Foundations provides teachers with detailed but easy to follow lesson plans that all follow this eight-step routine: \n\nPhonemic Awareness\nVisual Drill\nAuditory Drill\nBlending Drill\nNew Concept\nWord Work\nIrregular Words\nConnected Text\n\nSteps 1 through 4 serve as a warm-up and review of previously taught concepts. Step 5 is an explicit…",
+   "grades": [
+    "K",
+    "1",
+    "2"
+   ],
+   "cost": [
+    "Free"
+   ],
+   "activities": [
+    "Direct Instruction"
+   ],
+   "gradAims": [
+    "English Language Arts"
+   ],
+   "leaps": [],
+   "topics": [
+    "Literacy"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "",
+   "impact": ""
+  },
+  {
+   "id": "rec18sjraFyAIA89j",
+   "name": "Upchieve",
+   "org": "Upchieve",
+   "website": "https://upchieve.org/",
+   "description": "\"...Free, online tutoring and college counseling to low-income middle and high school students across the country. Using our app, students can request help and get matched with a live, volunteer coach in under 5 minutes. We cover 20+ different subjects spanning math, science, humanities, college counseling, and everything in between.\"",
+   "grades": [
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "cost": [
+    "Free",
+    "Cost associated"
+   ],
+   "activities": [
+    "Tutoring"
+   ],
+   "gradAims": [
+    "Mathematics",
+    "Natural Sciences",
+    "Computer Science",
+    "English Language Arts",
+    "Social Studies & Civics"
+   ],
+   "leaps": [
+    "Customization",
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [
+    "Math",
+    "Social Studies",
+    "Science",
+    "Literacy",
+    "Comp3",
+    "MS",
+    "HS",
+    "CCL"
+   ],
+   "status": [],
+   "reach": "36% of eligible schools have at least 1 student on Upchieve",
+   "impact": "- Using Upchieve 9 times causes student test scores to meaningfully increase \n- Student survey data:\n - 97% of students agree that UPchieve helped improve their course grades\n - 93% of students agree that UPchieve helped them accomplish their academic goals\n - 90% of students agree that UPchieve helped them perform better on their homework\n- In 2024:\n - 93% shared Upchieve helped them improve their grades or apply to college\n - 72% of students raised their grade in at least one class from a C…"
+  },
+  {
+   "id": "recagchQoDvIfkmu2",
+   "name": "Venture Lab Career Exploration and Innovation Program",
+   "org": "Venture Lab",
+   "website": "https://venturelab.org/career-exploration/",
+   "description": "A grades 6–8 curriculum that builds entrepreneurial mindsets as students research careers, practice professional communication, use technology for inquiry, and leverage networks; comes with flexible curriculum, a student workbook & instructor guide, an impact post-survey, and PD (3 hours virtual plus up to four 60-minute coaching sessions).",
+   "grades": [
+    "6",
+    "7",
+    "8"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Academic & Career Planning"
+   ],
+   "gradAims": [],
+   "leaps": [
+    "Relevance",
+    "Agency",
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [
+    "CCL"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "747K+ students; 4,425+ schools; 155+ countries (cumulative over 10 years)",
+   "impact": "81% of students expressed increased interest in owning a business after program; 100% reported boost in self-confidence; 92% of educators report feeling more competent teaching entrepreneurship"
+  },
+  {
+   "id": "recLVaO3d4rjfOse4",
+   "name": "When I Grow Up Hands On Play Sets",
+   "org": "KiwiCo",
+   "website": "https://www.kiwico.com/us/store/dp/when-i-grow-up-series-six-pack/6347?kiwiIpr=off&utm_source=Google-g&utm_medium=SHOPPING&utm_content=688721599881&utm_campaign=GGL_SHOPPING_Brand_Store_Performance_All_US_ENG&utm_term=&utm_ad=688721599881&utm_adset=159701740922&utm_placement=&gad_source=1&gad_campaignid=20829964039&gbraid=0AAAAADoJSrzkG6hj88U9jPyVmzLyCziaS&gclid=Cj0KCQjwyIPDBhDBARIsAHJyyVhRC4SWbeNm_jSb1Sz49YcnXiwAPB3YikQxpBI5gJf7E-yWWBXnQyUaAuxaEALw_wcB",
+   "description": "A six-crate bundle that explores science-and-STEM careers through tactile projects (e.g., building a color-changing coral reef, a pom-pom volcano, and dinosaur excavations), with guides and materials that highlight concepts such as marine biology, engineering/design, and thermodynamics.",
+   "grades": [
+    "K",
+    "1",
+    "2",
+    "3"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Work-Based Learning",
+    "Social Emotional Learning"
+   ],
+   "gradAims": [],
+   "leaps": [
+    "Relevance",
+    "Agency"
+   ],
+   "topics": [
+    "CCL"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "KiwiCo has served 40M+ kids across 40+ countries (all products); specific product reach not reported",
+   "impact": "Unavailable"
+  },
+  {
+   "id": "recFjIJb7Aq7dJGKL",
+   "name": "Wilson Fundations",
+   "org": "Wilson Language Training",
+   "website": "http://wilsonlanguage.com/programs/fundations/",
+   "description": "Fundations® K–5 empowers educators with engaging, effective Structured Literacy Tier 1 instruction aligned with the science of reading so students thrive and districts meet their goals. Created by Wilson Language Training®, a trusted leader with more than 40 years of experience, Fundations provides the evidence-based rigor and consistency needed for literacy success in elementary school and beyond.",
+   "grades": [
+    "K",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Direct Instruction"
+   ],
+   "gradAims": [
+    "English Language Arts"
+   ],
+   "leaps": [
+    "High Expectations with Rigorous Learning"
+   ],
+   "topics": [
+    "Literacy"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "",
+   "impact": "https://www.wilsonlanguage.com/knowledge-library/programs/fundations/fundations-evidence-of-effectiveness/"
+  },
+  {
+   "id": "recaKVfYDGMb0zGY9",
+   "name": "Wisconsin Elementary Career Readiness",
+   "org": "Wisconsin Department of Eduation",
+   "website": "https://dpi.wi.gov/sites/default/files/imce/sspw/pdf/Elementary_Career_Readiness_Round_Up_Resource.pdf",
+   "description": "The Wisconsin Elementary Career Readiness – Resource Round Up is a K–5 planning module from DPI that helps schools build and communicate an elementary career-awareness program aligned to state requirements. The slide deck packages rationale/research to secure stakeholder buy-in, recorded implementation tips, and contact info, and it’s organized into six ready-to-use units—Rationale, Classroom Lessons, Surveys & Inventories, Activities, Videos, and Programs—so teams can assemble a grade-banded plan. It anchors to Wisconsin’s Education for Employment (Act 20) and PI 26 framework, highlighting the elementary goals (e.g., why people work, working conditions, training/education levels, workplace expectations, and how school expectations connect to work).",
+   "grades": [
+    "K",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "cost": [
+    "Free"
+   ],
+   "activities": [
+    "Academic & Career Planning",
+    "Direct Instruction"
+   ],
+   "gradAims": [],
+   "leaps": [
+    "Relevance",
+    "Connection & Community"
+   ],
+   "topics": [
+    "CCL"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "State-level resource; available to WI public elementary schools (~470K elementary students statewide)",
+   "impact": "Unavailable"
+  },
+  {
+   "id": "recM4EfvhEEGTqYN3",
+   "name": "Wit & Wisdom",
+   "org": "Great Minds",
+   "website": "https://greatminds.org/english/witwisdom",
+   "description": "Wit & Wisdom™ is a comprehensive K–8 English language arts curriculum crafted to help students build the knowledge and skills they need to be successful readers, exceptional writers, and effective communicators.",
+   "grades": [
+    "K",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Direct Instruction"
+   ],
+   "gradAims": [
+    "English Language Arts"
+   ],
+   "leaps": [],
+   "topics": [
+    "Literacy"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "",
+   "impact": ""
+  },
+  {
+   "id": "recbIpQzK2kV3h7AX",
+   "name": "Xello for Elementary (3-5)",
+   "org": "Xello",
+   "website": "https://xello.world/en/elementary/",
+   "description": "Students complete short, interactive story-based “Missions” (e.g., Interests, Skills, Goal Setting) with simple prerequisites (add interests/skills first) and teacher lesson plans, extensions, and progress tasks/“completion standards” that make it easy to sequence learning across the year and monitor completion.",
+   "grades": [
+    "3",
+    "4",
+    "5"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Academic & Career Planning",
+    "Social Emotional Learning"
+   ],
+   "gradAims": [],
+   "leaps": [
+    "Relevance",
+    "Agency",
+    "Customization"
+   ],
+   "topics": [
+    "CCL"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "Part of Xello's ~8M student, 9,000+ school footprint across North America",
+   "impact": "Unavailable"
+  },
+  {
+   "id": "recbCLbkJcb6BwbTI",
+   "name": "Xello for Elementary (K-2)",
+   "org": "Xello",
+   "website": "https://xello.world/en/elementary/",
+   "description": "A playful, story-driven experience set in Career Town, where young learners investigate six locations, meet community workers, and complete simple reflection activities that build early self-knowledge and awareness of career paths; teachers get ready-made lesson supports and extensions to wrap discussion around the in-app play.",
+   "grades": [
+    "K",
+    "1",
+    "2"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Academic & Career Planning",
+    "Social Emotional Learning"
+   ],
+   "gradAims": [],
+   "leaps": [
+    "Relevance",
+    "Whole-Child Focus",
+    "Agency"
+   ],
+   "topics": [
+    "CCL"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "Part of Xello's ~8M student, 9,000+ school footprint across North America",
+   "impact": "Unavailable"
+  },
+  {
+   "id": "reccHZdtkWvaYtYDK",
+   "name": "Xello for Middle & High School",
+   "org": "Xello",
+   "website": "https://xello.world/en/middle-and-high-school/",
+   "description": "A future-readiness platform that combines self-knowledge assessments (career, personality, learning style), shareable student portfolios, vibrant career & college profiles, and interactive planning tools (including integrated course planning) with a built-in lesson library to build real-world skills. It also streamlines the college application workflow (students request e-transcripts and letters of recommendation, track deliverables, and access ACT/SAT prep via Method Test Prep) and can add a work-based learning module to manage partners and opportunities like job shadows and internships; students can even connect with college ambassador communities for authentic planning conversations.",
+   "grades": [
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "cost": [
+    "Cost associated"
+   ],
+   "activities": [
+    "Academic & Career Planning",
+    "Social Emotional Learning"
+   ],
+   "gradAims": [],
+   "leaps": [
+    "Relevance",
+    "Agency",
+    "Customization",
+    "Whole-Child Focus"
+   ],
+   "topics": [
+    "CCL"
+   ],
+   "status": [
+    "Discovered"
+   ],
+   "reach": "Part of Xello's ~8M student, 9,000+ school footprint across North America",
+   "impact": "75% of surveyed students ranked themselves as most influential voice in postsecondary decisions (2025); 4.1% increase in students choosing four-year colleges YoY"
+  }
+ ]
+}
