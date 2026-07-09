@@ -44,6 +44,21 @@ a Claude artifact for org-wide sharing.
 | `scripts-extract-from-airtable.py` | Reference script used to produce `models.json` from an Airtable export |
 | `dist/model-match.html` | The built, shareable artifact |
 
+## Zero-setup AI for teammates (team-key build)
+
+To hand teammates a copy where AI just works — no key to paste:
+
+```sh
+MODEL_MATCH_API_KEY=sk-ant-... python3 build.py
+```
+
+This writes `dist/model-match-with-key.html` with the key baked in. Share that
+file only inside Transcend (Drive, Slack): anyone who has the file can read
+the key, so create a dedicated, spend-limited key at console.anthropic.com.
+The file is git-ignored so the key never lands in the repo. The public
+`dist/model-match.html` build stays keyless. Note this doesn't change the
+claude.ai-hosted artifact — that host blocks outbound calls regardless.
+
 ## Refreshing the model data
 
 1. Export the fully coded records (those with Activities tagged) from the
