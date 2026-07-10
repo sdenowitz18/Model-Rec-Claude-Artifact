@@ -39,6 +39,22 @@ dist.mkdir(exist_ok=True)
 (dist / "model-match.html").write_text(base.replace("__TEAM_KEY__", ""))
 print(f"dist/model-match.html — {len(base) // 1024} KB, {snapshot['modelCount']} models, snapshot {snapshot['snapshotDate']}")
 
+# Lite build: for recreating as an AI-powered artifact inside a claude.ai
+# chat (where window.claude.complete exists). Keeps Bebas Neue (small),
+# falls back to system fonts for body text, and trims record prose so the
+# whole file is small enough for chat-Claude to reproduce verbatim.
+bebas = "\n".join(b for b in fonts.split("\n") if "Bebas" in b)
+lite_models = json.loads(json.dumps(snapshot))
+for m in lite_models["models"]:
+    m.pop("status", None)
+    for f, cap in (("description", 400), ("reach", 160), ("impact", 200)):
+        if len(m.get(f, "")) > cap:
+            m[f] = m[f][:cap].rsplit(" ", 1)[0] + "…"
+lite_js = json.dumps(lite_models, separators=(",", ":"), ensure_ascii=False).replace("</", "<\\/")
+lite = template.replace("/*__FONTS__*/", bebas).replace("__MODELS_JSON__", lite_js).replace("__TEAM_KEY__", "")
+(dist / "model-match-lite.html").write_text(lite)
+print(f"dist/model-match-lite.html — {len(lite) // 1024} KB (for claude.ai chat-artifact use)")
+
 # Optional internal build with the team key baked in.
 key = os.environ.get("MODEL_MATCH_API_KEY", "").strip()
 if key:

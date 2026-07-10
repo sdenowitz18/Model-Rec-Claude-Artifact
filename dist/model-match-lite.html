@@ -1,0 +1,1257 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Model Match · Transcend</title>
+<style>
+@font-face{font-family:'Bebas Neue';font-style:normal;font-weight:400;font-display:swap;src:url(data:font/woff2;base64,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) format('woff2');}
+
+/* ============ tokens ============ */
+:root{
+  --navy:#1A4C81; --scarlet:#EF464B; --keppel:#59C3B4; --sky:#ADE0EE;
+  --ground:#FFFFFF; --panel:#F4F8FB; --panel-2:#E9F1F7;
+  --ink:#22303C; --ink-soft:#51636F; --line:#C9D9E6;
+  --head:#1A4C81; --link:#1A4C81;
+  --on-navy:#FFFFFF; --on-navy-soft:#ADE0EE;
+  --tag-keppel-bg:#59C3B4; --tag-sky-bg:#ADE0EE; --tag-ink:#0E2A40;
+  --good:#1D7A46; --miss:#B3261E; --neutral:#6B7C88;
+  --focus:#EF464B;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --ground:#0E1F33; --panel:#16304A; --panel-2:#1D3A57;
+    --ink:#DCE8F3; --ink-soft:#9FB6C9; --line:#2E4A66;
+    --head:#ADE0EE; --link:#ADE0EE;
+    --tag-keppel-bg:#59C3B4; --tag-sky-bg:#ADE0EE; --tag-ink:#0E2A40;
+    --good:#6BD59A; --miss:#FF8A85; --neutral:#8AA0B2;
+  }
+}
+:root[data-theme="light"]{
+  --ground:#FFFFFF; --panel:#F4F8FB; --panel-2:#E9F1F7;
+  --ink:#22303C; --ink-soft:#51636F; --line:#C9D9E6;
+  --head:#1A4C81; --link:#1A4C81;
+  --good:#1D7A46; --miss:#B3261E; --neutral:#6B7C88;
+}
+:root[data-theme="dark"]{
+  --ground:#0E1F33; --panel:#16304A; --panel-2:#1D3A57;
+  --ink:#DCE8F3; --ink-soft:#9FB6C9; --line:#2E4A66;
+  --head:#ADE0EE; --link:#ADE0EE;
+  --good:#6BD59A; --miss:#FF8A85; --neutral:#8AA0B2;
+}
+
+/* ============ base ============ */
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  background:var(--ground); color:var(--ink);
+  font-family:'Open Sans', 'Segoe UI', system-ui, sans-serif;
+  font-size:15px; line-height:1.55;
+  -webkit-font-smoothing:antialiased;
+}
+h1,h2,h3{color:var(--head); text-wrap:balance; margin:0}
+.bebas{font-family:'Bebas Neue','Arial Narrow',sans-serif; font-weight:400; letter-spacing:.02em}
+a{color:var(--link)}
+button{font-family:inherit; cursor:pointer}
+button:focus-visible, a:focus-visible, [tabindex]:focus-visible, textarea:focus-visible, input:focus-visible{
+  outline:3px solid var(--focus); outline-offset:2px;
+}
+@media (prefers-reduced-motion: reduce){
+  *,*::before,*::after{animation:none!important; transition:none!important}
+}
+
+.wrap{max-width:880px; margin:0 auto; padding:0 20px}
+
+/* ============ header ============ */
+.topbar{background:var(--navy); color:var(--on-navy)}
+.topbar .wrap{display:flex; align-items:baseline; gap:14px; padding:14px 20px; flex-wrap:wrap}
+.topbar .brand{font-size:30px; color:#FFFFFF; line-height:1}
+.topbar .brand .mm{color:var(--sky)}
+.topbar .tag{color:var(--on-navy-soft); font-size:13px; font-weight:600}
+.topbar button.linky{margin-left:auto; background:none; border:none; color:var(--on-navy-soft); font-weight:700; font-size:13px; text-decoration:underline; padding:4px}
+
+/* ============ home ============ */
+.hero{padding:40px 0 8px}
+.hero h1{font-size:52px; line-height:1.02}
+.hero .accentbar{width:64px; height:6px; background:var(--scarlet); margin:14px 0 16px}
+.hero p.lede{font-size:18px; max-width:62ch; margin:0 0 10px}
+.scope{display:flex; gap:0; flex-wrap:wrap; border:2px solid var(--line); margin:22px 0}
+.scope>div{padding:14px 18px; border-right:2px solid var(--line); flex:1 1 160px; min-width:150px}
+.scope>div:last-child{border-right:none}
+.scope .n{font-family:'Bebas Neue',sans-serif; font-size:30px; color:var(--head); line-height:1}
+.scope .l{font-size:12.5px; color:var(--ink-soft); font-weight:600; text-transform:uppercase; letter-spacing:.06em; margin-top:2px}
+.homecta{display:flex; gap:14px; align-items:center; flex-wrap:wrap; margin:26px 0 34px}
+.btn{border:none; background:var(--scarlet); color:#FFFFFF; font-family:'Bebas Neue',sans-serif; font-size:24px; letter-spacing:.04em; padding:12px 30px 10px; line-height:1.1}
+.btn:hover{filter:brightness(1.06)}
+.btn.secondary{background:none; border:2px solid var(--navy); color:var(--head); font-family:'Open Sans',sans-serif; font-weight:700; font-size:14px; padding:12px 20px}
+:root[data-theme="dark"] .btn.secondary, .dark .btn.secondary{border-color:var(--sky)}
+.howcards{display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:14px; margin:8px 0 36px}
+.howcards .hc{background:var(--panel); border-top:4px solid var(--keppel); padding:16px 18px}
+.howcards .hc:nth-child(2){border-top-color:var(--sky)}
+.howcards .hc:nth-child(3){border-top-color:var(--scarlet)}
+.howcards .hc h3{font-size:22px; margin-bottom:6px}
+.howcards .hc p{margin:0; font-size:13.5px; color:var(--ink-soft)}
+
+/* ============ stepper ============ */
+.stephead{display:flex; align-items:center; gap:16px; padding:26px 0 6px; flex-wrap:wrap}
+.stephead .count{font-weight:700; font-size:13px; color:var(--ink-soft); text-transform:uppercase; letter-spacing:.07em}
+.progress{flex:1 1 200px; height:8px; background:var(--panel-2); min-width:140px}
+.progress>div{height:100%; background:var(--keppel)}
+.qtitle{font-size:40px; margin:10px 0 4px}
+.qsub{margin:0 0 18px; color:var(--ink-soft); font-size:15px; max-width:66ch}
+.opts{display:grid; grid-template-columns:repeat(auto-fill,minmax(240px,1fr)); gap:12px; margin-bottom:8px}
+.optgroup{margin:16px 0 4px; font-size:12.5px; font-weight:700; text-transform:uppercase; letter-spacing:.08em; color:var(--ink-soft)}
+.opt{position:relative; text-align:left; background:var(--panel); border:2px solid var(--line); padding:14px 16px; color:var(--ink); font-size:14.5px; line-height:1.35}
+.opt:hover{border-color:var(--navy)}
+:root[data-theme="dark"] .opt:hover{border-color:var(--sky)}
+.opt .t{font-weight:700; display:block}
+.opt .s{display:block; color:var(--ink-soft); font-size:12.5px; margin-top:2px}
+.opt .c{position:absolute; top:10px; right:12px; font-size:11.5px; font-weight:600; color:var(--ink-soft)}
+.opt[aria-pressed="true"]{border-color:var(--navy); background:var(--navy); color:#FFFFFF}
+.opt[aria-pressed="true"] .s,.opt[aria-pressed="true"] .c{color:var(--sky)}
+.opt[aria-pressed="true"]::after{content:"✓"; position:absolute; bottom:8px; right:12px; color:var(--keppel); font-weight:700; font-size:16px}
+.steprow{display:flex; gap:12px; align-items:center; margin:22px 0 40px; flex-wrap:wrap}
+.ghost{background:none; border:none; color:var(--ink-soft); font-weight:700; font-size:13.5px; text-decoration:underline; padding:8px}
+textarea.free{width:100%; min-height:130px; background:var(--panel); color:var(--ink); border:2px solid var(--line); padding:12px 14px; font-family:inherit; font-size:14.5px; resize:vertical}
+.filerow{display:flex; gap:10px; align-items:center; margin-top:8px; flex-wrap:wrap; font-size:13px; color:var(--ink-soft)}
+.filerow label{border:2px solid var(--line); padding:7px 12px; font-weight:700; color:var(--ink); cursor:pointer}
+.filerow input{position:absolute; width:1px; height:1px; opacity:0}
+
+/* ============ loading ============ */
+.loadbox{padding:80px 0; text-align:center}
+.loadbox .squares{display:flex; gap:8px; justify-content:center; margin-bottom:22px}
+.loadbox .squares span{width:14px; height:14px; background:var(--keppel); animation:pulse 1.1s infinite}
+.loadbox .squares span:nth-child(2){background:var(--sky); animation-delay:.18s}
+.loadbox .squares span:nth-child(3){background:var(--scarlet); animation-delay:.36s}
+.loadbox .squares span:nth-child(4){background:var(--navy); animation-delay:.54s}
+:root[data-theme="dark"] .loadbox .squares span:nth-child(4){background:#FFFFFF}
+@keyframes pulse{0%,100%{transform:scale(1); opacity:.55}50%{transform:scale(1.35); opacity:1}}
+.loadbox .msg{font-size:22px; font-family:'Bebas Neue',sans-serif; letter-spacing:.03em; color:var(--head)}
+.loadbox .sub{color:var(--ink-soft); font-size:13.5px; margin-top:6px}
+
+/* ============ results ============ */
+.resulthead{padding:28px 0 4px}
+.resulthead h2{font-size:38px}
+.differ{background:var(--panel); border-left:6px solid var(--sky); padding:12px 16px; margin:14px 0 22px; font-size:14.5px}
+.differ b{color:var(--head)}
+.card{border:2px solid var(--line); border-left:6px solid var(--keppel); margin-bottom:22px; background:var(--ground)}
+.card.weak{border-left-color:var(--neutral)}
+.card .chead{display:flex; align-items:baseline; gap:12px; flex-wrap:wrap; padding:16px 18px 4px}
+.card .rank{font-family:'Bebas Neue',sans-serif; font-size:26px; color:var(--scarlet); line-height:1}
+.card h3{font-size:30px; line-height:1.05}
+.card .org{color:var(--ink-soft); font-weight:600; font-size:13.5px}
+.card .org a{font-weight:700}
+.tags{display:flex; flex-wrap:wrap; gap:6px; padding:8px 18px 2px}
+.tagchip{font-size:11.5px; font-weight:700; padding:3px 9px; background:var(--tag-sky-bg); color:var(--tag-ink)}
+.tagchip.k{background:var(--tag-keppel-bg)}
+.tagchip.plain{background:var(--panel-2); color:var(--ink-soft)}
+.matrix{margin:12px 18px 4px; border:2px solid var(--line)}
+.matrix .mrow{display:flex; gap:10px; align-items:center; padding:7px 12px; border-bottom:1px solid var(--line); font-size:13.5px; flex-wrap:wrap}
+.matrix .mrow:last-child{border-bottom:none}
+.matrix .dim{flex:0 0 105px; font-weight:700; font-size:12px; text-transform:uppercase; letter-spacing:.05em; color:var(--ink-soft)}
+.matrix .verdict{font-weight:700}
+.matrix .verdict.hit{color:var(--good)}
+.matrix .verdict.miss{color:var(--miss)}
+.matrix .verdict.part{color:var(--head)}
+.matrix .verdict.na{color:var(--neutral); font-weight:600}
+.matrix .detail{color:var(--ink-soft); font-size:12.5px}
+.mtoggle{background:none; border:none; color:var(--link); font-weight:700; font-size:12.5px; text-decoration:underline; padding:8px 18px 0}
+.evid{margin:6px 18px 0; font-size:13px}
+.evid table{border-collapse:collapse; width:100%}
+.evid td{padding:4px 8px; border-bottom:1px solid var(--line); vertical-align:top}
+.evid td.mark{width:26px; font-weight:700}
+.evid td.mark.hit{color:var(--good)} .evid td.mark.miss{color:var(--miss)} .evid td.mark.na{color:var(--neutral)}
+.reasons{margin:12px 18px 0; padding:0}
+.reasons li{list-style:none; padding-left:22px; position:relative; margin-bottom:7px; font-size:14.5px}
+.reasons li::before{content:""; position:absolute; left:0; top:7px; width:10px; height:10px; background:var(--keppel)}
+.consider{margin:10px 18px 16px; background:var(--panel); border-left:5px solid var(--scarlet); padding:10px 14px; font-size:13.5px}
+.consider b{color:var(--head); text-transform:uppercase; font-size:11.5px; letter-spacing:.06em}
+.consider ul{margin:4px 0 0; padding-left:18px}
+.consider li{margin-bottom:3px}
+.weakband{border:2px solid var(--scarlet); padding:12px 16px; margin:0 0 20px; font-size:14px; background:var(--panel)}
+.runners{margin:26px 0 8px; border-top:2px solid var(--line); padding-top:14px}
+.runners h3{font-size:24px; margin-bottom:8px}
+.runner{display:flex; gap:10px; padding:8px 0; border-bottom:1px solid var(--line); font-size:13.5px; flex-wrap:wrap; align-items:baseline}
+.runner .rn{font-weight:700; color:var(--head); flex:0 0 auto}
+.runner .rr{color:var(--ink-soft); flex:1 1 300px}
+.actions{display:flex; gap:12px; flex-wrap:wrap; margin:26px 0 8px; align-items:center}
+.whatsoff{margin:10px 0 4px; padding:12px 14px; background:var(--panel); border:2px solid var(--line)}
+.whatsoff .lbl{font-size:13px; font-weight:700; margin-bottom:8px}
+.offchips{display:flex; gap:8px; flex-wrap:wrap}
+.offchip{border:2px solid var(--line); background:var(--ground); padding:6px 12px; font-size:12.5px; font-weight:700; color:var(--ink)}
+.offchip[aria-pressed="true"]{background:var(--navy); color:#FFFFFF; border-color:var(--navy)}
+.feedback{margin:26px 0 10px; border:2px solid var(--line); padding:14px 16px; font-size:13.5px}
+.feedback .fbrow{display:flex; gap:10px; align-items:center; flex-wrap:wrap}
+.feedback textarea{width:100%; min-height:70px; margin-top:10px; background:var(--panel); color:var(--ink); border:2px solid var(--line); padding:10px; font-family:inherit; font-size:13.5px}
+.smallbtn{border:2px solid var(--navy); background:none; color:var(--head); font-weight:700; font-size:12.5px; padding:6px 12px}
+:root[data-theme="dark"] .smallbtn{border-color:var(--sky)}
+.toast{position:fixed; left:50%; bottom:26px; transform:translateX(-50%); background:var(--navy); color:#FFFFFF; padding:10px 20px; font-weight:700; font-size:13.5px; z-index:60; box-shadow:0 4px 18px rgba(0,0,0,.3)}
+.ainote{font-size:12.5px; color:var(--ink-soft); margin:8px 0 0}
+
+/* ============ ask-a-model drawer ============ */
+.askbtn{border:2px solid var(--navy); background:none; color:var(--head); font-weight:700; font-size:12.5px; padding:6px 12px; margin:0 18px 16px}
+:root[data-theme="dark"] .askbtn{border-color:var(--sky)}
+.askbtn::before{content:"✦ "; color:var(--scarlet)}
+.runner .askmini{border:none; background:none; color:var(--link); font-weight:700; font-size:12px; text-decoration:underline; padding:0}
+.drawerback{position:fixed; inset:0; background:rgba(10,25,42,.45); z-index:50}
+.drawer{position:fixed; top:0; right:0; bottom:0; width:min(480px,100vw); background:var(--ground); z-index:51; display:flex; flex-direction:column; border-left:6px solid var(--scarlet); box-shadow:-6px 0 24px rgba(0,0,0,.25)}
+.drawer .dhead{background:var(--navy); color:#FFFFFF; padding:14px 18px; display:flex; align-items:baseline; gap:10px}
+.drawer .dhead .dt{font-family:'Bebas Neue',sans-serif; font-size:24px; line-height:1.05; flex:1}
+.drawer .dhead .ds{color:var(--sky); font-size:12px; font-weight:600; display:block}
+.drawer .dhead .close{background:none; border:2px solid var(--sky); color:#FFFFFF; font-weight:700; font-size:13px; padding:3px 9px; flex:0 0 auto}
+.drawer .dbody{flex:1; overflow-y:auto; padding:14px 18px; display:flex; flex-direction:column; gap:10px}
+.bubble{max-width:88%; padding:10px 14px; font-size:14px; line-height:1.5; white-space:pre-wrap}
+.bubble.user{align-self:flex-end; background:var(--navy); color:#FFFFFF}
+.bubble.ai{align-self:flex-start; background:var(--panel); border-left:4px solid var(--keppel)}
+.bubble.ai.thinking{color:var(--ink-soft); font-style:italic}
+.starters{display:flex; flex-wrap:wrap; gap:8px}
+.starter{border:2px solid var(--line); background:var(--panel); color:var(--ink); font-size:12.5px; font-weight:600; padding:6px 10px; text-align:left}
+.starter:hover{border-color:var(--navy)}
+.drawer .dfoot{border-top:2px solid var(--line); padding:10px 14px}
+.drawer .dfoot form{display:flex; gap:8px}
+.drawer .dfoot input[type="text"]{flex:1; background:var(--panel); color:var(--ink); border:2px solid var(--line); padding:9px 12px; font-family:inherit; font-size:14px; min-width:0}
+.drawer .dfoot button{background:var(--scarlet); border:none; color:#FFFFFF; font-family:'Bebas Neue',sans-serif; font-size:19px; padding:6px 16px 4px}
+.drawer .dnote{font-size:11.5px; color:var(--ink-soft); margin:6px 2px 0}
+.record{border:2px solid var(--line); font-size:13px}
+.record summary{cursor:pointer; font-weight:700; padding:8px 12px; color:var(--head)}
+.record .rin{padding:2px 12px 12px}
+.record .rin p{margin:6px 0}
+.record .rlbl{font-weight:700; text-transform:uppercase; font-size:10.5px; letter-spacing:.06em; color:var(--ink-soft)}
+@media print{ .drawer,.drawerback,.askbtn,.runner .askmini{display:none!important} }
+
+/* ============ modal ============ */
+.modalback{position:fixed; inset:0; background:rgba(10,25,42,.62); z-index:40; display:flex; align-items:flex-start; justify-content:center; overflow:auto; padding:30px 14px}
+.modal{background:var(--ground); max-width:820px; width:100%; border-top:8px solid var(--scarlet); padding:22px 26px 26px; position:relative}
+.modal h2{font-size:32px}
+.modal .close{position:absolute; top:12px; right:14px; background:none; border:2px solid var(--line); color:var(--ink); font-weight:700; font-size:14px; padding:4px 10px}
+.samplein{background:var(--panel); border-left:6px solid var(--keppel); padding:12px 16px; margin:12px 0 18px; font-size:13.5px}
+.samplein b{color:var(--head)}
+
+/* ============ footer ============ */
+footer{margin-top:44px; background:var(--navy); color:var(--on-navy-soft)}
+footer .wrap{padding:22px 20px 26px; font-size:12.5px; line-height:1.6}
+footer .tagline{color:#FFFFFF; font-weight:700; font-size:13.5px; margin-bottom:8px}
+footer p{margin:4px 0}
+
+/* ============ print ============ */
+@media print{
+  body{background:#fff; color:#000}
+  .topbar,.actions,.whatsoff,.feedback,.mtoggle,.homecta,footer .noprint,.toast{display:none!important}
+  .card{break-inside:avoid; border-color:#999}
+  a{color:#000}
+}
+</style>
+
+<script id="models-data" type="application/json">{"snapshotDate":"2026-07-09","source":"Transcend research database (Airtable · All Solutions, fully coded records)","modelCount":111,"models":[{"id":"recGrvXFSjjjdTuGF","name":"95 Core Phonics Solution","org":"95 Percent Group","website":"https://www.95percentgroup.com/95-tier-1-phonics-solution/","description":"The 95 Phonics Core Program (PCP) is a whole-class, supplemental phonics curriculum. This Tier I program is designed for students in grades K-5 to address and prevent reading gaps using explicit, structured phonics instruction for 20-30 minutes per day. Instruction is based on a scope and sequence with 25 lessons for Kindergarten and 30 lessons for each of Grades 1-5. For example, the First Grade…","grades":["K","1","2","3","4","5"],"cost":["Cost associated"],"activities":["Direct Instruction"],"gradAims":["English Language Arts"],"leaps":["High Expectations with Rigorous Learning"],"topics":["Literacy"],"reach":"","impact":"https://www.95percentgroup.com/efficacy-studies/"},{"id":"recXntxlTBENLFRvJ","name":"95 Tier 2 Phonics Solution","org":"95 Percent Group","website":"https://www.95percentgroup.com/95-tier-2-phonics-solution/","description":"Targeted intervention instruction is delivered through our updated 95 Phonics Lesson Library. This beloved, trusted solution has guided millions of students through intervention to grade-level proficiency. Just like the original, 95 Phonics Lesson Library 2.0 breaks phonics proficiency into 75 discrete skills across three levels — Basic, Advanced, and Multisyllable. Each skill is a week-long,…","grades":["1","2","3","4","5","6","7","8"],"cost":["Cost associated"],"activities":["Direct Instruction"],"gradAims":["English Language Arts"],"leaps":["High Expectations with Rigorous Learning","Customization"],"topics":["Literacy"],"reach":"","impact":"https://www.95percentgroup.com/efficacy-studies/"},{"id":"recp8bBUi6uN4giFm","name":"95 Tier 3 Literacy Solution","org":"95 Percent Group","website":"https://www.95percentgroup.com/95-tier-3-literacy-solution/","description":"Assessment, instruction, and management happen through 95 Reading Achievement Program (95 RAP™). Through technology, 95 RAP empowers teachers to deliver individualized instruction to K-12 students in a small group setting.\n\nThrough fast-paced and motivating small group activities, as well as robust data and activity management, 95 RAP helps teachers track individual student progress in…","grades":["K","1","2","3","4","5","6","7","8","9","10","11","12"],"cost":["Cost associated"],"activities":["Direct Instruction"],"gradAims":["English Language Arts"],"leaps":["High Expectations with Rigorous Learning","Customization"],"topics":["Literacy"],"reach":"","impact":"<https://www.95percentgroup.com/wp-content/uploads/2024/06/HillRAP-Empirical-Research-Brief.pdf>"},{"id":"recDERb0x7BVD51jb","name":"A2i Professional Support System","org":"Scholastic","website":"https://www.scholastic.com/teachers/teaching-tools/learn/a2i.html","description":"The A2i Professional Support System is a systems-level approach intended to improve students’ reading success in Pre-K through Grade 3 classrooms. Learning Ovations serves as the partner, providing the support teachers need to ensure students are reading at, or above, grade-level by the end of 3rd grade. The focus of this support is on individualized instruction, ensuring learning experiences are…","grades":["PK","K","1","3","2"],"cost":["Cost associated"],"activities":["Direct Instruction"],"gradAims":["English Language Arts"],"leaps":["High Expectations with Rigorous Learning"],"topics":["Literacy"],"reach":"","impact":"Three studies conducted on A2i qualified for inclusion. The overall average effect size was +0.23. This qualified A2i for the “Strong” category and demonstrates that the impact of differentiated…"},{"id":"recFX3C4ytbTfiuCS","name":"AI Lesson Planner","org":"Khanmigo","website":"https://www.khanmigo.ai/teachers?utm_account=Paid_GoogleAds&utm_campaignname=WHAM-in-general&gad_source=1&gad_campaignid=22204947026&gbraid=0AAAAADmu8nMm4lED3A7swMLonReAp5K4d&gclid=Cj0KCQjwyIPDBhDBARIsAHJyyVim1Eo0AvHgcI3xdKGsAyQHUjYvGTAb-70SH8coUt2kHITWOlvFt08aAtrKEALw_wcB","description":"Khanmigo AI Lesson Planner is Khan Academy’s free, AI-powered teaching assistant that helps you plan faster by generating standards-aligned, differentiated lesson plans tied to Khan Academy’s content library—plus ready-to-use hooks, objectives, rubrics, exit tickets, and question sets with answer keys. It can propose student groupings, draft multilingual family emails/class newsletters, and…","grades":["K","1","2","3","4","5","6","7","8","9","10","11","12"],"cost":["Free"],"activities":["Direct Instruction","Tutoring"],"gradAims":[],"leaps":["Customization","Relevance"],"topics":["CCL"],"reach":"Part of Khan Academy ecosystem (~150M+ registered users globally); Khanmigo AI in ~130 school districts","impact":"Unavailable"},{"id":"recSWVDaqFgOaSq71","name":"AirReading","org":"AirReading","website":"https://airreading.com/","description":"Air Reading is an assessment-driven, live virtual tutoring program designed to improve students’ foundational reading skills from Kindergarten through 6th grade. Students receive live virtual instruction from the same consistent Air Reading tutors throughout the semester, addressing individual reading gaps. Small groups of up to four students are paired with the same tutor for 30-minute sessions…","grades":["K","1","2","3","4","5","6","7","8"],"cost":["Cost associated"],"activities":["Direct Instruction","Tutoring"],"gradAims":["English Language Arts"],"leaps":[],"topics":["Literacy"],"reach":"","impact":"The impact of Air Reading was examined in a randomized study involving nearly 400 grade 1-6 students from six elementary schools in a rural Texas district during the spring of the 2023-2024 school…"},{"id":"recYcnXYj1X7UuJkc","name":"AJAC Youth Apprenticeships","org":"Aerospace Joint Apprenticeship Committee","website":"https://www.ajactraining.org/programs/youth/","description":"AJAC (Aerospace Joint Apprenticeship Committee) offers registered, two-year apprenticeship programs—specifically as Production Technician (Youth) and Automation Technician (Youth)—designed for high school juniors and seniors in Washington State.","grades":["11","12"],"cost":["Free"],"activities":["Work-Based Learning","Mentoring & Networking"],"gradAims":[],"leaps":["Relevance","Agency","High Expectations with Rigorous Learning"],"topics":["CCL"],"reach":"Small-scale; primarily WA state aerospace sector; hundreds of apprentices annually","impact":"Unavailable"},{"id":"recSQzDehI0E1dE06","name":"Amplify Core Knowledge Language Arts (CKLA)","org":"Amplify","website":"https://amplify.com/programs/amplify-core-knowledge-language-arts/","description":"Amplify Core Knowledge Language Arts (CKLA) is the leading early literacy curriculum grounded in the Science of Reading. By combining knowledge-building and research-based foundational skills, our instruction guides educators in developing strong readers, writers, and thinkers.\n\nWith a powerful online platform and a parallel Spanish language arts curriculum, Amplify CKLA provides a comprehensive…","grades":["K","PK","1","2","3","4","5"],"cost":["Cost associated"],"activities":["Direct Instruction"],"gradAims":["English Language Arts"],"leaps":["High Expectations with Rigorous Learning"],"topics":["Literacy"],"reach":"38,000+ classrooms, 2,700,000+ students, 50 states and DC","impact":"https://amplify.com/science-of-reading/success-stories/"},{"id":"rec1ehJQRqtWHW1kl","name":"Amplify Desmos Math (K-A2)","org":"Amplify (formerly Desmos)","website":"https://amplify.com/programs/amplify-desmos-math/","description":"\"Amplify Desmos Math helps teachers cultivate a classroom of eager, collaborative learners by starting with student ideas and building to robust grade-level learning for every student every day.\"\n\nAmplify Desmos Math provides resources that integrate seamlessly with core instruction, including a suite of assessments, tailored practice resources that adjust to student learning, and other…","grades":["K","1","2","3","4","5","6","7","8","HS - AGA"],"cost":["Cost associated"],"activities":["Direct Instruction"],"gradAims":["Mathematics"],"leaps":["Connection & Community","Relevance","Customization","High Expectations with Rigorous Learning"],"topics":["Math"],"reach":"","impact":"- WestEd study: Desmos Math 6–8 significantly improves student learning\n - \"New efficacy study finds Desmos Math 6-8 significantly improves student learning outcomes in middle grades\"\n - \"Since the…"},{"id":"recVA2GiaZasNsIuc","name":"Build Up","org":"Build Up","website":"https://www.buildup.work/","description":"Build UP is a nonprofit school that combines academics, paid work-based learning, and post-graduation support leading to college and homeownership opportunities.","grades":["9","10","11","12","PS"],"cost":["Cost associated"],"activities":["Work-Based Learning","Blended Learning","Project-Based Learning","Job Shadowing","Mentoring & Networking","Academic & Career Planning","Social Emotional Learning"],"gradAims":["Professional Skills","Practical Life Skills","Productive Mindsets & Self-Regulation"],"leaps":["Connection & Community","Whole-Child Focus"],"topics":["CCL"],"reach":"Not publicly reported; emerging platform","impact":"Unavailable"},{"id":"recVjGdsQguY9QE0b","name":"CAPS Network","org":"CAPS Network","website":"https://yourcapsnetwork.org/","description":"The CAPS Network connects high school students with real‑world, profession-based learning—blending project-driven experiences, industry mentorship, and academic credit through partnerships between schools and businesses.","grades":["9","10","11","12"],"cost":["Cost associated"],"activities":["Project-Based Learning","Work-Based Learning"],"gradAims":["Professional Skills"],"leaps":["Relevance","High Expectations with Rigorous Learning","Connection & Community","Customization"],"topics":["CCL"],"reach":"80+ CAPS programs across 30+ states; thousands of students","impact":"Unavailable"},{"id":"reco0SygurPxjU3ic","name":"CARA College Inquiry","org":"CARA","website":"https://caranyc.org/","description":"CARA’s College Inquiry is a multi-year, schoolwide program that equips educators and strengthens systems to ensure first-generation and low-income students have equitable access to exploring, applying to, and enrolling in college.","grades":["9","10","11","12"],"cost":["Cost associated"],"activities":["College Visits","College & Career Fairs","Academic & Career Planning"],"gradAims":["Practical Life Skills"],"leaps":["Relevance","Agency"],"topics":["CCL"],"reach":"Not publicly reported; emerging internship model","impact":"Unavailable"},{"id":"rec7faeELwl11ssvp","name":"Career Exploration Courses","org":"NFTE","website":"https://nfte.com/resources-directory/?jsf=jet-data-table&tax=programs:157","description":"NFTE offers a range of entrepreneurship and career exploration pathway programs for middle and high school students, including Exploring Careers (grades 5-9), Entrepreneurship Essentials, Startup Tech, and full Entrepreneurship courses. Programs range from 20-180 hours and include standards-aligned lesson plans, assessments, and teacher training.","grades":["5","6","7","8","9","10","11","12"],"cost":["Cost associated"],"activities":["Academic & Career Planning"],"gradAims":["Professional Skills","Identity & Purpose"],"leaps":["Relevance","Agency","High Expectations with Rigorous Learning"],"topics":["CCL"],"reach":"~1.5M students cumulative since 1987; ~100K students/year; 25 U.S. states and 14 countries","impact":"75% of alumni report career satisfaction; 25% start/run businesses; 96% of alumni value volunteer engagement; 90% of employers say workforce needs the entrepreneurship skills NFTE teaches"},{"id":"reclbsbzz83phl7lE","name":"Carnegie: MATHia","org":"Carnegie Learning","website":"https://www.carnegielearning.com/solutions/math/mathia","description":"Give each student their own personal math coach: MATHia adjusts to every action they take in the software to meet them where they are and help them progress.\n\nEngage: Make learning meaningful for your students. Our materials help you to engage them with real-world examples, encourage them to collaborate, and leverage personal experiences to make learning real for them.\n\nDevelop: Prepare them for…","grades":["6","7","8","9","10","11","12"],"cost":[],"activities":["Direct Instruction"],"gradAims":["Mathematics"],"leaps":[],"topics":["Math"],"reach":"","impact":""},{"id":"recKbQwv4snywMHVi","name":"Carnegie: MATHstream","org":"Carnegie Learning","website":"https://discover.carnegielearning.com/mathstream","description":"Help your students take a deeper dive into math concepts anytime, anywhere. MATHstream uses adaptive learning paths to help them improve where they need it and accelerate when they're ready. Students will love MATHstream's game-based learning, available through adaptive and interactive instructional videos. They'll be delighted with our experienced instructors, who have already captivated…","grades":["6","7","8","9","10","11","12"],"cost":["Cost associated"],"activities":["Direct Instruction"],"gradAims":["Mathematics"],"leaps":[],"topics":["Math"],"reach":"","impact":""},{"id":"recWF3c6kNtytpnry","name":"Chapter One High Impact Tutoring","org":"Chapter One","website":"https://www.chapterone.org","description":"At Chapter One, we want to create a world where all children have the literacy skills needed to thrive.\n\nSo do classroom teachers!\n\nMany classroom teachers are unable, on their own, to teach all students to read. They simply don’t have the time during the school day to provide the kind of individual instruction that struggling readers need to succeed.\n\nIf students don’t develop a strong phonics…","grades":["K","1","2","3","4","5"],"cost":["Cost associated"],"activities":["Tutoring"],"gradAims":["English Language Arts","Relationship Skills"],"leaps":["High Expectations with Rigorous Learning","Customization"],"topics":["Literacy"],"reach":"-50,000. The number of students receiving high impact tutoring globally this school year.\n-56,433. The number of online reading volunteer sessions globally.\n-","impact":"The impact of Chapter One has been examined in two randomized studies, the first took place in one Title I school in Ohio, the second in a large southeastern school district with over 800 students…"},{"id":"recJnyaA4WHPhY88p","name":"CommonLit 360","org":"CommonLit","website":"https://www.commonlit.org/ela-curriculum","description":"CommonLit 360 is a full-year curriculum for teachers of grades 6-12. This curriculum offers reading, writing, vocabulary grammar, discussion, and related media lessons for students.","grades":["6","7","8","9","10","11","12"],"cost":["Free with Paid Options"],"activities":["Direct Instruction","Blended Learning"],"gradAims":["English Language Arts"],"leaps":["High Expectations with Rigorous Learning"],"topics":["Literacy"],"reach":"250M+ completed lessons","impact":"<https://www.commonlit.org/impact>\n\nUp to 2x increased student engagement among CommonLit classrooms.\n\n1 in 4 students Moved from below grade level to proficient with regular CommonLit use.\n\n10.5…"},{"id":"recLb1xOpLMMJChi2","name":"Community Workers Book Set","org":"Lakeshore Learning","website":"https://www.google.com/url?q=https://www.lakeshorelearning.com/products/social-studies/cultures-the-community/community-workers-book-set/p/PP169/?utm_source%3Dgoogle%26utm_medium%3Dppc%26utm_campaign%3DOG_SEM_NB_GOOG_SHOP_performancemax_LOWER_MAIN_BAU%26utm_content%3DOG_SEM_NB_GOOG_SHOP_performancemax_LOWER_MAIN_BAU%257CGeneral%257C%26gad_source%3D1%26gad_campaignid%3D21081397636%26gbraid%3D0AAAAAD39dls21BQCGQCMKDEUeTFeL8A-N%26gclid%3DCj0KCQjwgvnCBhCqARIsADBLZoIyOo5nDGBjVvWGoM_4OAJJnFI9T0jSihUqIczD_Me4Iu7k1HU7nn4aAlNlEALw_wcB&sa=D&source=editors&ust=1754932390447159&usg=AOvVaw2ROw0t4Vd5aApLAkyp6Egf","description":"An eight-title paperback set that introduces young children to community helpers through simple text and photo-rich pages (24 pages per book), supporting early social-studies and career-awareness conversations in primary classrooms.","grades":["K","1","2"],"cost":["Cost associated"],"activities":["Direct Instruction"],"gradAims":[],"leaps":["Relevance"],"topics":["CCL"],"reach":"Lakeshore serves 500K+ educators; specific product reach not reported","impact":"Unavailable"},{"id":"recEN73iafCH0Omti","name":"Compass","org":"Golden Path Solutions","website":"https://goldenpath.net/compass-makes-it-easier-for-schools-to-manage-work-based-learning/","description":"Online platform helping high school students discover career paths and connect with real-world career and work-based learning opportunities—while simultaneously enabling schools and employers to manage those connections through tools like career profiles, WBL workflows, etc","grades":["9","10","11","12"],"cost":["Cost associated"],"activities":["Academic & Career Planning"],"gradAims":[],"leaps":["Relevance","Agency","Customization"],"topics":["CCL"],"reach":"Not publicly reported; small/emerging provider","impact":"Unavailable"},{"id":"reckIAHMP3kMlcerw","name":"Connections: Literature","org":"Perfection Learning","website":"https://perfectionlearning.com/literacy-and-language-arts/connections-literature-high-school?plcstate=va&plcsite=nat","description":"Immerse students in outstanding literature while developing critical reading and writing skills. Connections: Literature hooks students in a rich set of texts, both classic and contemporary, as they explore relevant issues, engage in lively discussion, and develop critical reading and writing skills.","grades":["6","7","8","9","10","11","12"],"cost":["Cost associated"],"activities":["Direct Instruction","Blended Learning"],"gradAims":["English Language Arts"],"leaps":["Customization"],"topics":["Literacy"],"reach":"","impact":"ESSA:…"},{"id":"recvFJfL79MIrvRHb","name":"Content-Focused Coaching","org":"University of Pittsburgh's Institute for Learning","website":"https://researchsites.pitt.edu/ifl/our-services#CFC","description":"Elevate your coaching with IFL’s Content-Focused Coaching (CFC) model. CFC empowers coaches to become true instructional leaders who drive student success. Through collaborative partnerships and hands-on learning, coaches gain the skills and knowledge to:\n\nBuild strong relationships with teachers.\nCo-plan and co-teach engaging lessons\nAnalyze student work and refine instructional strategies.\nCFC…","grades":["Adults"],"cost":["Cost associated"],"activities":["Mentoring & Networking"],"gradAims":["English Language Arts","Mathematics"],"leaps":[],"topics":["Literacy"],"reach":"","impact":"One large two-year study evaluated Content-Focused Coaching in an urban district in the Southwest. Compared to control groups, fourth and fifth grade English learners who received CFC scored…"},{"id":"recSskMYrW5bZHTov","name":"Couragion Pathway Skill Building","org":"Couragion","website":"https://www.couragion.com/programs","description":"Couragion provides Pathway Skill Building through microbadging challenges for middle and high school students, helping them develop applied computer science, data analytics, and engineering skills while building occupational and employability competencies—also in flexible 5–30 hour formats.","grades":["6","7","8","9","10","11","12"],"cost":["Cost associated"],"activities":["Blended Learning"],"gradAims":["Professional Skills","Computer Science"],"leaps":["Relevance","Agency","Customization"],"topics":["CCL"],"reach":"Not publicly reported; emerging edtech","impact":"Unavailable"},{"id":"recgxeLd1IxLnZJJv","name":"Couragion Virtual Exploration","org":"Couragion","website":"https://www.couragion.com/programs","description":"Couragion offers Virtual Exploration for grades 4–8—an engaging, interactive journey where students explore diverse STEM career paths via relatable role models, connect curriculum relevance to real-world careers, and build personal portfolios over 5 to 30 classroom hours.","grades":["4","5","6","7","8"],"cost":["Cost associated"],"activities":["Blended Learning"],"gradAims":["Professional Skills","Computer Science"],"leaps":["Relevance","Agency"],"topics":["CCL"],"reach":"Not publicly reported; emerging edtech","impact":"Unavailable"},{"id":"recJAP9sfnDGYQXf2","name":"Creative Careers Decodable Text Set","org":"Storyshares","website":"https://shop.storyshares.org/products/knowledge-building-decodable-text-intervention-set-for-grades-2-8","description":"A Science of Reading–aligned, knowledge-building decodable nonfiction set that uses career themes to motivate older striving readers; each book contains nine discrete decodable texts that systematically build phonics skills while exposing students to a variety of jobs and pathways.","grades":["2","3","4","5","6","7","8"],"cost":["Cost associated"],"activities":["Direct Instruction"],"gradAims":[],"leaps":["Relevance"],"topics":["CCL"],"reach":"Not publicly reported; niche literacy publisher","impact":"Unavailable"},{"id":"recEUYnDif71Z15bM","name":"Decision Education Teaching Resources","org":"Alliance for Decision Education","website":"https://alliancefordecisioneducation.org/teach/teacher-resources/?_sft_resource-type=lesson-plan","description":"Curated lesson plans, units, and tools designed to build students’ decision-making skills","grades":["K","1","2","3","4","5","6","7","8","9","10","11","12"],"cost":["Free"],"activities":["Social Emotional Learning"],"gradAims":[],"leaps":["Agency","High Expectations with Rigorous Learning"],"topics":["CCL"],"reach":"Not publicly reported; nonprofit providing free educator resources","impact":"Unavailable"},{"id":"reckLVyoa6btQJQMj","name":"Derivita","org":"Derivita","website":"https://www.derivita.com/","description":"Derivita was built to support teacher-led, student-centered instruction, not complicate or replace it. One connected solution that spans every level of instruction, from individual practice and classwork to school, PLC, and district-level strategies, grade 6 through Calculus III.\n\n-Ask questions that promote reasoning and enable authentic assessment\n-Enable practice toward mastery and unique…","grades":["6","7","8","9","10","11","12","PS"],"cost":["Cost associated"],"activities":["Direct Instruction","Blended Learning"],"gradAims":["Mathematics"],"leaps":["High Expectations with Rigorous Learning","Customization"],"topics":["Math"],"reach":"","impact":"<https://www.derivita.com/results>\n\nDerivita commissioned Instructure's research team to develop an ESSA Level IV logic model, an independent framework documenting how the platform connects…"},{"id":"recyiUJ9Zej7LNCXJ","name":"DreamBox Math","org":"Discovery Education","website":"https://www.discoveryeducation.com/solutions/math/dreambox-math/","description":"\"DreamBox Math is an easy-to-implement, adaptive math solution that provides K-8 students with engaging, personalized instruction proven to build deeper mathematical understanding.\"\n\nWhether students need intervention, remediation, or enrichment, DreamBox Math meets them where they are and keeps them growing. Our engaging, student-driven experience combines best-in-class adaptivity with…","grades":["K","1","2","3","4","5","6","7","8"],"cost":["Cost associated"],"activities":["Direct Instruction"],"gradAims":["Mathematics"],"leaps":["Customization","Relevance","Whole-Child Focus","Agency","High Expectations with Rigorous Learning"],"topics":["Math"],"reach":"","impact":"- Range of evidence of impact (scroll to bottom here): \"Have demonstrated efficacy across every achievement level – students using our programs with fidelity have shown significant growth in both…"},{"id":"recJy4DdXOi48ubjI","name":"DreamBox Reading","org":"Discovery Education","website":"https://www.discoveryeducation.com/solutions/literacy/dreambox-reading/","description":"DreamBox Reading is an adaptive, personalized program that helps PreK–3 students build foundational reading skills and fosters confidence for a lifelong love of reading. \n\nPowered by DreamBox Learning’s patented Intelligent Adaptive Learning engine, DreamBox Reading personalizes instruction in real time-adapting to each student’s answers, strategies, and behaviors to deliver just-right lessons,…","grades":["PK","K","1","2","3"],"cost":["Cost associated"],"activities":["Direct Instruction","Blended Learning"],"gradAims":["English Language Arts"],"leaps":[],"topics":["Literacy"],"reach":"","impact":""},{"id":"recpRw6itFGr91aWc","name":"EL Education K-8 Language Arts","org":"EL Education","website":"https://www.eleducation.org/curriculum/language-arts","description":"The EL Education curriculum is based on the Science of Reading, including structured phonics, which empowers all students to read complex grade-level texts and master literacy standards, providing all students with an equitable outcome.\n\nOur curriculum builds deep knowledge by using content-rich, authentic texts on real-world topics in social studies, STEM, and literature. Students leverage their…","grades":["K","1","2","3","4","5","6","7","8"],"cost":["Cost associated"],"activities":["Direct Instruction"],"gradAims":["English Language Arts"],"leaps":["High Expectations with Rigorous Learning"],"topics":["Literacy"],"reach":"","impact":"<https://www.eleducation.org/our-results/research-studies/k-2-language-arts-curriculum-study/>\n\nThis study indicates that the combination of EL Education’s comprehensive curriculum with coaching…"},{"id":"recRoZtJ4LdhU3WsV","name":"Empower Schools Rural Collaborative","org":"Empower Schools","website":"https://www.empowerschools.org/rural-innovation/","description":"Empower Schools – Rural Collaborative helps neighboring rural districts band together with higher-ed and industry to offer college- and career-pathways no single district could sustain alone—formally codified through shared agreements and governance, aligned to regional labor-market demand, and designed to yield dual credit and industry credentials before graduation while boosting local economic…","grades":["9","10","11","12"],"cost":["Cost associated"],"activities":["Project-Based Learning","Work-Based Learning","Job Shadowing"],"gradAims":["Professional Skills"],"leaps":["Relevance","Agency","Connection & Community","Customization"],"topics":["CCL"],"reach":"Not publicly reported; works with rural districts in select states","impact":"Unavailable"},{"id":"recOb5NMaUlVLnLKd","name":"EPIC","org":"U.S. Chamber of Commerce Foundation","website":"https://www.uschamberfoundation.org/solutions/workforce-development-and-training/epic","description":"Employer Provided Innovation Challenges is a national network that links schools and learners to authentic, employer-sponsored project-based learning via accredited challenge “clearinghouses,” expanding access to real-world work experiences and industry partners.","grades":["9","10","11","12"],"cost":["Cost associated"],"activities":["Work-Based Learning","Mentoring & Networking"],"gradAims":[],"leaps":["Relevance","Agency","Connection & Community"],"topics":["CCL"],"reach":"Not publicly reported as student count; operates as a framework/network model","impact":"Unavailable"},{"id":"rec5Clbhg6jVH4wkv","name":"Eureka Math²","org":"Great Minds","website":"https://greatminds.org/eurekamathsquared","description":"\"Eureka Math² is a revolutionary Prekindergarten–Algebra I* math program designed to advance equity in the math classroom by helping students build enduring math knowledge.\"\n\nEureka Math2 balances evidence-based techniques—guided inquiry, conceptual development, systematic fluency practice, and real-world application.\n\nEffective mathematics learning requires a balance of evidence-based strategies…","grades":["ECE/PK/TK","K","1","2","3","4","5","6","7","8","HS - Algebra I"],"cost":["Cost associated"],"activities":["Direct Instruction"],"gradAims":["Mathematics"],"leaps":["Customization","Relevance","Connection & Community","Agency","High Expectations with Rigorous Learning"],"topics":["Math"],"reach":"","impact":"- Research (mostly white papers on how to use the curriculum to support learning and the research underpinning the solution) \n- Case Studies on Eureka Math 2\n - Ex: Public Schools of Robeson County…"},{"id":"recUsEgWQJgp0BVSq","name":"Express STEPS","org":"Express Readers","website":"https://expressreaders.org/shop/curriculum/express-steps-tk-pk/","description":"Express STEPS – TK Reading Program and Foundational Skills encompasses the entire PK/TK/Early Kindergarten curriculum, including all necessary materials for a comprehensive foundational skills and reading program.\n\nThe curriculum encompasses phonemic awareness, phonics of all basic single-letter sound-spellings, handwriting, early sight words, CVC words, early reading, and additional topics. The…","grades":["PK","K"],"cost":["Cost associated"],"activities":["Direct Instruction"],"gradAims":["English Language Arts"],"leaps":[],"topics":["Literacy"],"reach":"","impact":""},{"id":"reccp6ziNDV9DNLew","name":"Fishtank Learning","org":"Fishtank Learning Math","website":"https://www.fishtanklearning.org/","description":"The goal of our mathematics program is to help all students see themselves as confident and competent mathematicians who are able to apply their math knowledge both in and out of the classroom as global citizens. \n\nOur math curriculum is rooted in the following core beliefs about quality math instruction:\n\nAnchoring standards-aligned, content-rich tasks.\nCommunicating mathematical…","grades":["2","3","5","4","6","7","8","9","10","11","12"],"cost":["Free with Paid Options"],"activities":["Direct Instruction"],"gradAims":["Mathematics"],"leaps":[],"topics":["Math"],"reach":"","impact":""},{"id":"rec4qYOcWtGNGnjvA","name":"Fishtank Learning ELA","org":"Fishtank Learning","website":"https://www.fishtanklearning.org/curriculum/ela/","description":"Fishtank ELA is a high-quality, knowledge-building English Language Arts curriculum designed to help your students develop into critical readers, writers, and thinkers as they engage with authentic texts that affirm their experiences and expand their perspectives.","grades":["K","1","2","3","4","5","6","7","8","9","10","11","12"],"cost":["Free with Paid Options"],"activities":["Direct Instruction"],"gradAims":["English Language Arts"],"leaps":[],"topics":["Literacy"],"reach":"","impact":""},{"id":"recNhx2hEJcx1blTo","name":"Foundations A-Z","org":"Foundations A-Z","website":"https://www.foundationsa-z.com/","description":"Foundations A–Z simplifies teachers’ instructional planning and delivery of foundational skills instruction and complements any core literacy curriculum.\n\n Explicit, easy-to-use lesson plans that teach all critical foundational skills.\n Systematic scope and sequence that guides instruction from simple to complex concepts.\n Videos, games, books, and other multimodal student activities to enhance…","grades":["K","1","2","3","4","5"],"cost":["Cost associated"],"activities":["Direct Instruction"],"gradAims":["English Language Arts"],"leaps":["High Expectations with Rigorous Learning"],"topics":["Literacy"],"reach":"","impact":""},{"id":"recoP8Yli9nRLgg1L","name":"freshINCedu","org":"Uncharted Learning","website":"https://www.unchartedlearning.org/student-programs/freshincedu","description":"freshINCedu is Uncharted Learning’s project-based entrepreneurship unit for 4th–5th graders, where teams design a product (starting from a “reduce, reuse, recycle” prompt), pitch, and launch it in a real marketplace, with classroom teachers supported by volunteer business mentors. It aligns with ELA, Math, and Social Studies frameworks. Schools receive a comprehensive package (digital curriculum,…","grades":["4","5"],"cost":["Cost associated"],"activities":["Project-Based Learning","Mentoring & Networking"],"gradAims":["Professional Skills"],"leaps":["Relevance"],"topics":["CCL"],"reach":"Part of Uncharted Learning network; 500+ schools across 45+ states","impact":"Unavailable"},{"id":"recIcDptf0w95KPdJ","name":"From Sounds to Spelling","org":"From Sounds to Spelling","website":"https://www.fromsoundstospelling.com/","description":"From Sounds to Spelling ® empowers Kindergarten, 1st grade, and 2nd grade teachers to deliver and differentiate outstanding phonics instruction. Implemented through straightforward lesson plans, printable posters, and engaging student practice activities/","grades":["K","1","2"],"cost":["Cost associated"],"activities":["Direct Instruction"],"gradAims":["English Language Arts"],"leaps":[],"topics":["Literacy"],"reach":"","impact":"https://edreports.org/reports/overview/from-sounds-to-spelling-2022"},{"id":"rec8ohDkBhhlhCoTQ","name":"Future Forward Literacy","org":"Future Forward","website":"","description":"https://futureforwardliteracy.org/","grades":["K","1","2","3"],"cost":["Cost associated"],"activities":["Tutoring"],"gradAims":["English Language Arts"],"leaps":["High Expectations with Rigorous Learning","Connection & Community"],"topics":["Literacy"],"reach":"","impact":"Future Forward has been rigorously evaluated through multiple independent studies using both randomized control trials and regression discontinuity designs. A two-year randomized control trial across…"},{"id":"rec6nbo3i3Il8uWjB","name":"Galaxy","org":"Kuder","website":"https://kuder.com/education-solutions/galaxy/","description":"An online, game-based career awareness platform for elementary students that uses mascots, videos, and interactive activities to spark curiosity about the world of work and show how school subjects connect to jobs; includes grade-specific experiences and educator resources/lesson supports.","grades":["K","1","2","3","4","5"],"cost":["Cost associated"],"activities":["Academic & Career Planning"],"gradAims":["Identity & Purpose","Professional Skills"],"leaps":["Relevance","Agency","Whole-Child Focus"],"topics":["CCL"],"reach":"Part of Kuder's platform serving millions of students globally; Galaxy is the elementary tool","impact":"Unavailable"},{"id":"recgdKzqHogpP4xRN","name":"Goldi","org":"Climb Together","website":"https://www.climbtogether.co/goldi","description":"Goldi: Social Capital AI Voice Chat Bot that helps students build the real-world relationships that lead to jobs.\n\nUnlike most AI tools that hand students the answers, Goldi knows that what opens doors is conversation. Goldi initiates dialogue using a unique voice-to-voice AI technology because that's where students actually need practice. Young people today are fluent in texting; what they're…","grades":["PS","Adults"],"cost":["Cost associated"],"activities":["Mentoring & Networking"],"gradAims":["Professional Skills"],"leaps":["Relevance","Agency","Customization"],"topics":["CCL"],"reach":"Not publicly reported; emerging platform","impact":"Unavailable"},{"id":"recoSY37xYtcDCq0i","name":"Greenfield Expeditions","org":"AF Greenfield","website":"https://sites.google.com/transcendeducation.org/greenfield-resource-toolkit/greenfield-expeditions?authuser=0","description":"Greenfield Expeditions is a school-based program (originated in Achievement First’s Greenfield model) that immerses grades 5–8 students in two-week, hands-on mini-courses offered multiple times per year to give real-world exposure to careers and spark passion and purpose. During each expedition, students choose topics, learn from professionals and community partners, go on field lessons, work in…","grades":["K","1","2","3","4","5","6","7","8"],"cost":["Free"],"activities":["Project-Based Learning","Job Shadowing"],"gradAims":[],"leaps":["Relevance","Agency","High Expectations with Rigorous Learning"],"topics":["CCL"],"reach":"Not publicly reported","impact":"Unavailable"},{"id":"rec1UiBBT29iQQOVH","name":"HMH Read 180","org":"HMH","website":"https://www.hmhco.com/programs/read-180","description":"Supporting an MTSS approach, Read 180 integrates research around personalized best practices, adaptive technology, instructional strategies based on the science of reading, and scaffolded support for reading independently. Students receive systematic, explicit instruction and practice of foundational literacy skills to develop their fluency, expand vocabulary and strengthen comprehension skills…","grades":["3","4","5","6","7","8","9","10","11","12"],"cost":["Cost associated"],"activities":["Direct Instruction"],"gradAims":["English Language Arts"],"leaps":["Customization","High Expectations with Rigorous Learning"],"topics":["Literacy"],"reach":"","impact":"Five studies of READ 180 met inclusion standards. Two of these had statistically significant positive effects in comparison to control groups, qualifying READ 180 for the “Strong” category. These…"},{"id":"recQsgvricNcWhwVK","name":"IB Career-Related Programme","org":"International Baccalaureate (IB)","website":"https://www.ibo.org/","description":"IB Career-related Programme (IBCP) is a grades 11–12 (ages 16–19) pathway that blends at least two IB Diploma Programme (DP) courses with an approved, locally chosen career-related study (CRS), all tied together by the CP core: Personal & Professional Skills, Service Learning, Language Development, and the Reflective Project. Students study the DP courses and CRS concurrently, using the core to…","grades":["10","11","12"],"cost":["Cost associated","Funding available"],"activities":["Project-Based Learning","Work-Based Learning"],"gradAims":["Higher Order Thinking Skills","World Languages","Professional Skills"],"leaps":["Relevance","High Expectations with Rigorous Learning"],"topics":["CCL"],"reach":"Part of IB's 5,700+ school network in 160 countries; CP offered in 300+ schools","impact":"Unavailable (CP-specific outcome data not publicly broken out from broader IB data)"},{"id":"rec0CT9dAnpMcYupm","name":"Imagine IM [6-8]","org":"Imagine Learning (formerly LearnZillion)","website":"https://www.imaginelearning.com/products/math/imagine-im/","description":"\"Imagine IM’s print and digital solution is driven by student discourse, built around focus, coherence, and rigor, and equips students to thrive.\"","grades":["6","7","8"],"cost":["Cost associated"],"activities":["Direct Instruction"],"gradAims":["Mathematics"],"leaps":["Relevance","Connection & Community","High Expectations with Rigorous Learning"],"topics":["Math"],"reach":"","impact":"- On website (testimonials):\n - \"The gains that I am seeing are pretty remarkable! Improvement is happening, growth is happening, and students are just becoming more comfortable\" (Jeanette W., 6th…"},{"id":"rec41LX31xhenIl6Y","name":"Imagine IM [9-12]","org":"Imagine Learning (formerly LearnZillion)","website":"https://www.imaginelearning.com/products/math/imagine-im/","description":"\"Imagine IM’s print and digital solution is driven by student discourse, built around focus, coherence, and rigor, and equips students to thrive.\"","grades":["HS - AGA"],"cost":["Cost associated"],"activities":["Direct Instruction"],"gradAims":["Mathematics"],"leaps":["Relevance","Connection & Community","High Expectations with Rigorous Learning"],"topics":["Math"],"reach":"","impact":"- ESSA Effectiveness \n - Imagine IM Logic Model (demonstrates a rationale)"},{"id":"recZi7U1GPnVEj3PP","name":"Imagine IM [K-5]","org":"Imagine Learning (formerly LearnZillion)","website":"https://www.imaginelearning.com/products/math/imagine-im/","description":"\"Imagine IM’s print and digital solution is driven by student discourse, built around focus, coherence, and rigor, and equips students to thrive.\"","grades":["K","1","2","3","4","5"],"cost":["Cost associated"],"activities":["Direct Instruction"],"gradAims":["Mathematics"],"leaps":["Relevance","Connection & Community","High Expectations with Rigorous Learning"],"topics":["Math"],"reach":"","impact":"- On website (testimonials):\n - Ex: \"Our math performance has skyrocketed! We had an increase of 30% of our students on or above grade level from fall to spring and that is absolutely due to having a…"},{"id":"recgD0ttHpAdR4XW3","name":"Imagine Language & Literacy","org":"Imagine Learning","website":"https://www.imaginelearning.com/products/ela/language-and-literacy/","description":"Imagine Language & Literacy accelerates reading and language proficiency in grades PreK to 6. Designed to supplement core literacy instruction, it addresses all four domains of literacy—reading, writing, listening, and speaking. Through a standards-aligned scope and sequence, students develop critical skills in phonological awareness, phonics, fluency, vocabulary, and comprehension. With adaptive…","grades":["PK","K","1","2","3","4","5","6"],"cost":["Cost associated"],"activities":["Direct Instruction","Blended Learning"],"gradAims":["English Language Arts"],"leaps":["High Expectations with Rigorous Learning","Customization"],"topics":["Literacy"],"reach":"","impact":"https://www.imaginelearning.com/wp-content/uploads/2022/11/LNL-Moline-Coal-Valley-Research-Brief.pdf?v=0824"},{"id":"recOlKGG3JbTezof3","name":"ImBlaze","org":"Big Picture Learning","website":"https://www.imblaze.org/","description":"Developed by Big Picture Learning, platform that helps schools coordinate, scale, and track interest-driven real-world learning experiences (internships, apprenticeships, etc)with attendance tracking, compliance, student reflections, and mentor feedback","grades":["9","10","11","12"],"cost":["Cost associated"],"activities":["Work-Based Learning","Academic & Career Planning"],"gradAims":[],"leaps":["Relevance","Agency","Customization","Connection & Community"],"topics":["CCL"],"reach":"Used across Big Picture Learning's 150+ school network in U.S. and internationally","impact":"Big Picture Learning schools report 90%+ graduation rates vs. national averages; specific ImBlaze platform impact not separately reported"},{"id":"rec5sqcMyxHFqpbTH","name":"INCubatoredu (+ ACCELeratoredu)","org":"Uncharted Learning","website":"https://www.unchartedlearning.org/student-programs/incubatoredu-high-school-entrepreneurship","description":"A full-year high-school entrepreneurship sequence: Year 1 (INCubatoredu) has teams validate ideas with volunteer mentors and pitch for real funding; Year 2 (ACCELeratoredu) focuses on company formation, traction, and scaling in an accelerator-style environment. Programs include PD, evergreen curriculum, and implementation support; some districts also partner with higher-ed for dual/college credit.","grades":["10","11","12"],"cost":["Cost associated"],"activities":["Project-Based Learning","Mentoring & Networking","Work-Based Learning"],"gradAims":["Professional Skills"],"leaps":["Relevance","Agency","High Expectations with Rigorous Learning"],"topics":["CCL"],"reach":"Part of Uncharted Learning network; 500+ schools across 45+ states","impact":"Unavailable"},{"id":"rec8D9lvFhDZTekkU","name":"Intelligent Tutoring for the Structure Strategy","org":"literacy.IO","website":"https://www.literacy.io/research-legacy/itss/","description":"The text structure strategy is a unique approach to combining content and strategy together making reading comprehension instruction transparent and well-scaffolded for all learners. Children who are reading below, at, and above grade level ALL make strong improvements in reading comprehension when they learn how to use and apply the text structure strategy. Teachers agree that the text structure…","grades":["4","5","6","7","8"],"cost":["Cost associated"],"activities":["Tutoring"],"gradAims":["English Language Arts"],"leaps":["High Expectations with Rigorous Learning"],"topics":[],"reach":"","impact":"ITSS was evaluated in 108 7th grade classrooms in 25 rural and suburban schools. These were randomly assigned to receive the program or serve as controls. On the Gray Silent Reading Test, the effect…"},{"id":"recZmuD0sfh200Sxn","name":"Khan Academy","org":"Khan Academy","website":"https://www.khanacademy.org/","description":"\"Khan Academy offers practice exercises, instructional videos, and a personalized learning dashboard that empower learners to study at their own pace in and outside of the classroom.\"\n\nA personalized learning resource for all ages: with practice exercises, instructional videos, and a personalized learning dashboard, Khan Academy empowers learners to study at their own pace, both in and out of the…","grades":["PK","K","1","2","3","4","5","6","7","8","9","10","11","12","PS","All","Adults"],"cost":["Free"],"activities":["Direct Instruction"],"gradAims":["Mathematics","Natural Sciences","Computer Science","English Language Arts","Social Studies & Civics","World Languages","Physical Education & Health","Higher Order Thinking Skills","Learning Strategies & Habits","Practical Life Skills","Professional Skills"],"leaps":[],"topics":["Math"],"reach":"","impact":""},{"id":"recOZ9V77nXYpSyJI","name":"Khanmigo","org":"Khan Academy","website":"https://districts.khanacademy.org/khanmigo","description":"Khanmigo is an AI-powered teaching assistant and tutor developed by Khan Academy, designed to guide students through problems rather than simply giving answers. It serves as a 24/7 tutor for learners and a planning tool for educators, featuring over 25 tools for lesson planning, differentiation, and personalized, Socratic-style tutoring.","grades":["K","1","2","3","4","5","6","7","8","HS","Adult"],"cost":["Free"],"activities":["Tutoring"],"gradAims":["Mathematics"],"leaps":["Customization"],"topics":["Math"],"reach":"","impact":"- Testimonial: \"By facilitating misconceptions where students are struggling with certain answers, Khanmigo will push and ask them guiding questions to get them to come to the conclusion on their…"},{"id":"rec8JMbqUALansdka","name":"Kiddom","org":"Kiddom","website":"https://www.kiddom.co/","description":"\"Kiddom bundles great curriculum with impactful technology to help your entire learning community rapidly and efficiently implement with fidelity.\"","grades":["K","1","2","3","4","5","6","7","8","HS","Adult"],"cost":["Cost associated"],"activities":["Direct Instruction"],"gradAims":["Mathematics"],"leaps":["Customization","Agency","High Expectations with Rigorous Learning"],"topics":["Math"],"reach":"","impact":"- Testimonials + Case Studies (testimonials): \n - Ex: “If I could describe Kiddom in three words, it would be One Stop Shop.” (Blake Schmidt, Ross Elementary)\n - Ex: \"Kiddom is great for assessing…"},{"id":"recUQ6FrefGE7aI5c","name":"Letterland","org":"Keys to Literacy","website":"https://us.letterland.com/","description":"Letterland is a complete phonemic awareness, phonics, spelling, and handwriting program for Pre-K through Grade 3. Young children learn letter sounds and phonics patterns through story-based characters that are visually embedded in letters. Letterland uses a structured, systematic phonics sequence aligned with the science of reading. It is the most engaging program we have seen for teaching…","grades":["PK","K","1","2","3"],"cost":["Cost associated"],"activities":["Direct Instruction"],"gradAims":["English Language Arts"],"leaps":["High Expectations with Rigorous Learning"],"topics":["Literacy"],"reach":"55+ years, 110+ countries teaching with Letterland, 1,000,000+ ABC books sold","impact":"In Kindergarten, Gateway 1 materials establish a strong foundation in alphabet knowledge, phonemic awareness, early phonics, word recognition, introductory word analysis, and emergent fluency.…"},{"id":"recPHeDyT4aPvg675","name":"Lexia PowerUp Literacy","org":"Lexia","website":"https://www.lexialearning.com/powerup","description":"Lexia ® PowerUp Literacy ® accelerates literacy gains for students in grades 6–12 who are at risk of not meeting College- and Career-Ready Standards. Proven to be up to 5x as effective as the average middle school intervention, PowerUp enables students to make multiple years of growth in a single academic year.\n\nWith more than 40 years' experience delivering science of reading-based solutions,…","grades":["6","7","8","9","10","11","12"],"cost":["Cost associated"],"activities":["Direct Instruction"],"gradAims":["English Language Arts"],"leaps":["Customization","High Expectations with Rigorous Learning"],"topics":["Literacy"],"reach":"","impact":"- Students who used PowerUp scored significantly higher than control students on a standardized test of reading achievement.\n- PowerUp students scored 40+ scaled points higher than control students…"},{"id":"recTkq3doFn9jVhXU","name":"Literacy Tutoring and Workforce Model","org":"Read USA","website":"https://www.readusainc.com/literacy-tutoring-program","description":"The READ USA Literacy Tutoring and Workforce Development model pairs trained teenage (and early college) tutors with elementary students who are currently reading below grade level. Tutors, working as paid staff, deliver one-on-one literacy support and are supervised by certified reading teachers who coach them during sessions. The model addresses two interconnected challenges: improving reading…","grades":["2","3","4","5","9","10","11","12"],"cost":["Cost associated"],"activities":["Tutoring","Work-Based Learning"],"gradAims":["English Language Arts","Professional Skills"],"leaps":["Relevance","Connection & Community","High Expectations with Rigorous Learning"],"topics":["CCL","Literacy"],"reach":"Not publicly reported","impact":"Unavailable"},{"id":"recQ9a7cS3csFQEWT","name":"LiteracyPlanet","org":"LiteracyPlanet","website":"www.literacyplanet.com","description":"Founded on the science of reading, LiteracyPlanet is a research-based online, English language arts platform that guides students on a personalized journey to proficiency in phonics, sight words, spelling, reading comprehension, and grammar. Suitable for Kindergarten to Grade 10, the curriculum-aligned content is at the core of a high engagement, gamified environment that compels student learning…","grades":["K","1","2","3","4","5","6","7","8","9","10"],"cost":["Cost associated"],"activities":["Direct Instruction","Blended Learning"],"gradAims":["English Language Arts"],"leaps":["Customization"],"topics":["Literacy"],"reach":"500+ schools, 125,000+ students, 40+ countries","impact":"https://www.literacyplanet.com/case-studies/"},{"id":"recJ3ngHH6nYyXkow","name":"LitLab","org":"LitLab","website":"https://www.litlab.ai/gallery/v2?author=staff&sequence=ufli","description":"A decodables platform that lets teachers access 1,000+ curriculum-aligned decodable stories or generate their own, with assignments designed to build oral reading fluency; libraries are organized to match phonics sequences (e.g., UFLI), and each story displays its decodability and target patterns.","grades":["K","1","2","3","4","5","PK","10","12"],"cost":["Cost associated"],"activities":["Direct Instruction"],"gradAims":[],"leaps":["Relevance","High Expectations with Rigorous Learning"],"topics":["CCL"],"reach":"Not publicly reported; emerging edtech","impact":"Unavailable"},{"id":"recR4AFtyieDrdtE4","name":"Magpie Literacy K-12 Foundations","org":"Magpie Literacy","website":"https://www.magpie.org/tools/","description":"Magpie’s K–2 digital literacy tool delivers a responsive, instructionally precise experience with just 45–60 minutes of weekly student use and minimal teacher training (only one hour). It integrates seamlessly into literacy, intervention, or tutoring blocks and includes Stanford University’s Rapid Online Assessment of Reading—all at an affordable $17 per student, less than half the cost of…","grades":["K","1","2"],"cost":["Cost associated"],"activities":["Tutoring","Direct Instruction"],"gradAims":["English Language Arts"],"leaps":["Customization"],"topics":["Literacy"],"reach":"","impact":"A **quasi-experimental study** with Mathematica in a large anchor district in Texas found that kindergarten students using Magpie for 8+ weeks made **statistically significant gains** on DIBELS and…"},{"id":"reckgnJS3BzoiDg74","name":"Microsociety","org":"Microsociety","website":"https://www.microsociety.org/","description":"MicroSociety is a whole-school, career-connected learning model (most common in K–8) where students build and run a real “mini city” inside the school—launching student-led businesses, electing a government, operating a bank and marketplace, publishing media, and even managing a peer court. “Micro time” (often a daily 30–60-minute block or weekly extended block) becomes the applied context for…","grades":["K","1","2","3","4","5","6","7","8"],"cost":["Cost associated"],"activities":["Project-Based Learning"],"gradAims":["Practical Life Skills","Professional Skills"],"leaps":["Relevance","Agency","Connection & Community"],"topics":["CCL"],"reach":"200+ schools across 40 states; tens of thousands of students over 50+ year history","impact":"Unavailable"},{"id":"rec57I4rQNiFhXYEX","name":"MobileMakersEdu (+ MobileMakersStudio)","org":"Uncharted Learning","website":"https://www.unchartedlearning.org/student-programs/mobilemakersedu","description":"Year 1 teaches students to build working iOS apps using Swift and Xcode in a semester or full-year course, with a digital library of lessons, rubrics, and optional AP CSP alignment; Year 2 (Studio) adds client management and “dev-shop” practice, culminating in client projects and an “internship-ready” portfolio. Programs include multi-day PD led by iOS developers and implementation consulting…","grades":["8","9","10","11","12"],"cost":["Cost associated"],"activities":["Project-Based Learning"],"gradAims":["Professional Skills","Computer Science"],"leaps":["Relevance","Agency","High Expectations with Rigorous Learning"],"topics":["CCL"],"reach":"Part of Uncharted Learning network; 500+ schools across 45+ states","impact":"Unavailable"},{"id":"rec5IKuAYK5fgV0Yw","name":"mxINCedu","org":"Uncharted Learning","website":"https://www.unchartedlearning.org/student-programs/mxincedu-middle-school-entrepreneurship","description":"A semester-length, project-based entrepreneurship course where teams identify a problem, design and pitch a solution, get feedback from local business mentors, and sell via a class e-commerce “marketplace.” The curriculum is standards-aligned and designed for 30–40 instructional periods, with membership including comprehensive lesson plans, assessments, teacher training, and ongoing support.","grades":["6","7","8"],"cost":["Cost associated"],"activities":["Project-Based Learning","Mentoring & Networking"],"gradAims":["Professional Skills"],"leaps":["Relevance"],"topics":["CCL"],"reach":"Part of Uncharted Learning network; 500+ schools across 45+ states","impact":"Unavailable"},{"id":"rec13W77DwckppuPI","name":"myView Literacy","org":"Savvas Learning Company","website":"https://www.savvas.com/solutions/literacy/core-programs/myview-literacy","description":"myView Literacy is a structured and interactive core-literacy program for Grades K-5, aligned to the Science of Reading. Through research based practices, authentic literature, including mentor texts, teachers can inspire growing readers and writers.","grades":["K","1","2","3","4","5"],"cost":["Cost associated"],"activities":["Direct Instruction"],"gradAims":["English Language Arts"],"leaps":[],"topics":["Literacy"],"reach":"","impact":""},{"id":"recV7ys1Y3XHOhkVX","name":"NAF Career Academies","org":"NAF","website":"https://naf.org/","description":"National nonprofit that partners with schools and businesses to create small, career-themed academies within high schools—offering industry-aligned curricula and work-based learning","grades":["9","10","11","12"],"cost":["Cost associated","Free"],"activities":["Project-Based Learning","Work-Based Learning","Job Shadowing","Mentoring & Networking","College & Career Fairs"],"gradAims":["Professional Skills"],"leaps":["Relevance","High Expectations with Rigorous Learning"],"topics":["CCL"],"reach":"112,000+ students; 634 academies across 34 states (2024-25); 99% senior graduation rate; 650K+ alumni","impact":"99% senior graduation rate (2024-25); 90% of graduates plan to go to college; 201 academies achieved Distinguished quality level in 2022-23"},{"id":"rec6LDunVP46OV6t2","name":"Navigator","org":"Kuder","website":"https://kuder.com/education-solutions/navigator/","description":"A college- and career-readiness platform with validated assessments (career interests, skills confidence, and work values), exploration tools, education/grad planning, job-prep resources, and college access tools like transcript/recommendation requests (via Parchment), scholarship search, FAFSA guidance, and entrance-exam courses—plus reporting for educators.","grades":["6","7","8","9","10","11","12"],"cost":["Cost associated"],"activities":["Work-Based Learning","Academic & Career Planning","College Visits"],"gradAims":["Learning Strategies & Habits","Practical Life Skills","Identity & Purpose","Productive Mindsets & Self-Regulation"],"leaps":["Relevance","Agency","Customization"],"topics":["CCL"],"reach":"Part of Kuder's platform serving millions of students globally; Navigator is the secondary/adult tool","impact":"Unavailable"},{"id":"recBQlGYsSP163Mlm","name":"NC Education Corps (NCEC)","org":"NC Education Corps (NCEC)","website":"https://nceducationcorps.org/","description":"Education Corps partners with school districts to provide in-person high-dosage literacy tutoring to low-performing K-5 students. Its program is designed primarily for students in grades K-3 who score below grade-level benchmarks on early literacy skills. Education Corps assists schools in implementing in-person high-dosage literacy tutoring, including: recruiting and screening tutors (who are…","grades":["K","1","2","3","4","5"],"cost":["Cost associated"],"activities":["Tutoring"],"gradAims":["English Language Arts"],"leaps":["High Expectations with Rigorous Learning"],"topics":["Literacy"],"reach":"Since 2020:\n\n-1,265 total corps members  hired and trained\n-41 total districts served\n-22,000+ total students served","impact":"https://nceducationcorps.org/impact/"},{"id":"recHOrV25oWo2nhEt","name":"Nebraska Department of Education Career Exploration Lesson Plans","org":"Nebraska Department of Education","website":"https://www.education.ne.gov/nce/careerdevelopment/lesson-plans/career-exploration-lesson-plans/#:~:text=Students%20will%20categorize%20occupations%20or,technology%20Manages%20personal%20career%20development","description":"The Nebraska Department of Education’s Career Exploration Lesson Plans are ready-to-use, standards-based activities that introduce elementary and early middle-grade students to careers and the Nebraska Career Education model. The collection includes lessons like Career Bingo (grade 3), Career Interests/Jeopardy (grade 4), and multiple grade 5 investigations (e.g., “A Day in the Life,” online…","grades":["3","4","5","6"],"cost":["Free"],"activities":["Academic & Career Planning","Social Emotional Learning"],"gradAims":[],"leaps":["Relevance"],"topics":["CCL"],"reach":"State-level resource; available to NE public schools (~330K K-12 students statewide)","impact":"Unavailable"},{"id":"recWalUuLVwgWOwXN","name":"NuVu Studio Learning","org":"NuVu","website":"https://nuvux.nuvustudio.com/","description":"Provides K–12 schools with project-based “studio” curricula, a platform (NuFolio), and coaching to help teachers integrate real-world design experiences that foster creativity, problem-solving, and innovation.","grades":["8","9","10","11","12"],"cost":["Cost associated"],"activities":["Project-Based Learning","Work-Based Learning","Academic & Career Planning"],"gradAims":["Professional Skills","Higher Order Thinking Skills"],"leaps":["Relevance","High Expectations with Rigorous Learning"],"topics":["CCL"],"reach":"Small-scale innovation studio; hundreds of students in Cambridge, MA and partner schools","impact":"Unavailable"},{"id":"recKhU9bMMIOrWIWJ","name":"Open Court Reading","org":"McGraw Hill","website":"https://www.mheducation.com/prek-12/program/microsites/MKTSP-THA19M01?srsltid=AfmBOoprHjVue7Tyz2Yp-kMuGqPehxmd8JR1dn4WQ-Wq-9snmMa8-pjO","description":"Open Court Reading Evidence for Science of Reading brochure\nBuilt on the Science of Reading, Validated by Research\nFor more than 60 years, research has been the mainstay of Open Court Reading. Built upon findings from original learning theory and cognitive science, and balanced with teacher input and modern research on literacy development, Open Court Reading delivers undeniable results for…","grades":["K","1","2","3","4","5"],"cost":["Cost associated"],"activities":["Direct Instruction"],"gradAims":["English Language Arts"],"leaps":["High Expectations with Rigorous Learning"],"topics":["Literacy"],"reach":"","impact":"In a three-year study involving over 375,000 students in more than 700 schools, Open Court Reading schools achieved 50 to 75 percent higher reading gains\\* than nonOpen Court Reading schools. The…"},{"id":"recdjUTodVbpcXBOJ","name":"Orton-Gillingham Plus","org":"Institute for Multi-Sensory Education","website":"https://imse.com/programs/og/","description":"The IMSE Orton-Gillingham Plus (OG+) Curriculum equips educators with the essential strategies, tools, and resources to effectively teach foundational literacy skills. Designed for seamless implementation across all Response to Intervention (RTI) tiers, OG+ provides explicit guidance on adjusting instructional scaffolds to support intervention, core instruction, and acceleration based on student…","grades":["K","1","2"],"cost":["Cost associated"],"activities":["Direct Instruction"],"gradAims":["English Language Arts"],"leaps":["High Expectations with Rigorous Learning"],"topics":["Literacy"],"reach":"","impact":""},{"id":"recZZZaLnuNKkT2ik","name":"Ownership is the Future","org":"Ownership is the Future","website":"https://www.ownershipisthefuture.org/","description":"Supports Black high school juniors and seniors to develop an ownership mindset by guiding them to launch enterprises—from an initial “Idea Fest” and summer intensive through a credit-bearing senior-year course to postsecondary support and investment from mentor-investors.","grades":["11","12"],"cost":["Cost associated"],"activities":["Mentoring & Networking","Academic & Career Planning","Work-Based Learning","Student Leadership","Social Emotional Learning"],"gradAims":["Professional Skills","Practical Life Skills","Productive Mindsets & Self-Regulation"],"leaps":["Relevance","Agency"],"topics":["CCL"],"reach":"Not publicly reported; emerging internship model","impact":"Unavailable"},{"id":"recbRHoH8NOKGrgzz","name":"P-TECH","org":"P-TECH","website":"https://skillsbuild.org/students","description":"P-TECH (Pathways in Technology Early College High School) is a grade 9–14 model that integrates high school, college, and industry so students earn a high school diploma plus an associate degree (typically in 4–6 years) in fields aligned to local labor demand (e.g., IT, advanced manufacturing, healthcare). Each program is a three-way partnership—district + community college + employer(s)—that…","grades":["9","10","11","12","PS"],"cost":["Free"],"activities":["Work-Based Learning","Project-Based Learning","Job Shadowing","Mentoring & Networking"],"gradAims":["Professional Skills"],"leaps":["High Expectations with Rigorous Learning"],"topics":["CCL"],"reach":"300+ schools in 30+ countries; tens of thousands of students globally","impact":"P-TECH students earn associate degrees at significantly higher rates than comparison peers; graduates report strong employment outcomes in technology and professional fields"},{"id":"recW64Z57430GRScO","name":"Pathful Connect","org":"Pathful","website":"https://www.pathful.com/connect","description":"Pathful Connect (formerly Nepris) is a K–12, live virtual work-based learning platform that brings industry professionals into classrooms for career chats, virtual job shadows/field trips, mock interviews, résumé reviews, and project mentoring—closing geography and access gaps while Pathful’s team helps source, vet, and prep volunteers. Educators request sessions from a network of 58k+…","grades":["K","1","2","3","4","5","6","7","8","9","10","11","12"],"cost":["Cost associated"],"activities":["Mentoring & Networking","Academic & Career Planning","College & Career Fairs"],"gradAims":["Professional Skills"],"leaps":["Relevance","Connection & Community"],"topics":["CCL"],"reach":"Serves thousands of schools; connects students with professionals virtually","impact":"Unavailable"},{"id":"recde8u7Y7ZNAhnrz","name":"Pathways to Potential","org":"Willow","website":"https://www.willowed.org/","description":"A platform and curriculum to support career exploration, that can be leveraged in an advisory setting,","grades":["9","10","11","12","8","PS"],"cost":["Cost associated"],"activities":["Direct Instruction","Blended Learning","Academic & Career Planning"],"gradAims":["Professional Skills","Identity & Purpose"],"leaps":["Relevance","Agency","Whole-Child Focus"],"topics":["CCL"],"reach":"Not publicly reported; emerging platform","impact":"Unavailable"},{"id":"recWk2UpSX5JGVKgZ","name":"Prelude Learn and Earn Internship","org":"Prelude","website":"https://www.joinprelude.org/","description":"Prelude partners with schools and employers to offer year-long, paid internships and professional development seminars for high school students from lower-income communities, helping them gain skills, connections, and economic mobility.","grades":["11","12"],"cost":["Cost associated","Funding available"],"activities":["Work-Based Learning","Mentoring & Networking","Blended Learning"],"gradAims":["Professional Skills"],"leaps":["Agency","Connection & Community"],"topics":["CCL"],"reach":"Not publicly reported; emerging internship model","impact":"Unavailable"},{"id":"recxupKoaE2VsFopi","name":"Project Lead the Way (PLTW) APB Model","org":"Project Lead the Way (PLTW)","website":"http://pltw.org/","description":"Project-based PreK–12 curricula in STEM and career pathways—empowering students to develop critical thinking, problem-solving, and technical skills that prepare them for college, careers, and beyond","grades":["K","1","2","3","4","5","6","7","8","9","10","11","12"],"cost":["Cost associated","Funding available"],"activities":["Project-Based Learning"],"gradAims":["Mathematics","Natural Sciences","Computer Science"],"leaps":["Relevance","High Expectations with Rigorous Learning"],"topics":["CCL"],"reach":"3M+ students; 12,500+ schools in all 50 states","impact":"PLTW students are 5-10x more likely to pursue STEM degrees; independent research shows gains in problem-solving, critical thinking, and collaboration"},{"id":"recTBsTVf8bqT6Vak","name":"Purpose, Durable Skills, and Wellbeing Solution","org":"nXu","website":"https://www.nxueducation.org/","description":"nXu Education is a nonprofit offering a research-based, CASEL-approved and NACE-aligned K–12 curriculum that develops students’ purpose, durable skills, and wellbeing while integrating career exploration. Schools get a flexible, six-part solution with 700+ lessons (25- or 50–60-minute formats) plus educator training and implementation support. nXu also provides a validated assessment system, and…","grades":["K","1","2","3","4","5","6","7","8","9","10","11","12"],"cost":["Cost associated","Funding available"],"activities":["Social Emotional Learning"],"gradAims":["Identity & Purpose","Productive Mindsets & Self-Regulation","Relationship Skills"],"leaps":["Whole-Child Focus","Agency","Connection & Community"],"topics":["CCL"],"reach":"100+ schools; thousands of students","impact":"Unavailable"},{"id":"recGKTnIVJhhbxsCw","name":"Read 180 Flex","org":"HMH","website":"https://www.hmhco.com/programs/read-180","description":"Read 180 Flex: Tier 2 and 3 intervention for core classrooms\nOur new offering, Read 180 Flex, is streamlined to fit into the core classroom. It includes:\n\nStudent Application from Phonics to Fluency to Comprehension\nIndependent Reading\nNWEA MAP Growth & Reporting Suite\nTeacher Success Pathway","grades":["3","4","5","6","7","8","9","10","11","12"],"cost":["Cost associated"],"activities":["Direct Instruction"],"gradAims":["English Language Arts"],"leaps":["High Expectations with Rigorous Learning"],"topics":["Literacy"],"reach":"","impact":""},{"id":"recyXjl6NK0t1AOk5","name":"Read STOP Write","org":"Strong Literacy","website":"https://www.readstopwrite.com/","description":"Read STOP Write is a research-based program that uses a novel approach to integrating foundational skills, vocabulary, reading comprehension, and writing instruction within the context of authentic informational text reading in order to improve students’ reading achievement, writing quality, and motivation to read informational text.\n\nCurriculum resources for Read STOP Write include Teacher…","grades":["4","5","6","7","8","9"],"cost":["Free"],"activities":["Direct Instruction"],"gradAims":["English Language Arts"],"leaps":["High Expectations with Rigorous Learning"],"topics":["Literacy"],"reach":"","impact":"https://www.readstopwrite.com/research/"},{"id":"rec2bDQF5dZGtSrXd","name":"Read USA","org":"Read USA","website":"https://www.readusainc.com/","description":"The READ USA Literacy Tutoring and Workforce Development model pairs trained teenage (and early college) tutors with elementary students who are currently reading below grade level. Tutors, working as paid staff, deliver one-on-one literacy support and are supervised by certified reading teachers who coach them during sessions. The model addresses two interconnected challenges: improving reading…","grades":["2","3","4","5","9","10","11","12"],"cost":["Cost associated"],"activities":["Work-Based Learning","Tutoring"],"gradAims":["English Language Arts","Professional Skills"],"leaps":["Connection & Community","Agency"],"topics":["Literacy"],"reach":"5,300+ Students; 1,995+ Teen Tutors; 395+ Teachers","impact":"In a Randomized Controlled Trial conducted by Ohio State University, READ USA students demonstrated accelerated reading growth, with equal effectiveness across all demographics. 📑READ USA Impact…"},{"id":"rec7CJrWhQrTkPs3M","name":"Reading Corps","org":"AmeriCorps","website":"https://readingandmath.org/about/high-impact-tutoring/","description":"At Reading Corps, Math Corps, and Early Learning Corps, we deliver high-impact, evidence-based tutoring in reading and math. We support students from preschool through eighth grade with personalized, one-on-one and small-group instruction tailored to each learner's needs.\n\nTo maximize the impact, we equip our AmeriCorps tutors with comprehensive training and continuous coaching, so they can…","grades":["K","1","2","3"],"cost":["Cost associated"],"activities":["Tutoring"],"gradAims":["English Language Arts"],"leaps":["High Expectations with Rigorous Learning"],"topics":["Literacy"],"reach":"Reading Corps has served 416,931 students.\n\nWe have trained and mobilized over 29,000 AmeriCorps members to serve as tutors. \n\nWe have partnered with more than…","impact":"Students who received Reading Corps tutoring demonstrated growth in phonics, reading fluency, and oral reading fluency scores that were equivalent to an extra 50%-90% of a year of schooling.\n\nTwo…"},{"id":"recwJWVgTuYvz6ebV","name":"Reading Horizons Discovery","org":"Reading Horizons","website":"https://readinghorizons.com/reading-curriculum/elementary-reading-curriculum/","description":"Reading Horizons® Discovery (RHD) is a product suite for K–3 foundational literacy, designed for educators and students across all tiers of instruction, offering specific areas of emphasis to address various instructional settings. It brings together over 40 years of evidence-based, proven methodology and features versatile\nliteracy instruction that enables mastery of foundational reading skills,…","grades":["K","1","3","2"],"cost":["Cost associated"],"activities":["Direct Instruction"],"gradAims":["English Language Arts"],"leaps":["High Expectations with Rigorous Learning"],"topics":["Literacy"],"reach":"","impact":""},{"id":"recqZTlMfj9Xov5ER","name":"Reading Recovery","org":"Reading Recovery","website":"","description":"Reading Recovery is a highly effective short-term intervention of one-to-one tutoring for low-achieving first graders. Reading Recovery serves the lowest-achieving first graders—the students who struggle to catch on to the complexity of reading and writing in their regular classroom instruction. Students receive a half-hour lesson each school day for 12 to 20 weeks, one-on-one with a specially…","grades":["1"],"cost":["Cost associated"],"activities":["Direct Instruction"],"gradAims":["English Language Arts"],"leaps":["High Expectations with Rigorous Learning"],"topics":["Literacy"],"reach":"\"At one point, Reading Recovery was in every state. But school districts have been dropping the program – today, it's in nearly 2,000 schools in 41 states,…","impact":"Reading Recovery has been evaluated in four qualifying studies (many other studies did not qualify because they only reported outcomes for successful students, or used developer-made measures). In…"},{"id":"recHADNnRWI0eJf9P","name":"Really Great Reading","org":"Really Great Reading","website":"https://www.reallygreatreading.com/","description":"","grades":["K","1","3","2","4","5","6","7","9","8","10","11","12"],"cost":["Cost associated"],"activities":["Direct Instruction"],"gradAims":["English Language Arts"],"leaps":["High Expectations with Rigorous Learning"],"topics":["Literacy"],"reach":"3.5M students served, 250K teachers impacted (\"Providing 250K educators with effective tools and resources to improve literacy instruction\"),","impact":"<https://www.reallygreatreading.com/about-rgr/research>\n\nRGR's programs, grounded in research and validated through real-word implementation, consistently show meaningful improvement in student…"},{"id":"recCjZ05y9mdXKQuM","name":"RePublic Schools CS For All","org":"RePublic Schools","website":"https://republiccharterschools.org/","description":"RePublic Schools’ CS for All model is a K–12 commitment that ensures every student takes computer science each year, with a vertically aligned pathway from elementary through high school. Middle school and 9th-grade courses are built to AP Computer Science Principles standards so all students gain a common foundation, then in 11th grade learners choose either a workforce-readiness track or a…","grades":["K","1","2","3","4","5","6","7","8","9","10","11","12"],"cost":["Free","Cost associated"],"activities":["Direct Instruction","Project-Based Learning"],"gradAims":["Computer Science"],"leaps":["Relevance","High Expectations with Rigorous Learning"],"topics":["CCL"],"reach":"Not publicly reported","impact":"Unavailable"},{"id":"recxoEAx6c9t3inBE","name":"Scholastic Literacy Pro","org":"Scholastic, Inc.","website":"https://education.scholastic.com/education/programs/literacypro.html","description":"Literacy Pro is a complete, blended solution for independent and instructional reading in grades K-8. It allows teachers to effectively manage personalized reading experiences for all students, in and out of school, online and in print, 24/7. Students are motivated to read with choice and access to high-quality, engaging texts, while educators are provided with actionable data about reading…","grades":["K","1","2","3","4","5","6","7","8"],"cost":["Cost associated"],"activities":["Direct Instruction","Blended Learning"],"gradAims":["English Language Arts"],"leaps":["Customization","High Expectations with Rigorous Learning"],"topics":["Literacy"],"reach":"Students spent 67 million minutes reading on Literacy Pro last year.","impact":"<https://online.flippingbook.com/view/197727137/?appesp=SES/intraapp/202312//foundation/research/cc1/cardlist1/litpro/read/////>\n\nhttps://online.flippingbook.com/view/634349791/?appesp=SES/intraapp/20…"},{"id":"recZhmjZkcmEOjNLt","name":"Science and Engineering Apprenticeship Program (SEAP)","org":"Naval STEM","website":"https://www.navalsteminterns.us/seap/","description":"SEAP places high-school students in Department of Navy laboratories for eight weeks of summer research, pairing them with top scientists and engineers in a competitive, paid program that fosters STEM careers through meaningful mentorship and hands-on experience","grades":["9","10","11","12"],"cost":["Free"],"activities":["Work-Based Learning","Mentoring & Networking"],"gradAims":[],"leaps":["Relevance","Agency","High Expectations with Rigorous Learning"],"topics":["CCL"],"reach":"~300–400 students per summer across DoD labs nationwide","impact":"Unavailable"},{"id":"recFvP3YTLm5t2Jyy","name":"SEE Learning","org":"Emory","website":"https://seelearning.emory.edu/","description":"\"SEE Learning® (Social, Emotional, and Ethical Learning) is a comprehensive curriculum for students from ages 3-19 developed at Emory University that advances the field of social and emotional learning by incorporating the science of compassion. SEE Learning provides students and educators worldwide with an evidence-based program that cultivates compassionate individuals, schools, and…","grades":["PK","K","1","2","3","4","5","6","7","8","9","10","11","12"],"cost":[],"activities":["Social Emotional Learning"],"gradAims":["Productive Mindsets & Self-Regulation","Relationship Skills","Identity & Purpose"],"leaps":["Whole-Child Focus"],"topics":["Community & Indv Well-being","Elementary","MS","HS"],"reach":"170+ countries accessing SEE Learning\n600+ certified facilitators\n60+ International affiliates","impact":"\"SEE Learning has been recognized as an evidence-based program that has demonstrated impacts on social and emotional development, motivation, and classroom climate. Specifically:\n- Studies have…"},{"id":"recloXLMuFHPjuxtp","name":"Sound Partners","org":"Voyager Sopris Learning","website":"","description":"Sound Partners is a 1-1 tutoring program that uses paraprofessionals as tutors. Students receive tutoring 30 minutes a day, 4 days a week, for 18-20 weeks. The tutoring is somewhat different in kindergarten and first grade but at both grade levels it focuses on phonics, phonemic awareness, sight words, and oral reading practice using decodable texts.","grades":["K","1"],"cost":["Cost associated"],"activities":["Tutoring"],"gradAims":["English Language Arts"],"leaps":["High Expectations with Rigorous Learning"],"topics":["Literacy"],"reach":"","impact":"Two studies, one at the kindergarten level and the other at the first grade level, qualified for the review. The average effect size was +0.58 on measures from the Woodcock Reading Mastery Test and…"},{"id":"recyVPnW7WwXoe1Y1","name":"Strategic Instruction Model (SIM)","org":"KU Center for Research and Learning","website":"https://sim.ku.edu/","description":"The Strategic Instruction Model (SIM), created by the University of Kansas Center for Research on Learning, is a multi-tiered approach to adolescent literacy. SIM emphasizes teaching routines that allow teachers to organize and present curriculum content in straightforward, easy-to-learn ways and provide students with tools to solve problems independently. In combination with SIM tools,…","grades":["4","5","6","7","8","9","10","11","12"],"cost":["Cost associated"],"activities":["Direct Instruction","Tutoring"],"gradAims":["English Language Arts"],"leaps":["High Expectations with Rigorous Learning"],"topics":["Literacy"],"reach":"","impact":"<https://sim.ku.edu/sim-impact>\n\nESSA: A total of six studies met standards. Five involved targeted forms of SIM and one involved CLC. Outcomes were remarkably consistent, with four of the six effect…"},{"id":"rech1mBrdoIXXOVQF","name":"Success Bound","org":"Success Bound","website":"https://successbound.org/success-bound-curriculum/the-success-bound-curriculum/","description":"Middle-school curriculum that helps students explore their identity, develop academic and life skills, and plan for high school and beyond through equity-focused lessons","grades":["6","7","8"],"cost":["Free"],"activities":["Academic & Career Planning","Social Emotional Learning","College Visits","College & Career Fairs"],"gradAims":["Learning Strategies & Habits","Practical Life Skills"],"leaps":["Relevance"],"topics":["CCL"],"reach":"Not publicly reported; emerging internship model","impact":"Unavailable"},{"id":"recic8nMKLS2v4p1o","name":"Success for All","org":"Success for All Foundation","website":"https://www.successforall.org/","description":"For more than three decades, Success for All has helped children to read, learn and succeed through our cooperative learning strategies and proven, research-based programs. Our approach aligns, supports and inspires students, parents, teachers and administration to work together to create an engaging and effective learning environment. SFA offers both schoolwide and targeted programs","grades":["1","2","3","4","6","5","7","8","K"],"cost":["Cost associated"],"activities":["Direct Instruction","Tutoring"],"gradAims":["English Language Arts"],"leaps":["High Expectations with Rigorous Learning","Connection & Community","Customization"],"topics":["Literacy"],"reach":"","impact":"Success for All is the most extensively evaluated of all comprehensive school-reform programs, and studies have used the most rigorous standards.\nA meta-analysis of research on twenty-nine models…"},{"id":"rec6OaJWy1DFP0hhB","name":"Take-Everywhere Literacy Packs","org":"Just Right Reader, Inc.","website":"https://justrightreader.com/pages/take-everywhere-packs","description":"Personalized Learning Anytime, Anywhere From Pre-K to 5th Grade Just Right Reader's personalized Take-Everywhere Literacy Packs™ provide a powerful practice of skills ranging from early phonics to advanced word study and language comprehension. Just Right Reader’s decodable texts contain QR codes linked to instructional videos, making the decodable texts and phonics skills lessons more accessible…","grades":["K","1","2","3","4","5"],"cost":["Cost associated"],"activities":["Blended Learning"],"gradAims":["English Language Arts"],"leaps":["Customization","Relevance"],"topics":["Literacy"],"reach":"","impact":"ESSA Level II: https://21778604.fs1.hubspotusercontent-na1.net/hubfs/21778604/Research/JRR%20Take%20Everywhere%20Packs%20Brief%202025%20-%20ESSA%20Level%202.pdf"},{"id":"recbAIK2EHZk6Roe5","name":"Targeted Skills Instruction","org":"Edmentum","website":"https://www.edmentum.com/resources/brochures/targeted-small-group-instruction/","description":"Targeted Skills Instruction is a live, small-group virtual tutoring program for K-12 reading and math, delivered in 30–45-minute sessions three or more times per week. Each session follows a gradual release model of direct instruction, collaborative, guided practice and independent work with tutor support. Instruction is supported by Edmentum’s Exact Path Growth, a computer-adaptive supplemental…","grades":["K","1","2","3","4","5","6","7","8","9","10","11","12"],"cost":["Cost associated"],"activities":["Direct Instruction","Tutoring"],"gradAims":["English Language Arts"],"leaps":["High Expectations with Rigorous Learning","Connection & Community","Customization"],"topics":["Literacy"],"reach":"","impact":"Across one regression discontinuity study including 1,077 students in grades 3, 4 and 6, Edmentum’s virtual small-group tutoring program, Targeted Skills Instruction (TSI), demonstrated a positive…"},{"id":"rec73wGWemBNhTGPR","name":"Teach to One Roadmaps","org":"New Classrooms","website":"https://teachtoone.org/roadmaps/","description":"\"Teach to One Roadmaps is a robust toolkit focused on stemming math learning loss and enabling acceleration.\"\n\nAt the core of Teach to One Roadmaps is the recognition that math is cumulative, and students must master foundational skills before progressing to more advanced topics. And the best path to proficiency in math is a personalized one.\n\nEducators nationwide trust Teach to One Roadmaps to…","grades":["4","5","6","7","8","HS - Algebra I"],"cost":["Cost associated"],"activities":["Direct Instruction"],"gradAims":["Mathematics"],"leaps":["Customization","High Expectations with Rigorous Learning"],"topics":["Math"],"reach":"","impact":"- On website: \"Teachers agree: Teach to One gives students a more personalized and precise pathway to proficiency than any other math curriculum.\" \n- Independent Study Confirms Teach to One Roadmaps…"},{"id":"recWjP5QQo2rYpsHi","name":"Teamship","org":"District C","website":"https://www.districtc.co/teamship/","description":"Teamship is a reimagined internship experience where high school students work in diverse teams to address real business problems, guided by an expert educator-coach","grades":["9","10","11","12"],"cost":["Cost associated"],"activities":["Project-Based Learning","Work-Based Learning","Mentoring & Networking"],"gradAims":["Professional Skills","Learning Strategies & Habits","Higher Order Thinking Skills"],"leaps":["Connection & Community","High Expectations with Rigorous Learning"],"topics":["CCL"],"reach":"Not publicly reported; emerging platform","impact":"Unavailable"},{"id":"recTPU0baAknfbRoQ","name":"The Learning Challenge","org":"GripTape","website":"https://www.griptape.org/","description":"Empowers 14–19-year-olds to lead self-directed, passion-driven learning experiences—providing them with funding, a supportive “Champion,” and complete control over what, how, and when they learn.","grades":["9","10","11","12"],"cost":["Cost associated","Free"],"activities":["Project-Based Learning","Metacognitive Learning"],"gradAims":["Learning Strategies & Habits"],"leaps":["Agency","Whole-Child Focus","High Expectations with Rigorous Learning"],"topics":["CCL"],"reach":"10,000+ students served with Learning Challenges since 2016","impact":"Unavailable"},{"id":"recwuQmhJ5VaVjC0O","name":"ThinkCERCA Core Curriculum for English Language Arts and Reading","org":"ThinkCERCA","website":"https://www.thinkcerca.com/","description":"","grades":["3","4","5","6","7","8","9","10","11","12"],"cost":["Free with Paid Options"],"activities":["Direct Instruction"],"gradAims":["English Language Arts"],"leaps":[],"topics":["Literacy"],"reach":"","impact":"20% writing growth in 8 weeks, 2x reading growth in 1 year, 10 teacher hours saved in 1 week"},{"id":"rec7oLtCK2MRGZzcx","name":"ThinkCERCA Foundational Reading & Linguistics Course","org":"ThinkCERCA","website":"https://www.thinkcerca.com/foundationalreading","description":"Designed for students in grades 6-12 who are struggling with word recognition, phonological awareness, and decoding. The program follows a science of reading approach in providing systematic and explicit instruction to fill in foundational gaps that adolescent struggling readers will not close on their own or in a secondary Language Arts classroom.","grades":["7","6","8","9","10","11","12"],"cost":["Cost associated"],"activities":["Direct Instruction"],"gradAims":["English Language Arts"],"leaps":["Customization"],"topics":["Literacy"],"reach":"","impact":""},{"id":"recwn1nY984oJsQvA","name":"Transfr","org":"Transfr","website":"https://transfrinc.com/","description":"Transfr is a virtual reality platform for career exploration and job-ready skills training, used by secondary schools, higher ed, workforce boards, and employers. Its Transfr Trek library offers 50+ VR job simulations that let students “try on” high-demand careers (e.g., advanced manufacturing, construction, health sciences) and plan next steps, while the Virtual Training Facility provides…","grades":["6","7","8","9","10","11","12","PS"],"cost":["Cost associated"],"activities":["Job Shadowing","Academic & Career Planning"],"gradAims":["Professional Skills"],"leaps":["Relevance","Customization","Agency"],"topics":["CCL"],"reach":"400,000+ learners; 1,110+ locations; 330+ VR simulations","impact":"75%+ of surveyed middle and high school students reported VR career exploration simulations informed their career decisions; high self-reported engagement and learning outcomes confirmed by…"},{"id":"rec3WN62gw6M8mHXp","name":"UFLI Foundations","org":"University of Florida Literacy Institute","website":"https://ufli.education.ufl.edu/foundations/","description":"After more than two years of development and pilot testing, we are excited to introduce you to UFLI Foundations, an explicit and systematic program that teaches students the foundational skills necessary for proficient reading. It follows a carefully developed scope and sequence designed to ensure that students systematically acquire each skill needed and learn to apply each skill with…","grades":["K","1","2"],"cost":["Free"],"activities":["Direct Instruction"],"gradAims":["English Language Arts"],"leaps":[],"topics":["Literacy"],"reach":"","impact":""},{"id":"rec18sjraFyAIA89j","name":"Upchieve","org":"Upchieve","website":"https://upchieve.org/","description":"\"...Free, online tutoring and college counseling to low-income middle and high school students across the country. Using our app, students can request help and get matched with a live, volunteer coach in under 5 minutes. We cover 20+ different subjects spanning math, science, humanities, college counseling, and everything in between.\"","grades":["6","7","8","9","10","11","12"],"cost":["Free","Cost associated"],"activities":["Tutoring"],"gradAims":["Mathematics","Natural Sciences","Computer Science","English Language Arts","Social Studies & Civics"],"leaps":["Customization","High Expectations with Rigorous Learning"],"topics":["Math","Social Studies","Science","Literacy","Comp3","MS","HS","CCL"],"reach":"36% of eligible schools have at least 1 student on Upchieve","impact":"- Using Upchieve 9 times causes student test scores to meaningfully increase \n- Student survey data:\n - 97% of students agree that UPchieve helped improve their course grades\n - 93% of students agree…"},{"id":"recagchQoDvIfkmu2","name":"Venture Lab Career Exploration and Innovation Program","org":"Venture Lab","website":"https://venturelab.org/career-exploration/","description":"A grades 6–8 curriculum that builds entrepreneurial mindsets as students research careers, practice professional communication, use technology for inquiry, and leverage networks; comes with flexible curriculum, a student workbook & instructor guide, an impact post-survey, and PD (3 hours virtual plus up to four 60-minute coaching sessions).","grades":["6","7","8"],"cost":["Cost associated"],"activities":["Academic & Career Planning"],"gradAims":[],"leaps":["Relevance","Agency","High Expectations with Rigorous Learning"],"topics":["CCL"],"reach":"747K+ students; 4,425+ schools; 155+ countries (cumulative over 10 years)","impact":"81% of students expressed increased interest in owning a business after program; 100% reported boost in self-confidence; 92% of educators report feeling more competent teaching entrepreneurship"},{"id":"recLVaO3d4rjfOse4","name":"When I Grow Up Hands On Play Sets","org":"KiwiCo","website":"https://www.kiwico.com/us/store/dp/when-i-grow-up-series-six-pack/6347?kiwiIpr=off&utm_source=Google-g&utm_medium=SHOPPING&utm_content=688721599881&utm_campaign=GGL_SHOPPING_Brand_Store_Performance_All_US_ENG&utm_term=&utm_ad=688721599881&utm_adset=159701740922&utm_placement=&gad_source=1&gad_campaignid=20829964039&gbraid=0AAAAADoJSrzkG6hj88U9jPyVmzLyCziaS&gclid=Cj0KCQjwyIPDBhDBARIsAHJyyVhRC4SWbeNm_jSb1Sz49YcnXiwAPB3YikQxpBI5gJf7E-yWWBXnQyUaAuxaEALw_wcB","description":"A six-crate bundle that explores science-and-STEM careers through tactile projects (e.g., building a color-changing coral reef, a pom-pom volcano, and dinosaur excavations), with guides and materials that highlight concepts such as marine biology, engineering/design, and thermodynamics.","grades":["K","1","2","3"],"cost":["Cost associated"],"activities":["Work-Based Learning","Social Emotional Learning"],"gradAims":[],"leaps":["Relevance","Agency"],"topics":["CCL"],"reach":"KiwiCo has served 40M+ kids across 40+ countries (all products); specific product reach not reported","impact":"Unavailable"},{"id":"recFjIJb7Aq7dJGKL","name":"Wilson Fundations","org":"Wilson Language Training","website":"http://wilsonlanguage.com/programs/fundations/","description":"Fundations® K–5 empowers educators with engaging, effective Structured Literacy Tier 1 instruction aligned with the science of reading so students thrive and districts meet their goals. Created by Wilson Language Training®, a trusted leader with more than 40 years of experience, Fundations provides the evidence-based rigor and consistency needed for literacy success in elementary school and…","grades":["K","1","2","3","4","5"],"cost":["Cost associated"],"activities":["Direct Instruction"],"gradAims":["English Language Arts"],"leaps":["High Expectations with Rigorous Learning"],"topics":["Literacy"],"reach":"","impact":"https://www.wilsonlanguage.com/knowledge-library/programs/fundations/fundations-evidence-of-effectiveness/"},{"id":"recaKVfYDGMb0zGY9","name":"Wisconsin Elementary Career Readiness","org":"Wisconsin Department of Eduation","website":"https://dpi.wi.gov/sites/default/files/imce/sspw/pdf/Elementary_Career_Readiness_Round_Up_Resource.pdf","description":"The Wisconsin Elementary Career Readiness – Resource Round Up is a K–5 planning module from DPI that helps schools build and communicate an elementary career-awareness program aligned to state requirements. The slide deck packages rationale/research to secure stakeholder buy-in, recorded implementation tips, and contact info, and it’s organized into six ready-to-use units—Rationale, Classroom…","grades":["K","1","2","3","4","5"],"cost":["Free"],"activities":["Academic & Career Planning","Direct Instruction"],"gradAims":[],"leaps":["Relevance","Connection & Community"],"topics":["CCL"],"reach":"State-level resource; available to WI public elementary schools (~470K elementary students statewide)","impact":"Unavailable"},{"id":"recM4EfvhEEGTqYN3","name":"Wit & Wisdom","org":"Great Minds","website":"https://greatminds.org/english/witwisdom","description":"Wit & Wisdom™ is a comprehensive K–8 English language arts curriculum crafted to help students build the knowledge and skills they need to be successful readers, exceptional writers, and effective communicators.","grades":["K","1","2","3","4","5","6","7","8"],"cost":["Cost associated"],"activities":["Direct Instruction"],"gradAims":["English Language Arts"],"leaps":[],"topics":["Literacy"],"reach":"","impact":""},{"id":"recbIpQzK2kV3h7AX","name":"Xello for Elementary (3-5)","org":"Xello","website":"https://xello.world/en/elementary/","description":"Students complete short, interactive story-based “Missions” (e.g., Interests, Skills, Goal Setting) with simple prerequisites (add interests/skills first) and teacher lesson plans, extensions, and progress tasks/“completion standards” that make it easy to sequence learning across the year and monitor completion.","grades":["3","4","5"],"cost":["Cost associated"],"activities":["Academic & Career Planning","Social Emotional Learning"],"gradAims":[],"leaps":["Relevance","Agency","Customization"],"topics":["CCL"],"reach":"Part of Xello's ~8M student, 9,000+ school footprint across North America","impact":"Unavailable"},{"id":"recbCLbkJcb6BwbTI","name":"Xello for Elementary (K-2)","org":"Xello","website":"https://xello.world/en/elementary/","description":"A playful, story-driven experience set in Career Town, where young learners investigate six locations, meet community workers, and complete simple reflection activities that build early self-knowledge and awareness of career paths; teachers get ready-made lesson supports and extensions to wrap discussion around the in-app play.","grades":["K","1","2"],"cost":["Cost associated"],"activities":["Academic & Career Planning","Social Emotional Learning"],"gradAims":[],"leaps":["Relevance","Whole-Child Focus","Agency"],"topics":["CCL"],"reach":"Part of Xello's ~8M student, 9,000+ school footprint across North America","impact":"Unavailable"},{"id":"reccHZdtkWvaYtYDK","name":"Xello for Middle & High School","org":"Xello","website":"https://xello.world/en/middle-and-high-school/","description":"A future-readiness platform that combines self-knowledge assessments (career, personality, learning style), shareable student portfolios, vibrant career & college profiles, and interactive planning tools (including integrated course planning) with a built-in lesson library to build real-world skills. It also streamlines the college application workflow (students request e-transcripts and letters…","grades":["6","7","8","9","10","11","12"],"cost":["Cost associated"],"activities":["Academic & Career Planning","Social Emotional Learning"],"gradAims":[],"leaps":["Relevance","Agency","Customization","Whole-Child Focus"],"topics":["CCL"],"reach":"Part of Xello's ~8M student, 9,000+ school footprint across North America","impact":"75% of surveyed students ranked themselves as most influential voice in postsecondary decisions (2025); 4.1% increase in students choosing four-year colleges YoY"}]}</script>
+
+<header class="topbar">
+  <div class="wrap">
+    <div class="brand bebas">MODEL <span class="mm">MATCH</span></div>
+    <div class="tag">Find learning models that fit what your community is designing</div>
+    <button class="linky" id="nav-ai" type="button" style="margin-left:auto">✦ AI settings</button>
+    <button class="linky" id="nav-home" type="button" style="margin-left:0">Start over</button>
+  </div>
+</header>
+
+<main class="wrap" id="app" aria-live="polite"></main>
+
+<footer>
+  <div class="wrap">
+    <div class="tagline">Transcend partners with communities to create and spread extraordinary learning for all.</div>
+    <p>Recommendations are AI-generated — a starting point for your thinking, not a verdict. Always verify details with the model provider before bringing options to a community.</p>
+    <p id="foot-snapshot">Model data is a snapshot from Transcend's research database.</p>
+  </div>
+</footer>
+
+<script>
+"use strict";
+/* ================================================================
+   Model Match — v1
+   Deterministic tag-matching provides the transparent evidence
+   (match matrix); AI reasoning (window.claude.complete) reads the
+   teammate's own words and writes the "why". Falls back to
+   tag-based reasons when AI is unavailable.
+   ================================================================ */
+
+const DATA = JSON.parse(document.getElementById('models-data').textContent);
+const MODELS = DATA.models;
+const BY_ID = Object.fromEntries(MODELS.map(m => [m.id, m]));
+document.getElementById('foot-snapshot').textContent =
+  `Model data is a snapshot from Transcend's research database — ${MODELS.length} models as of ${fmtDate(DATA.snapshotDate)}. Refreshing the snapshot updates this tool.`;
+
+/* ---------- taxonomy ---------- */
+const BANDS = [
+  {key:'early', label:'Early learning', sub:'Preschool & PreK', tags:['PS','PK','ECE/PK/TK']},
+  {key:'elem',  label:'Elementary',     sub:'K–5',              tags:['K','1','2','3','4','5']},
+  {key:'ms',    label:'Middle school',  sub:'Grades 6–8',       tags:['6','7','8']},
+  {key:'hs',    label:'High school',    sub:'Grades 9–12',      tags:['9','10','11','12','HS','HS - AGA','HS - Algebra I','HS - Integrated']},
+];
+const LEAP_DESC = {
+  'Whole-Child Focus':'Learning that tends to the full person, not just academics',
+  'Connection & Community':'Strong relationships and belonging drive the experience',
+  'High Expectations with Rigorous Learning':'Every learner held to — and supported toward — high bars',
+  'Relevance':'Learning connects to real life, community, and future',
+  'Customization':'The experience adapts to each learner',
+  'Agency':'Learners drive decisions about their own learning',
+};
+const AIM_GROUPS = [
+  ['Academic content', ['Mathematics','English Language Arts','Natural Sciences','Computer Science','Social Studies & Civics','World Languages','Performing & Visual Arts','Physical Education & Health']],
+  ['Skills for life & work', ['Higher Order Thinking Skills','Learning Strategies & Habits','Practical Life Skills','Professional Skills','Relationship Skills']],
+  ['Mindsets & identity', ['Identity & Purpose','Productive Mindsets & Self-Regulation']],
+];
+const ACT_GROUPS = [
+  ['How learning happens', ['Direct Instruction','Project-Based Learning','Blended Learning','Discourse-Based Learning','Tutoring','Metacognitive Learning','Conferencing','Performance Assessment']],
+  ['Career-connected experiences', ['Work-Based Learning','Job Shadowing','College Visits','College & Career Fairs','Mentoring & Networking','Academic & Career Planning']],
+  ['Community & wellbeing', ['Social Emotional Learning','Student Leadership','Circles','Schoolwide Gatherings & Events','Opening & Closing Routines','Restorative Discipline','Wrap Around Services']],
+];
+const COST_OPTS = [
+  {key:'free',     label:'We need free or funded options', sub:'Budget is tight — low- or no-cost matters'},
+  {key:'flexible', label:'We can invest if the fit is right', sub:'Cost is a factor, not a filter'},
+  {key:'unsure',   label:'Too early to say', sub:'Skip cost for now'},
+];
+
+function countByTag(field){
+  const c = {};
+  for(const m of MODELS) for(const t of (m[field]||[])) c[t] = (c[t]||0)+1;
+  return c;
+}
+const COUNTS = {gradAims:countByTag('gradAims'), leaps:countByTag('leaps'), activities:countByTag('activities')};
+function bandCount(band){
+  return MODELS.filter(m => gradeOverlap(m,[band.key])).length;
+}
+
+/* ---------- state ---------- */
+const blankSel = () => ({bands:[], gradAims:[], leaps:[], activities:[], cost:null});
+let S = {
+  screen:'home', step:0,
+  sel: blankSel(),
+  freeform:'', fileName:null,
+  clarify:null,           // {questions:[], answers:[]}
+  shownIds:[],
+  round:null,             // current rendered round
+  roundNum:0,
+  firstRoundBest:0,
+  rejection:[],
+  offOpen:false,
+};
+/* ---------- AI providers ----------
+   Two ways this page can reach Claude:
+   1. The claude.ai artifact bridge (window.claude.complete), when hosted
+      in an AI-enabled artifact context.
+   2. A Claude API key the teammate connects once (stored only in this
+      browser's localStorage), used for direct calls to the Claude API.
+      This is what makes the downloaded/self-hosted copy AI-powered. */
+const KEY_LS = 'modelmatch_claude_key';
+const API_MODEL = 'claude-opus-4-8';
+const OPENAI_MODEL = 'gpt-4o';
+// Optionally baked in by build.py from the MODEL_MATCH_API_KEY environment
+// variable. Anyone who has the file can read it — use a spend-limited key
+// and share the keyed build only inside Transcend.
+const TEAM_KEY = '';
+function getKey(){ try{ return localStorage.getItem(KEY_LS) || TEAM_KEY; }catch(e){ return TEAM_KEY; } }
+function setKey(k){ try{ k ? localStorage.setItem(KEY_LS, k) : localStorage.removeItem(KEY_LS); }catch(e){} }
+const HAS_BRIDGE = () => (typeof window.claude === 'object' && window.claude && typeof window.claude.complete === 'function');
+const AI_OK = () => HAS_BRIDGE() || !!getKey();
+async function aiComplete(prompt, maxTokens){
+  if(HAS_BRIDGE()){
+    const raw = await window.claude.complete(prompt);
+    return typeof raw === 'string' ? raw : (raw && (raw.completion || raw.text)) || JSON.stringify(raw);
+  }
+  const key = getKey();
+  if(!key) throw new Error('no-ai');
+  // Claude keys start with sk-ant-; anything else is treated as an OpenAI key.
+  const isClaude = key.startsWith('sk-ant-');
+  let res;
+  try{
+    res = isClaude
+      ? await fetch('https://api.anthropic.com/v1/messages', {
+          method: 'POST',
+          headers: {
+            'content-type': 'application/json',
+            'x-api-key': key,
+            'anthropic-version': '2023-06-01',
+            'anthropic-dangerous-direct-browser-access': 'true',
+          },
+          body: JSON.stringify({
+            model: API_MODEL,
+            max_tokens: maxTokens || 2000,
+            messages: [{role: 'user', content: prompt}],
+          }),
+        })
+      : await fetch('https://api.openai.com/v1/chat/completions', {
+          method: 'POST',
+          headers: {
+            'content-type': 'application/json',
+            'authorization': 'Bearer ' + key,
+          },
+          body: JSON.stringify({
+            model: OPENAI_MODEL,
+            max_completion_tokens: maxTokens || 2000,
+            messages: [{role: 'user', content: prompt}],
+          }),
+        });
+  }catch(e){
+    throw new Error('network-blocked'); // CSP or offline — the claude.ai artifact host blocks outbound calls
+  }
+  if(res.status === 401 || res.status === 403) throw new Error('bad-key');
+  if(!res.ok) throw new Error('api-' + res.status);
+  const data = await res.json();
+  let txt;
+  if(isClaude){
+    if(data.stop_reason === 'refusal') throw new Error('refused');
+    txt = (data.content || []).filter(b => b.type === 'text').map(b => b.text).join('');
+  }else{
+    txt = (data.choices && data.choices[0] && data.choices[0].message && data.choices[0].message.content) || '';
+  }
+  if(!txt.trim()) throw new Error('empty');
+  return txt;
+}
+
+/* ---------- helpers ---------- */
+function fmtDate(iso){
+  const [y,mo,d] = iso.split('-').map(Number);
+  return new Date(Date.UTC(y,mo-1,d)).toLocaleDateString('en-US',{year:'numeric',month:'long',day:'numeric',timeZone:'UTC'});
+}
+function esc(s){ return String(s??'').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+function el(html){ const t=document.createElement('template'); t.innerHTML=html.trim(); return t.content.firstElementChild; }
+let toastT=null;
+function toast(msg){
+  document.querySelectorAll('.toast').forEach(n=>n.remove());
+  const n = el(`<div class="toast" role="status">${esc(msg)}</div>`);
+  document.body.appendChild(n); clearTimeout(toastT);
+  toastT = setTimeout(()=>n.remove(), 3200);
+}
+function selCount(){ return S.sel.bands.length + S.sel.gradAims.length + S.sel.leaps.length + S.sel.activities.length; }
+
+/* ---------- matching engine (deterministic, transparent) ---------- */
+function gradeOverlap(model, bandKeys){
+  if(!bandKeys.length) return null;
+  const g = model.grades || [];
+  if(!g.length) return null;
+  if(g.includes('All')) return true;
+  return bandKeys.some(k => {
+    const band = BANDS.find(b=>b.key===k);
+    return band.tags.some(t => g.includes(t));
+  });
+}
+function dimMatch(selected, modelTags){
+  // returns {hits, misses, notCoded, ratio}
+  if(!selected.length) return {na:true};
+  if(!modelTags || !modelTags.length) return {notCoded:true, hits:[], misses:selected.slice(), ratio:null};
+  const hits = selected.filter(t => modelTags.includes(t));
+  const misses = selected.filter(t => !modelTags.includes(t));
+  return {hits, misses, ratio: hits.length/selected.length};
+}
+function freeformBoost(model, text){
+  if(!text) return 0;
+  const hay = (model.name+' '+model.org+' '+model.description).toLowerCase();
+  const words = [...new Set(text.toLowerCase().split(/[^a-z0-9']+/).filter(w=>w.length>3))];
+  let b = 0;
+  for(const w of words){ if(hay.includes(w)) b += 0.008; }
+  const t = text.toLowerCase();
+  const topicHints = [[/literac|reading|phonic|writ/, 'Literacy'], [/\bmath|algebra|numerac/, 'Math'],
+    [/career|internship|workplace|work[- ]based|apprentice|industry|job/, 'CCL']];
+  for(const [re, topic] of topicHints){
+    if(re.test(t) && (model.topics||[]).includes(topic)) b += 0.05;
+  }
+  return Math.min(b, 0.12);
+}
+function scoreModel(model, sel, freeform, rejection){
+  const aims = dimMatch(sel.gradAims, model.gradAims);
+  const leaps = dimMatch(sel.leaps, model.leaps);
+  const acts = dimMatch(sel.activities, model.activities);
+  const parts = [];
+  const put = (d,w) => { if(!d.na) parts.push([d.notCoded ? 0.3 : d.ratio, w]); };
+  put(aims,.32); put(leaps,.22); put(acts,.30);
+  let score = parts.length ? parts.reduce((s,[r,w])=>s+r*w,0) / parts.reduce((s,[,w])=>s+w,0) : 0.3;
+
+  const gOK = gradeOverlap(model, sel.bands);
+  if(gOK === false) score *= (rejection.includes('grades') ? 0 : 0.3);
+
+  const costSensitive = sel.cost==='free' || rejection.includes('expensive');
+  const lowCost = (model.cost||[]).some(c => c==='Free' || c==='Free with Paid Options' || c==='Funding available');
+  if(costSensitive && !lowCost) score *= rejection.includes('expensive') ? 0.35 : 0.72;
+
+  if(rejection.includes('bold')) score += 0.045 * (model.leaps||[]).length;
+  score += freeformBoost(model, freeform);
+  return score;
+}
+function shortlist(excludeIds, n){
+  const text = S.freeform + ' ' + clarifyText();
+  return MODELS
+    .map(m => ({m, s: scoreModel(m, S.sel, text, S.rejection), base: scoreModel(m, S.sel, text, [])}))
+    .filter(x => !excludeIds.includes(x.m.id) && x.s > 0)
+    .sort((a,b)=>b.s-a.s)
+    .slice(0, n);
+}
+function clarifyText(){
+  if(!S.clarify) return '';
+  return S.clarify.questions.map((q,i)=> S.clarify.answers[i] ? q+' '+S.clarify.answers[i] : '').join(' ');
+}
+function matrixFor(model){
+  const rows = [];
+  if(S.sel.bands.length){
+    const ok = gradeOverlap(model, S.sel.bands);
+    rows.push({dim:'Grades', kind: ok===null?'na':(ok?'hit':'miss'),
+      text: ok===null ? 'not coded' : (ok ? 'serves your learners' : 'different grade range'),
+      detail: (model.grades||[]).length ? 'Model serves: '+model.grades.join(', ') : ''});
+  }
+  const dims = [['Grad aims','gradAims'],['Leaps','leaps'],['Experiences','activities']];
+  for(const [label, key] of dims){
+    const d = dimMatch(S.sel[key], model[key]);
+    if(d.na) continue;
+    if(d.notCoded){ rows.push({dim:label, kind:'na', text:'not coded for this model', hits:[], misses:S.sel[key]}); continue; }
+    const n = d.hits.length, t = S.sel[key].length;
+    rows.push({dim:label,
+      kind: n===t ? 'hit' : (n===0 ? 'miss' : 'part'),
+      text: t===1 ? S.sel[key][0]
+                  : `${n} of ${t} ✓${n&&n<t ? ' · misses '+d.misses.join(', ') : ''}`,
+      hits:d.hits, misses:d.misses});
+  }
+  if(S.sel.cost==='free'){
+    const lowCost = (model.cost||[]).some(c => c!=='Cost associated');
+    const labels = (model.cost||[]).join(', ') || 'not coded';
+    rows.push({dim:'Cost', kind: (model.cost||[]).length ? (lowCost?'hit':'miss') : 'na',
+      text: (model.cost||[]).length ? (lowCost ? labels : 'cost associated') : 'not coded', detail:''});
+  }
+  return rows;
+}
+function matrixSummary(rows){
+  return rows.map(r => `${r.dim}: ${r.text}`).join(' · ');
+}
+
+/* ---------- AI layer ---------- */
+function stripJson(s){
+  s = s.trim().replace(/^```(?:json)?/i,'').replace(/```$/,'').trim();
+  const a = s.indexOf('{'), b = s.lastIndexOf('}');
+  if(a>=0 && b>a) s = s.slice(a, b+1);
+  return JSON.parse(s);
+}
+async function aiJSON(prompt){
+  return stripJson(await aiComplete(prompt, 2500));
+}
+function intakeSummary(){
+  const p = [];
+  if(S.sel.bands.length) p.push('Learners: '+S.sel.bands.map(k=>BANDS.find(b=>b.key===k).label).join(', '));
+  if(S.sel.gradAims.length) p.push('Designing toward (grad aims): '+S.sel.gradAims.join(', '));
+  if(S.sel.leaps.length) p.push('Leaps: '+S.sel.leaps.join(', '));
+  if(S.sel.activities.length) p.push('Student experiences: '+S.sel.activities.join(', '));
+  if(S.sel.cost) p.push('Cost reality: '+COST_OPTS.find(c=>c.key===S.sel.cost).label);
+  if(S.freeform.trim()) p.push('In their own words: "'+S.freeform.trim()+'"');
+  if(S.clarify) S.clarify.questions.forEach((q,i)=>{ if(S.clarify.answers[i]) p.push('Q: '+q+' — A: '+S.clarify.answers[i]); });
+  return p.join('\n');
+}
+function candidateBlock(cands){
+  return cands.map(({m}) => JSON.stringify({
+    id:m.id, name:m.name, org:m.org, description:m.description,
+    grades:m.grades, cost:m.cost, gradAims:m.gradAims, leaps:m.leaps,
+    activities:m.activities, reach:m.reach||undefined, impact:m.impact||undefined,
+  })).join('\n');
+}
+async function aiRecommend(cands, isMore){
+  const prompt = `You are Model Match, a warm, direct thought partner helping a Transcend teammate find existing learning models that fit what their community is designing. Transcend partners with communities through school design; the teammate described a design below.
+
+THE TEAMMATE'S DESIGN:
+${intakeSummary() || '(they gave very little — be humble about fit)'}
+${isMore && S.rejection.length ? '\nThey already saw earlier picks and said what was off: '+S.rejection.map(r=>({expensive:'too expensive',grades:'wrong grade levels',bold:'not bold enough — they want models that lean harder into the Leaps',known:'they already know the earlier picks'})[r]).join('; ')+'. Weigh that.' : ''}
+
+CANDIDATE MODELS (pre-screened from Transcend's research database — you MUST choose only from these, and every claim you make must come from these records; do not invent details):
+${candidateBlock(cands)}
+
+Pick the 3 best fits, then 3–4 runners-up. For each of the 3:
+- "reasons": exactly 3 short reasons (each ≤ 22 words) that connect THIS model's record to THEIR specific design — reference their words and selections, never generic praise.
+- "considerations": 1–2 honest watch-outs from the record (grade fit, cost, scheduling/partnership demands, thin evidence). If the record lacks data, say so.
+Also write:
+- "differ": one sentence (≤ 30 words) on how the three picks differ from each other, so the teammate can choose between them.
+- "fitNote": if even the best candidates only loosely fit the design, one honest sentence saying so; else null.
+
+Reply with ONLY this JSON, no other text:
+{"top3":[{"id":"...","reasons":["","",""],"considerations":[""]}],"runnersUp":[{"id":"...","reason":""}],"differ":"","fitNote":null}`;
+  const out = await aiJSON(prompt);
+  const ids = new Set(cands.map(c=>c.m.id));
+  out.top3 = (out.top3||[]).filter(t=>ids.has(t.id)).slice(0,3);
+  out.runnersUp = (out.runnersUp||[]).filter(t=>ids.has(t.id) && !out.top3.some(x=>x.id===t.id)).slice(0,4);
+  if(out.top3.length < 3) throw new Error('AI returned too few picks');
+  return out;
+}
+function fallbackRecommend(cands){
+  const top3 = cands.slice(0,3).map(({m}) => {
+    const rows = matrixFor(m);
+    const reasons = [];
+    for(const r of rows){
+      if((r.kind==='hit'||r.kind==='part') && r.hits && r.hits.length)
+        reasons.push(`Matches your ${r.dim.toLowerCase()}: ${r.hits.join(', ')}.`);
+      else if(r.dim==='Grades' && r.kind==='hit') reasons.push('Serves the learners you named.');
+    }
+    if(m.reach) reasons.push(`Reach: ${m.reach}.`);
+    while(reasons.length<3) reasons.push(m.description.split(/(?<=\.)\s/)[0] || 'See the model record for detail.');
+    const considerations = [];
+    for(const r of rows){
+      if(r.kind==='miss') considerations.push(r.dim==='Cost' ? 'Cost associated — check pricing against your budget.'
+        : r.dim==='Grades' ? `Built for different grades (${(m.grades||[]).join(', ')}).`
+        : `Doesn't cover: ${r.misses.join(', ')}.`);
+      if(r.kind==='part' && r.misses && r.misses.length) considerations.push(`Doesn't cover: ${r.misses.join(', ')}.`);
+      if(r.kind==='na' && r.dim!=='Grades') considerations.push(`Our database hasn't coded ${r.dim.toLowerCase()} for this model yet.`);
+    }
+    if(!considerations.length) considerations.push('Verify implementation demands with the provider — our record is a snapshot.');
+    return {id:m.id, reasons:reasons.slice(0,3), considerations:considerations.slice(0,2)};
+  });
+  const runnersUp = cands.slice(3,7).map(({m})=>{
+    const rows = matrixFor(m);
+    // lead with the most informative overlap (tags beat grade range)
+    const best = rows.find(r=>(r.kind==='hit'||r.kind==='part') && r.hits && r.hits.length)
+              || rows.find(r=>r.kind==='hit'||r.kind==='part');
+    const reason = best
+      ? (best.hits && best.hits.length ? `Matches your ${best.dim.toLowerCase()}: ${best.hits.join(', ')}` : `${best.dim}: ${best.text}`)
+      : 'Partial tag overlap with your design.';
+    return {id:m.id, reason};
+  });
+  return {top3, runnersUp, differ:null, fitNote:null,
+    aiNote: AI_OK()
+      ? 'The AI reasoning step hit an error, so these notes are built from the database tags alone. The ranking and evidence are still real — try re-running for richer reasons.'
+      : 'AI reasoning is off in this view, so these notes are built from the database tags alone — the ranking and match evidence are still real. To turn AI on, open “✦ AI settings” (top right) and connect a Claude or OpenAI API key.'};
+}
+async function aiClarify(){
+  const prompt = `A Transcend teammate wants learning-model recommendations but gave very thin input:
+${intakeSummary() || '(nothing yet)'}
+
+Ask the 2–3 most useful short clarifying questions a thoughtful colleague would ask before recommending school learning models (things like: who the learners are, what outcomes matter most, what experiences they imagine, constraints). Plain language, each ≤ 15 words.
+Reply with ONLY JSON: {"questions":["",""]}`;
+  const out = await aiJSON(prompt);
+  return (out.questions||[]).slice(0,3).filter(q=>typeof q==='string' && q.trim());
+}
+
+/* ---------- render: shell ---------- */
+const app = document.getElementById('app');
+function render(){
+  window.scrollTo({top:0});
+  if(S.screen==='home') renderHome();
+  else if(S.screen==='intake') renderIntake();
+  else if(S.screen==='clarify') renderClarify();
+  else if(S.screen==='results') renderResults();
+}
+document.getElementById('nav-home').addEventListener('click', ()=>{
+  S = {...S, screen:'home', step:0, sel:blankSel(), freeform:'', fileName:null, clarify:null,
+       shownIds:[], round:null, roundNum:0, firstRoundBest:0, rejection:[], offOpen:false};
+  render();
+});
+
+/* ---------- render: home ---------- */
+function renderHome(){
+  const topics = countByTag('topics');
+  app.innerHTML = `
+  <section class="hero">
+    <h1 class="bebas">WHICH MODELS SHOULD THIS COMMUNITY LOOK AT?</h1>
+    <div class="accentbar"></div>
+    <p class="lede">Describe what a community is designing toward, and Model Match searches Transcend's research database to surface learning models worth a look — with the evidence for why, shown plainly.</p>
+    <div class="scope" role="group" aria-label="What this draws on">
+      <div><div class="n">${MODELS.length}</div><div class="l">models &amp; solutions</div></div>
+      <div><div class="n">${topics['CCL']||0} · ${topics['Literacy']||0} · ${topics['Math']||0}</div><div class="l">strongest areas: career-connected learning · literacy · math</div></div>
+      <div><div class="n bebas" style="font-size:22px; padding-top:5px">${esc(fmtDate(DATA.snapshotDate))}</div><div class="l">database snapshot</div></div>
+    </div>
+    <div class="homecta">
+      <button class="btn" id="start">DESCRIBE YOUR DESIGN</button>
+      <button class="btn secondary" id="see-example">See a worked example first</button>
+    </div>
+    <div class="howcards">
+      <div class="hc"><h3 class="bebas">1 · TELL US</h3><p>Five quick taps — learners, aims, Leaps, experiences, cost — plus your design in your own words. Under two minutes, every step skippable.</p></div>
+      <div class="hc"><h3 class="bebas">2 · GET 3 MATCHES</h3><p>Each with a match matrix showing exactly which of your selections it hits or misses — evidence, not trust-me.</p></div>
+      <div class="hc"><h3 class="bebas">3 · GO DEEPER</h3><p>Ask AI about any pick — answers grounded in its database record only. Pull 3 more, say what's off, refine, and copy results straight into Slack or Notion.</p></div>
+    </div>
+  </section>`;
+  document.getElementById('start').addEventListener('click', ()=>{ S.screen='intake'; S.step=0; render(); });
+  document.getElementById('see-example').addEventListener('click', showExample);
+}
+
+/* ---------- render: intake stepper ---------- */
+const STEPS = [
+  {key:'bands', title:'WHO ARE YOUR LEARNERS?', sub:'Pick every grade band this design touches. Tap all that apply — or skip if it’s still open.', multi:true},
+  {key:'gradAims', title:'WHAT ARE YOU DESIGNING TOWARD?', sub:'The graduate aims — knowledge, skills, and mindsets — this community cares most about. Choose up to a handful; the count shows how many models in the database develop each one.', multi:true},
+  {key:'leaps', title:'WHICH LEAPS ARE YOU LEANING INTO?', sub:'The Leaps this design pushes hardest on.', multi:true},
+  {key:'activities', title:'WHAT WILL STUDENTS ACTUALLY DO?', sub:'The experiences you imagine students having, week to week.', multi:true},
+  {key:'cost', title:'WHAT’S REAL FOR YOU?', sub:'Cost reality — then tell us about the design in your own words. The freeform box is where your community’s specifics live; the more you share, the sharper the match.', multi:false},
+];
+function optButton(val, label, sub, count, pressed){
+  return `<button type="button" class="opt" data-val="${esc(val)}" aria-pressed="${pressed}">
+    ${count!=null?`<span class="c">${count} model${count===1?'':'s'}</span>`:''}
+    <span class="t">${esc(label)}</span>${sub?`<span class="s">${esc(sub)}</span>`:''}
+  </button>`;
+}
+function renderIntake(){
+  const st = STEPS[S.step];
+  const pct = Math.round((S.step)/STEPS.length*100);
+  let body = '';
+  if(st.key==='bands'){
+    body = `<div class="opts">${BANDS.map(b=>optButton(b.key,b.label,b.sub,bandCount(b),S.sel.bands.includes(b.key))).join('')}</div>`;
+  } else if(st.key==='gradAims' || st.key==='activities'){
+    const groups = st.key==='gradAims'?AIM_GROUPS:ACT_GROUPS;
+    const counts = COUNTS[st.key];
+    body = groups.map(([g, opts])=>{
+      const avail = opts.filter(o=>counts[o]);
+      if(!avail.length) return '';
+      return `<div class="optgroup">${esc(g)}</div><div class="opts">${avail.map(o=>optButton(o,o,st.key==='gradAims'?'':'',counts[o],S.sel[st.key].includes(o))).join('')}</div>`;
+    }).join('');
+  } else if(st.key==='leaps'){
+    body = `<div class="opts">${Object.keys(LEAP_DESC).filter(l=>COUNTS.leaps[l]).map(l=>optButton(l,l,LEAP_DESC[l],COUNTS.leaps[l],S.sel.leaps.includes(l))).join('')}</div>`;
+  } else if(st.key==='cost'){
+    body = `<div class="opts">${COST_OPTS.map(c=>optButton(c.key,c.label,c.sub,null,S.sel.cost===c.key)).join('')}</div>
+      <div class="optgroup">Tell us about the design in your own words</div>
+      <textarea class="free" id="freeform" placeholder="Paste from a design brief, blueprint, or meeting notes — or just type. What's the community's vision? What matters most? What constraints are real? (optional but powerful)">${esc(S.freeform)}</textarea>
+      <div class="filerow">
+        <label for="fileup">Upload a .txt or .md file</label>
+        <input type="file" id="fileup" accept=".txt,.md,text/plain,text/markdown">
+        <span id="filename">${S.fileName?esc(S.fileName)+' loaded':''}</span>
+      </div>`;
+  }
+  const last = S.step === STEPS.length-1;
+  app.innerHTML = `
+    <div class="stephead">
+      <span class="count">Step ${S.step+1} of ${STEPS.length}</span>
+      <div class="progress" role="progressbar" aria-valuenow="${pct}" aria-valuemin="0" aria-valuemax="100"><div style="width:${pct}%"></div></div>
+    </div>
+    <h2 class="qtitle bebas">${st.title}</h2>
+    <p class="qsub">${st.sub}</p>
+    ${body}
+    <div class="steprow">
+      ${S.step>0?'<button class="ghost" id="back">← Back</button>':'<button class="ghost" id="back">← Start</button>'}
+      ${last
+        ? '<button class="btn" id="next">GET MY MATCHES</button>'
+        : `<button class="btn" id="next">NEXT</button><button class="ghost" id="skip">Skip this one</button>`}
+    </div>`;
+  app.querySelectorAll('.opt').forEach(b=>b.addEventListener('click',()=>{
+    const v = b.dataset.val;
+    if(st.key==='cost'){ S.sel.cost = (S.sel.cost===v?null:v); }
+    else{
+      const arr = S.sel[st.key];
+      const i = arr.indexOf(v);
+      i>=0 ? arr.splice(i,1) : arr.push(v);
+    }
+    // re-render just the pressed states
+    app.querySelectorAll('.opt').forEach(o=>{
+      const val = o.dataset.val;
+      const on = st.key==='cost' ? S.sel.cost===val : S.sel[st.key].includes(val);
+      o.setAttribute('aria-pressed', on);
+    });
+  }));
+  const ff = document.getElementById('freeform');
+  if(ff) ff.addEventListener('input', ()=>{ S.freeform = ff.value; });
+  const fu = document.getElementById('fileup');
+  if(fu) fu.addEventListener('change', ()=>{
+    const f = fu.files[0]; if(!f) return;
+    if(f.size > 300000){ toast('That file is large — using the first ~300 KB.'); }
+    f.slice(0,300000).text().then(t=>{
+      S.freeform = (S.freeform ? S.freeform+'\n\n' : '') + t;
+      S.fileName = f.name;
+      const ffEl = document.getElementById('freeform'); if(ffEl) ffEl.value = S.freeform;
+      document.getElementById('filename').textContent = f.name+' loaded';
+      toast('Added your document to the description.');
+    });
+  });
+  document.getElementById('back').addEventListener('click', ()=>{
+    if(S.step===0){ S.screen='home'; } else S.step--;
+    render();
+  });
+  const skip = document.getElementById('skip');
+  if(skip) skip.addEventListener('click', ()=>{ S.step++; render(); });
+  document.getElementById('next').addEventListener('click', ()=>{
+    if(last) submitIntake(); else { S.step++; render(); }
+  });
+}
+async function submitIntake(){
+  if(selCount()===0 && S.freeform.trim().length<10){
+    toast('Give us at least one selection or a sentence to work with.');
+    return;
+  }
+  // thin input → clarify like a thoughtful colleague, if AI can ask
+  if(selCount()<3 && S.freeform.trim().length<60 && AI_OK() && !S.clarify){
+    renderLoading('Reading what you shared…','Thinking about what to ask before recommending');
+    try{
+      const qs = await aiClarify();
+      if(qs.length){ S.clarify = {questions:qs, answers:qs.map(()=> '')}; S.screen='clarify'; render(); return; }
+    }catch(e){ /* fall through to matching */ }
+  }
+  runMatch(false);
+}
+
+/* ---------- render: clarify ---------- */
+function renderClarify(){
+  app.innerHTML = `
+    <div class="stephead"><span class="count">Two quick questions first</span></div>
+    <h2 class="qtitle bebas">HELP US MATCH WELL</h2>
+    <p class="qsub">You gave us a light sketch — a thoughtful colleague would ask before recommending. Answer what you can; skip what you can't.</p>
+    ${S.clarify.questions.map((q,i)=>`
+      <div class="optgroup">${esc(q)}</div>
+      <textarea class="free" style="min-height:56px" data-qi="${i}">${esc(S.clarify.answers[i])}</textarea>
+    `).join('')}
+    <div class="steprow">
+      <button class="ghost" id="back">← Edit my answers</button>
+      <button class="btn" id="go">GET MY MATCHES</button>
+      <button class="ghost" id="skipall">Skip — match with what I gave</button>
+    </div>`;
+  app.querySelectorAll('textarea[data-qi]').forEach(t=>t.addEventListener('input',()=>{ S.clarify.answers[+t.dataset.qi]=t.value; }));
+  document.getElementById('back').addEventListener('click',()=>{ S.screen='intake'; S.step=STEPS.length-1; render(); });
+  document.getElementById('go').addEventListener('click',()=>runMatch(false));
+  document.getElementById('skipall').addEventListener('click',()=>{ S.clarify.answers = S.clarify.answers.map(()=> ''); runMatch(false); });
+}
+
+/* ---------- loading ---------- */
+let loadTimer=null;
+function renderLoading(first, sub){
+  const msgs = [first, `Weighing ${MODELS.length} models against your design…`, 'Checking grade fit and cost…', 'Writing up the evidence…', 'Almost there…'];
+  app.innerHTML = `<div class="loadbox">
+    <div class="squares"><span></span><span></span><span></span><span></span></div>
+    <div class="msg" id="loadmsg">${esc(first)}</div>
+    <div class="sub">${esc(sub||'')}</div>
+  </div>`;
+  let i=0; clearInterval(loadTimer);
+  loadTimer = setInterval(()=>{
+    i = Math.min(i+1, msgs.length-1);
+    const n = document.getElementById('loadmsg');
+    if(!n){ clearInterval(loadTimer); return; }
+    n.textContent = msgs[i];
+  }, 1900);
+}
+
+/* ---------- run matching ---------- */
+async function runMatch(isMore){
+  S.screen='loading';
+  renderLoading('Reading your design…','Matching runs on Transcend’s research snapshot — nothing leaves this page except the AI reasoning step');
+  const cands = shortlist(S.shownIds, 12);
+  const bestBase = cands.length ? Math.max(...cands.map(c=>c.base)) : 0;
+  const deadAt = Math.max(0.18, S.firstRoundBest*0.3);
+  const weakAt = Math.max(0.35, S.firstRoundBest*0.55);
+  if(!cands.length || (isMore && bestBase < deadAt)){
+    clearInterval(loadTimer);
+    S.screen='results';
+    S.round = {empty:true};
+    render();
+    return;
+  }
+  let rec;
+  if(AI_OK()){
+    try{ rec = await aiRecommend(cands, isMore); }
+    catch(e){ try{ rec = await aiRecommend(cands, isMore); } catch(e2){ rec = fallbackRecommend(cands); } }
+  } else rec = fallbackRecommend(cands);
+  clearInterval(loadTimer);
+  if(!isMore) S.firstRoundBest = bestBase;
+  S.roundNum++;
+  S.round = {...rec, weak: bestBase < weakAt};
+  S.shownIds.push(...rec.top3.map(t=>t.id));
+  S.offOpen=false; S.screen='results';
+  render();
+}
+
+/* ---------- render: results ---------- */
+function tagChips(m){
+  const chips = [];
+  (m.leaps||[]).slice(0,3).forEach(t=>chips.push(`<span class="tagchip k">${esc(t)}</span>`));
+  (m.activities||[]).slice(0,3).forEach(t=>chips.push(`<span class="tagchip">${esc(t)}</span>`));
+  if((m.cost||[]).length) chips.push(`<span class="tagchip plain">${esc(m.cost.join(' / '))}</span>`);
+  if((m.grades||[]).length) chips.push(`<span class="tagchip plain">Grades ${esc(compactGrades(m.grades))}</span>`);
+  return chips.join('');
+}
+function compactGrades(g){
+  const order = ['PS','PK','ECE/PK/TK','K','1','2','3','4','5','6','7','8','9','10','11','12'];
+  const idx = g.map(x=>order.indexOf(x)).filter(i=>i>=0).sort((a,b)=>a-b);
+  if(!idx.length) return g.join(', ');
+  const lo = order[idx[0]], hi = order[idx[idx.length-1]];
+  return lo===hi ? lo : lo+'–'+hi;
+}
+function matrixHTML(rows, id){
+  const line = rows.map(r=>`
+    <div class="mrow"><span class="dim">${esc(r.dim)}</span>
+      <span class="verdict ${r.kind}">${r.kind==='hit'?'✓':r.kind==='miss'?'✗':r.kind==='part'?'◐':'—'} ${esc(r.text)}</span>
+      ${r.detail?`<span class="detail">${esc(r.detail)}</span>`:''}
+    </div>`).join('');
+  const evid = rows.filter(r=>r.hits&&(r.hits.length||r.misses.length)).map(r=>
+    r.hits.map(h=>`<tr><td class="mark hit">✓</td><td>${esc(r.dim)}: ${esc(h)}</td></tr>`).join('') +
+    r.misses.map(h=>`<tr><td class="mark ${r.kind==='na'?'na':'miss'}">${r.kind==='na'?'—':'✗'}</td><td>${esc(r.dim)}: ${esc(h)}${r.kind==='na'?' (not coded in our database)':''}</td></tr>`).join('')
+  ).join('');
+  return `<div class="matrix" aria-label="Match matrix">${line}</div>
+    ${evid?`<button class="mtoggle" data-ev="${id}" aria-expanded="false">Show the evidence, tag by tag</button>
+    <div class="evid" id="ev-${id}" hidden><table>${evid}</table></div>`:''}`;
+}
+function cardHTML(t, rank, weak){
+  const m = BY_ID[t.id];
+  const rows = matrixFor(m);
+  return `<article class="card ${weak?'weak':''}">
+    <div class="chead">
+      <span class="rank bebas">${rank}</span>
+      <h3 class="bebas">${esc(m.name)}</h3>
+      <span class="org">${esc(m.org)}${m.website?` · <a href="${esc(m.website)}" target="_blank" rel="noopener">website ↗</a>`:''}</span>
+    </div>
+    <div class="tags">${tagChips(m)}</div>
+    ${matrixHTML(rows, t.id)}
+    <ul class="reasons">${t.reasons.map(r=>`<li>${esc(r)}</li>`).join('')}</ul>
+    <div class="consider"><b>Worth knowing</b><ul>${t.considerations.map(c=>`<li>${esc(c)}</li>`).join('')}</ul></div>
+    <button type="button" class="askbtn" data-ask="${t.id}">Ask AI about this model</button>
+  </article>`;
+}
+function renderResults(){
+  const R = S.round;
+  if(R.empty){
+    app.innerHTML = `
+      <div class="resulthead"><h2 class="bebas">HONESTLY? FIT DROPS OFF HERE.</h2></div>
+      <div class="weakband">We've shown you the models that genuinely match what you described. What's left in the database overlaps too little with your design for us to recommend it with a straight face. Two good moves: <b>edit your description</b> to open up the search, or take the strongest earlier picks deeper.</div>
+      <div class="actions">
+        <button class="btn secondary" id="refine">Edit my answers</button>
+        <button class="btn secondary" id="restart">Start over</button>
+      </div>`;
+    document.getElementById('refine').addEventListener('click', refine);
+    document.getElementById('restart').addEventListener('click', ()=>document.getElementById('nav-home').click());
+    return;
+  }
+  const roundLabel = S.roundNum>1 ? ` · round ${S.roundNum}` : '';
+  app.innerHTML = `
+    <div class="resulthead"><h2 class="bebas">YOUR TOP 3${roundLabel}</h2></div>
+    ${R.weak?`<div class="weakband"><b>Straight talk:</b> these are the best fits left, but the overlap with your design is getting thin. Treat them as leads, not endorsements${S.roundNum>1?' — the strongest matches were in the earlier round':''}.</div>`:''}
+    ${R.differ?`<div class="differ"><b>How these three differ:</b> ${esc(R.differ)}</div>`:''}
+    ${R.fitNote?`<div class="weakband">${esc(R.fitNote)}</div>`:''}
+    <div id="cards">${R.top3.map((t,i)=>cardHTML(t,i+1,R.weak)).join('')}</div>
+    ${R.aiNote?`<p class="ainote">${esc(R.aiNote)}</p>`:''}
+    ${R.runnersUp&&R.runnersUp.length?`
+    <div class="runners"><h3 class="bebas">NEAR MISSES</h3>
+      ${R.runnersUp.map(r=>{const m=BY_ID[r.id];return `<div class="runner"><span class="rn">${esc(m.name)}</span><span class="rr">${esc(r.reason)}${m.website?` · <a href="${esc(m.website)}" target="_blank" rel="noopener">site ↗</a>`:''} · <button type="button" class="askmini" data-ask="${esc(r.id)}">ask AI</button></span></div>`;}).join('')}
+    </div>`:''}
+    <div class="actions">
+      <button class="btn" id="more">SHOW ME 3 MORE</button>
+      <button class="btn secondary" id="refine">Edit my answers</button>
+      <button class="smallbtn" id="copy">Copy for Slack / Notion</button>
+      <button class="smallbtn" id="print">Print view</button>
+    </div>
+    <div class="whatsoff" id="whatsoff" ${S.offOpen?'':'hidden'}>
+      <div class="lbl">Before we pull 3 more — anything off about these? (optional, one tap)</div>
+      <div class="offchips">
+        ${[['expensive','Too expensive'],['grades','Wrong grades'],['bold','Not bold enough'],['known','Already know these']]
+          .map(([k,l])=>`<button type="button" class="offchip" data-off="${k}" aria-pressed="${S.rejection.includes(k)}">${l}</button>`).join('')}
+        <button class="btn" id="gomore" style="font-size:18px; padding:8px 18px 6px">PULL 3 MORE</button>
+      </div>
+    </div>
+    <div class="feedback">
+      <div class="fbrow"><span><b>Did this help?</b></span>
+        <button class="smallbtn" id="fb-yes">Yes</button>
+        <button class="smallbtn" id="fb-no">Not really</button>
+        <button class="ghost" id="fb-flag" style="padding:4px">Flag a mismatch</button>
+        <span id="fb-said"></span>
+      </div>
+      <div id="fb-box" hidden>
+        <textarea id="fb-text" placeholder="What was off? e.g., 'Model X is tagged 9–12 but it's middle-school only' — we'll copy this with context so you can drop it to the Model Match team."></textarea>
+        <button class="smallbtn" id="fb-copy" style="margin-top:8px">Copy feedback to clipboard</button>
+      </div>
+    </div>`;
+  app.querySelectorAll('[data-ask]').forEach(b=>b.addEventListener('click',()=>openChat(b.dataset.ask)));
+  app.querySelectorAll('.mtoggle').forEach(b=>b.addEventListener('click',()=>{
+    const n = document.getElementById('ev-'+b.dataset.ev);
+    const open = n.hidden; n.hidden = !open;
+    b.setAttribute('aria-expanded', open);
+    b.textContent = open ? 'Hide the tag-by-tag evidence' : 'Show the evidence, tag by tag';
+  }));
+  document.getElementById('more').addEventListener('click',()=>{
+    S.offOpen = true;
+    document.getElementById('whatsoff').hidden = false;
+    document.getElementById('whatsoff').scrollIntoView({behavior:'smooth', block:'center'});
+  });
+  app.querySelectorAll('.offchip').forEach(b=>b.addEventListener('click',()=>{
+    const k = b.dataset.off;
+    const i = S.rejection.indexOf(k);
+    i>=0 ? S.rejection.splice(i,1) : S.rejection.push(k);
+    b.setAttribute('aria-pressed', S.rejection.includes(k));
+  }));
+  document.getElementById('gomore').addEventListener('click',()=>runMatch(true));
+  document.getElementById('refine').addEventListener('click', refine);
+  document.getElementById('copy').addEventListener('click', copyResults);
+  document.getElementById('print').addEventListener('click', ()=>window.print());
+  document.getElementById('fb-yes').addEventListener('click',()=>{ document.getElementById('fb-said').textContent='Glad it helped.'; });
+  document.getElementById('fb-no').addEventListener('click',()=>{ document.getElementById('fb-box').hidden=false; document.getElementById('fb-said').textContent='Tell us what was off ↓'; });
+  document.getElementById('fb-flag').addEventListener('click',()=>{ document.getElementById('fb-box').hidden=false; });
+  document.getElementById('fb-copy').addEventListener('click',()=>{
+    const note = document.getElementById('fb-text').value.trim();
+    if(!note){ toast('Write a note first.'); return; }
+    const ctx = `Model Match feedback (${new Date().toISOString().slice(0,10)})\nSnapshot: ${DATA.snapshotDate}\nMy intake:\n${intakeSummary()||'(none)'}\nShown: ${S.round.top3.map(t=>BY_ID[t.id].name).join(', ')}\n\nFeedback: ${note}`;
+    copyText(ctx).then(()=>toast('Copied — drop it to the Model Match team in Slack.'));
+  });
+}
+function refine(){ S.screen='intake'; S.step=0; S.shownIds=[]; S.roundNum=0; S.firstRoundBest=0; S.rejection=[]; S.clarify=null; render(); }
+
+/* ---------- copy out ---------- */
+function copyText(t){
+  if(navigator.clipboard && navigator.clipboard.writeText) return navigator.clipboard.writeText(t);
+  return new Promise((res)=>{ const ta=document.createElement('textarea'); ta.value=t; document.body.appendChild(ta); ta.select(); document.execCommand('copy'); ta.remove(); res(); });
+}
+function copyResults(){
+  const R = S.round;
+  const lines = [];
+  lines.push(`*Model Match — top picks* (Transcend research snapshot, ${fmtDate(DATA.snapshotDate)})`);
+  const ctx = intakeSummary(); if(ctx) lines.push(`_For:_ ${ctx.replace(/\n/g,' · ')}`);
+  if(R.differ) lines.push(`_How they differ:_ ${R.differ}`);
+  lines.push('');
+  R.top3.forEach((t,i)=>{
+    const m = BY_ID[t.id];
+    lines.push(`*${i+1}. ${m.name}* — ${m.org}${m.website?` — ${m.website}`:''}`);
+    lines.push(`   Match: ${matrixSummary(matrixFor(m))}`);
+    t.reasons.forEach(r=>lines.push(`   • ${r}`));
+    t.considerations.forEach(c=>lines.push(`   ⚠ ${c}`));
+    lines.push('');
+  });
+  if(R.runnersUp && R.runnersUp.length){
+    lines.push('*Near misses:*');
+    R.runnersUp.forEach(r=>lines.push(`   • ${BY_ID[r.id].name} — ${r.reason}`));
+  }
+  lines.push('');
+  lines.push('_AI-generated starting point, not a verdict. Data: Transcend research database snapshot._');
+  const plain = lines.join('\n');
+  const html = `<div>${lines.map(l=>esc(l).replace(/\*([^*]+)\*/g,'<b>$1</b>').replace(/_([^_]+)_/g,'<i>$1</i>')||'<br>').map(l=>`<div>${l}</div>`).join('')}</div>`;
+  if(navigator.clipboard && window.ClipboardItem){
+    navigator.clipboard.write([new ClipboardItem({
+      'text/plain': new Blob([plain],{type:'text/plain'}),
+      'text/html': new Blob([html],{type:'text/html'}),
+    })]).then(()=>toast('Copied — paste straight into Slack or Notion.'))
+      .catch(()=>copyText(plain).then(()=>toast('Copied as text.')));
+  } else copyText(plain).then(()=>toast('Copied as text.'));
+}
+
+/* ---------- ask-a-model chat (grounded in one record only) ---------- */
+const CHATS = {};   // modelId -> [{role:'user'|'ai', text}]
+const STARTERS = [
+  'What would this ask of our teachers and schedule?',
+  'What do we know about cost?',
+  'What evidence of impact does the record hold?',
+];
+function recordHTML(m){
+  const grp = (lbl, arr) => arr && arr.length ? `<p><span class="rlbl">${lbl}</span><br>${esc(arr.join(' · '))}</p>` : '';
+  return `<details class="record" open>
+    <summary>What our database holds on ${esc(m.name)}</summary>
+    <div class="rin">
+      <p>${esc(m.description || 'No description captured yet.')}</p>
+      ${grp('Grades', m.grades)}${grp('Cost', m.cost)}${grp('Grad aims', m.gradAims)}${grp('Leaps', m.leaps)}${grp('Student experiences', m.activities)}
+      ${m.reach && !/^unavailable/i.test(m.reach) ? `<p><span class="rlbl">Reach</span><br>${esc(m.reach)}</p>` : ''}
+      ${m.impact && !/^unavailable/i.test(m.impact) ? `<p><span class="rlbl">Impact</span><br>${esc(m.impact)}</p>` : ''}
+      ${m.website ? `<p><a href="${esc(m.website)}" target="_blank" rel="noopener">Model website ↗</a> — best source for anything not captured here.</p>` : ''}
+    </div>
+  </details>`;
+}
+function chatPrompt(m, history, question){
+  return `You are the ask-a-model assistant inside Model Match, a tool for Transcend teammates exploring learning models for communities they partner with. The teammate is asking about ONE model. You may use ONLY the database record below — nothing from your general knowledge about this organization or any other.
+
+THE RECORD (your only source):
+${JSON.stringify(m)}
+
+Hard rules:
+- Every claim must be traceable to the record. Never invent details, numbers, or capabilities.
+- If the record doesn't hold the answer, say so plainly in one sentence and point them to the model's website${m.website ? ' ('+m.website+')' : ''} or to flagging it for the research team. Do not guess.
+- Warm, direct, plain language. Short: under 110 words. Bullets welcome for lists. No preamble.
+
+${history.length ? 'Conversation so far:\n' + history.map(t => (t.role==='user'?'Teammate: ':'You: ') + t.text).join('\n') + '\n' : ''}Teammate asks: ${question}
+
+Reply with the answer text only.`;
+}
+function openChat(id){
+  closeChat();
+  const m = BY_ID[id];
+  if(!CHATS[id]) CHATS[id] = [];
+  const back = el('<div class="drawerback"></div>');
+  const drawer = el(`<aside class="drawer" role="dialog" aria-modal="true" aria-label="Ask about ${esc(m.name)}">
+    <div class="dhead">
+      <div class="dt">${esc(m.name)}<span class="ds">${esc(m.org)} · answers come from our database record only</span></div>
+      <button class="close" aria-label="Close">✕</button>
+    </div>
+    <div class="dbody" id="dbody">
+      ${recordHTML(m)}
+      ${AI_OK()
+        ? `<div class="bubble ai">Ask me anything about ${esc(m.name)} — I'll answer from the record above, and I'll tell you straight when it doesn't hold the answer.</div>
+           <div class="starters">${STARTERS.map(s=>`<button type="button" class="starter">${esc(s)}</button>`).join('')}</div>`
+        : `<div class="bubble ai">AI chat is off in this view — open “✦ AI settings” (top right) to connect a Claude or OpenAI API key and turn it on. Everything our database holds is above; for anything else, the model's website is the best next stop.</div>`}
+    </div>
+    <div class="dfoot">
+      <form id="chatform">
+        <input type="text" id="chatq" placeholder="${AI_OK() ? 'Ask about this model…' : 'AI chat unavailable in this view'}" ${AI_OK()?'':'disabled'} autocomplete="off">
+        <button type="submit" ${AI_OK()?'':'disabled'}>ASK</button>
+      </form>
+      <div class="dnote">AI answers are grounded in the database record only — a starting point, not a verdict.</div>
+    </div>
+  </aside>`);
+  document.body.append(back, drawer);
+  const body = drawer.querySelector('#dbody');
+  // replay any earlier conversation with this model
+  for(const t of CHATS[id]) addBubble(body, t.role, t.text);
+  const close = ()=>closeChat();
+  back.addEventListener('click', close);
+  drawer.querySelector('.close').addEventListener('click', close);
+  document.addEventListener('keydown', escClose);
+  drawer.querySelectorAll('.starter').forEach(b=>b.addEventListener('click', ()=>sendChat(id, b.textContent)));
+  drawer.querySelector('#chatform').addEventListener('submit', e=>{
+    e.preventDefault();
+    const q = drawer.querySelector('#chatq').value.trim();
+    if(q) sendChat(id, q);
+    drawer.querySelector('#chatq').value = '';
+  });
+  const inp = drawer.querySelector('#chatq');
+  if(inp && !inp.disabled) inp.focus();
+}
+function escClose(e){ if(e.key==='Escape') closeChat(); }
+function closeChat(){
+  document.querySelectorAll('.drawer,.drawerback').forEach(n=>n.remove());
+  document.removeEventListener('keydown', escClose);
+}
+function addBubble(body, role, text, cls){
+  const n = el(`<div class="bubble ${role} ${cls||''}"></div>`);
+  n.textContent = text;
+  body.appendChild(n);
+  body.scrollTop = body.scrollHeight;
+  return n;
+}
+async function sendChat(id, question){
+  const drawer = document.querySelector('.drawer');
+  if(!drawer) return;
+  const body = drawer.querySelector('#dbody');
+  drawer.querySelectorAll('.starters').forEach(n=>n.remove());
+  const history = CHATS[id].slice(-10);
+  addBubble(body, 'user', question);
+  CHATS[id].push({role:'user', text:question});
+  const inp = drawer.querySelector('#chatq'), btn = drawer.querySelector('#chatform button');
+  inp.disabled = true; btn.disabled = true;
+  const thinking = addBubble(body, 'ai', 'Reading the record…', 'thinking');
+  let answer;
+  try{
+    answer = (await aiComplete(chatPrompt(BY_ID[id], history, question), 1200)).trim();
+    if(!answer) throw new Error('empty');
+  }catch(e){
+    answer = e.message === 'bad-key'
+      ? 'Your API key wasn’t accepted — open AI settings (top right) and check it.'
+      : e.message === 'network-blocked'
+      ? 'This page’s host blocks outside connections, so the API key can’t be used here. Download the file and open it directly, then try again.'
+      : 'Something went wrong on the AI side just now — try that question again. The record above is still complete.';
+  }
+  thinking.remove();
+  addBubble(body, 'ai', answer);
+  CHATS[id].push({role:'ai', text:answer});
+  inp.disabled = false; btn.disabled = false; inp.focus();
+}
+
+/* ---------- AI settings ---------- */
+function aiStatusLine(){
+  if(HAS_BRIDGE()) return 'AI is <b>on</b> — provided by the Claude artifact hosting this page.';
+  let personal = ''; try{ personal = localStorage.getItem(KEY_LS) || ''; }catch(e){}
+  if(personal) return 'AI is <b>on</b> — connected with an API key stored in this browser.';
+  if(TEAM_KEY) return 'AI is <b>on</b> — using the team key built into this copy of Model Match. Nothing to set up.';
+  return 'AI is <b>off</b> in this view. Match rankings and the evidence matrix still work; the AI-written reasons and ask-a-model chat don’t.';
+}
+function openAISettings(){
+  const back = el(`<div class="modalback" role="dialog" aria-modal="true" aria-label="AI settings">
+    <div class="modal">
+      <button class="close" aria-label="Close">✕ Close</button>
+      <h2 class="bebas">AI SETTINGS</h2>
+      <p style="font-size:14px" id="ai-status">${aiStatusLine()}</p>
+      ${HAS_BRIDGE() ? '' : `
+      <div class="samplein">
+        <b>How to turn AI on:</b> this copy of Model Match can call an AI service directly with an API key — either a Claude key (starts with sk-ant-) or an OpenAI key. Paste one below; it's stored only in this browser, never in the file, and is only ever sent to that AI provider.<br><br>
+        <b>Heads up:</b> the copy hosted on claude.ai blocks outside connections, so a key won't work there. Download <i>model-match.html</i> and open it directly (or host it internally) — then the key works.
+      </div>
+      <div class="optgroup">${TEAM_KEY ? 'Use a different API key (optional)' : 'Claude or OpenAI API key'}</div>
+      <form id="keyform" style="display:flex; gap:8px; flex-wrap:wrap">
+        <input type="password" id="keyinput" placeholder="sk-ant-… (Claude) or sk-… (OpenAI)" autocomplete="off"
+          style="flex:1 1 260px; background:var(--panel); color:var(--ink); border:2px solid var(--line); padding:9px 12px; font-family:inherit; font-size:14px"
+          value="${esc((()=>{try{return localStorage.getItem(KEY_LS)||''}catch(e){return ''}})())}">
+        <button type="submit" class="smallbtn">Save &amp; test</button>
+        ${(()=>{try{return localStorage.getItem(KEY_LS)}catch(e){return ''}})() ? '<button type="button" class="smallbtn" id="clearkey">Remove my key</button>' : ''}
+      </form>
+      <p id="keymsg" style="font-size:13px; min-height:1.2em"></p>
+      <p style="font-size:12.5px; color:var(--ink-soft)">Ask the Model Match team for Transcend's shared key if you don't have one. Keys can be created and spend-limited at console.anthropic.com (Claude) or platform.openai.com (OpenAI).</p>`}
+    </div>
+  </div>`);
+  document.body.appendChild(back);
+  const close = ()=>{ back.remove(); render(); };
+  back.addEventListener('click', e=>{ if(e.target===back) close(); });
+  back.querySelector('.close').addEventListener('click', close);
+  const form = back.querySelector('#keyform');
+  if(form) form.addEventListener('submit', async e=>{
+    e.preventDefault();
+    const msg = back.querySelector('#keymsg');
+    const k = back.querySelector('#keyinput').value.trim();
+    if(!k){ msg.textContent = 'Paste a key first.'; return; }
+    setKey(k);
+    msg.textContent = 'Testing the key…';
+    try{
+      await aiComplete('Reply with the single word: OK', 10);
+      msg.textContent = '✓ Connected — AI reasons and ask-a-model chat are on.';
+      back.querySelector('#ai-status').innerHTML = aiStatusLine();
+    }catch(err){
+      setKey('');
+      msg.textContent = err.message === 'bad-key'
+        ? '✗ That key wasn’t accepted — check it and try again.'
+        : err.message === 'network-blocked'
+        ? '✗ This page’s host blocks outside connections. Download the Model Match file and open it directly, then connect the key there.'
+        : '✗ Couldn’t reach the AI service (' + err.message + '). Try again.';
+    }
+  });
+  const clear = back.querySelector('#clearkey');
+  if(clear) clear.addEventListener('click', ()=>{
+    setKey('');
+    back.querySelector('#keymsg').textContent = 'Key removed from this browser.';
+    back.querySelector('#ai-status').innerHTML = aiStatusLine();
+  });
+}
+document.getElementById('nav-ai').addEventListener('click', openAISettings);
+
+/* ---------- worked example ---------- */
+const SAMPLE_SEL = {bands:['hs'], gradAims:['Professional Skills','Identity & Purpose'], leaps:['Relevance','Agency'], activities:['Work-Based Learning','Mentoring & Networking'], cost:'flexible'};
+const SAMPLE_FREE = 'We’re a rural district designing a new junior/senior experience: students spend real time in workplaces, build networks beyond our town, and graduate with a plan they believe in.';
+const SAMPLE_TOP3 = [
+  {name:'Ownership is the Future', reasons:[
+    'Juniors and seniors launch real enterprises with mentor-investors — exactly the "networks beyond our town" your design names.',
+    'Hits both Leaps you chose: Relevance and Agency are the model’s core tags.',
+    'Ends with postsecondary support — maps to "graduate with a plan they believe in."',
+  ], considerations:['Designed around Black students’ ownership and enterprise — check alignment with your community’s context.','Cost associated; pricing isn’t in our record.']},
+  {name:'INCubatoredu (+ ACCELeratoredu)', reasons:[
+    'A full-year, in-schedule course — realistic for a rural district building a defined junior/senior experience.',
+    'Volunteer business mentors and real funding pitches bring workplace contact into school walls.',
+    'Strong on Relevance, Agency, and rigor per its Leaps tags.',
+  ], considerations:['Entrepreneurship-flavored rather than placement-in-workplaces — students work on ventures, not internships.','Cost associated for curriculum, PD, and support.']},
+  {name:'Prelude Learn and Earn Internship', reasons:[
+    'Year-long paid internships — the most direct match to "real time in workplaces."',
+    'Pairs placements with professional seminars, building the networks your design centers.',
+    'Built for students from lower-income communities; funding pathways exist.',
+  ], considerations:['Requires local employer partnerships — the model’s reach into rural areas is still emerging.','Grades 11–12 only.']},
+];
+function showExample(){
+  const cards = SAMPLE_TOP3.map((s,i)=>{
+    const m = MODELS.find(x=>x.name===s.name);
+    if(!m) return '';
+    return cardHTMLsample({id:m.id, reasons:s.reasons, considerations:s.considerations}, i+1);
+  }).join('');
+  const back = el(`<div class="modalback" role="dialog" aria-modal="true" aria-label="Worked example">
+    <div class="modal">
+      <button class="close" aria-label="Close example">✕ Close</button>
+      <h2 class="bebas">A WORKED EXAMPLE</h2>
+      <p style="font-size:14px">Here’s what a teammate typed, and what came back — so you know what you’re investing two minutes in.</p>
+      <div class="samplein">
+        <b>They tapped:</b> High school · Grad aims: Professional Skills, Identity &amp; Purpose · Leaps: Relevance, Agency · Experiences: Work-Based Learning, Mentoring &amp; Networking · Cost: can invest if right<br>
+        <b>They wrote:</b> “${esc(SAMPLE_FREE)}”
+      </div>
+      <div class="differ"><b>How these three differ:</b> Ownership is the boldest bet on student agency, INCubatoredu is the easiest to run inside a schedule, Prelude is the purest workplace immersion.</div>
+      ${cards}
+      <p style="font-size:12.5px; color:var(--ink-soft)">Example reasons were written against these real database records. Your results are generated live from your own description.</p>
+      <button class="btn" id="ex-start" style="margin-top:6px">TRY IT WITH YOUR DESIGN</button>
+    </div>
+  </div>`);
+  document.body.appendChild(back);
+  const close = ()=>back.remove();
+  back.addEventListener('click', e=>{ if(e.target===back) close(); });
+  back.querySelector('.close').addEventListener('click', close);
+  back.querySelector('#ex-start').addEventListener('click', ()=>{ close(); S.screen='intake'; S.step=0; render(); });
+  // sample matrices use the sample selections
+  back.querySelectorAll('.mtoggle').forEach(b=>b.addEventListener('click',()=>{
+    const n = back.querySelector('#ev-'+CSS.escape(b.dataset.ev));
+    const open = n.hidden; n.hidden = !open;
+    b.setAttribute('aria-expanded', open);
+    b.textContent = open ? 'Hide the tag-by-tag evidence' : 'Show the evidence, tag by tag';
+  }));
+}
+function cardHTMLsample(t, rank){
+  const saved = {sel:S.sel}; S.sel = SAMPLE_SEL;         // compute an honest matrix against the sample intake
+  const html = cardHTML(t, rank, false).replace(/id="ev-/g,'id="ev-x').replace(/data-ev="/g,'data-ev="x')
+    .replace(/<button type="button" class="askbtn"[^>]*>[^<]*<\/button>/g,'');
+  S.sel = saved.sel;
+  return html;
+}
+
+/* ---------- boot ---------- */
+render();
+</script>
